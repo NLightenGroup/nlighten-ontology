@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.org/n-lighten/"
+     xml:base="http://purl.org/n-lighten/"
+     xmlns:nln="http://purl.org/n-lighten/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.org/n-lighten/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000001 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000001">
+        <rdfs:label xml:lang="en">CTSA core competency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000002 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">clinical and translational research questions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000003 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">literature critique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000004 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000005 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">research implementation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000006 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">sources of error</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000007 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">statistical approaches</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000008 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">biomedical informatics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000009 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">clinical research interactions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000010 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">scientific communication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000011 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">cultural diversity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000012 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">translational teamwork</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000013 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">leadership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000014 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">cross disciplinary training</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000015 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:label xml:lang="en">community engagement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000016 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000016">
+        <rdfs:label xml:lang="en">resource format</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000017 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000016"/>
+        <rdfs:label xml:lang="en">video</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000018 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000016"/>
+        <rdfs:label xml:lang="en">course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000019 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000018"/>
+        <rdfs:label xml:lang="en">online course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000021 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000018"/>
+        <rdfs:label xml:lang="en">partial course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000022 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000018"/>
+        <rdfs:label xml:lang="en">accelerated course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000023 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000019"/>
+        <rdfs:label xml:lang="en">asynchronous online course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000024 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000019"/>
+        <rdfs:label xml:lang="en">synchronous online course</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000025 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000025">
+        <rdfs:label xml:lang="en">resource depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000026 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000025"/>
+        <rdfs:label xml:lang="en">introductory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000027 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000025"/>
+        <rdfs:label xml:lang="en">advanced</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000029 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <rdfs:label xml:lang="en">data definition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000030 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <rdfs:label xml:lang="en">hypothesis identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000031 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <rdfs:label xml:lang="en">information extraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000032 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <rdfs:label xml:lang="en">observation identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000033 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <rdfs:label xml:lang="en">proposal preparation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000034 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <rdfs:label xml:lang="en">question critique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000035 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <rdfs:label xml:lang="en">question derivation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000036 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000003"/>
+        <rdfs:label xml:lang="en">bias and variation identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000037 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000003"/>
+        <rdfs:label xml:lang="en">causal framework interpretation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000038 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000003"/>
+        <rdfs:label xml:lang="en">evidence summary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000039 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000003"/>
+        <rdfs:label xml:lang="en">evidence-based critique</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000040 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000003"/>
+        <rdfs:label xml:lang="en">knowledge gap identification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000041 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000003"/>
+        <rdfs:label xml:lang="en">literature search</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000042 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000003"/>
+        <rdfs:label xml:lang="en">mechanism description</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000043 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000043">
+        <rdfs:label xml:lang="en">subject domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000044 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
+        <rdfs:label xml:lang="en">grants and funding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000045 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
+        <rdfs:label xml:lang="en">mentoring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000050 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
+        <rdfs:label xml:lang="en">collaboration and teams</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000051 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
+        <rdfs:label xml:lang="en">networking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000052 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
+        <rdfs:label xml:lang="en">research</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
