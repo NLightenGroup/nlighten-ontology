@@ -14,6 +14,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.org/n-lighten/">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
+        <owl:imports rdf:resource="http://www.geneontology.org/formats/oboInOwl"/>
     </owl:Ontology>
     
 
@@ -29,6 +30,22 @@
     
 
 
+    <!-- http://bioontology.org/ontologies/Activity.owl#Community_Engagement -->
+
+    <owl:Class rdf:about="http://bioontology.org/ontologies/Activity.owl#Community_Engagement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <obo:IAO_0000115>Individuals that come together and form a group, hence the term community. A community is a group of people that come together that have a common set of goals, values, and work together to achieve that common goals.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">community engagement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://bioontology.org/ontologies/Activity.owl#Community_Engagement"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Individuals that come together and form a group, hence the term community. A community is a group of people that come together that have a common set of goals, values, and work together to achieve that common goals.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Community_engagement</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://edamontology.org/topic_0605 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0605">
@@ -37,6 +54,17 @@
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-10T22:12:15Z</dc:date>
         <rdfs:label>informatics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <obo:IAO_0000115>The inevitable variety in customs, attitudes, practices, and behaviors that exists among groups of individuals from different ethnic, racial, or national backgrounds who come into contact within a social unit, organization, or population.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D018864</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">cultural diversity</rdfs:label>
     </owl:Class>
     
 
@@ -130,15 +158,6 @@
     
 
 
-    <!-- http://purl.org/n-lighten/NLN_0000011 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
-        <rdfs:label xml:lang="en">cultural diversity</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/n-lighten/NLN_0000012 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000012">
@@ -162,15 +181,6 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
         <rdfs:label xml:lang="en">cross disciplinary training</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000015 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
-        <rdfs:label xml:lang="en">community engagement</rdfs:label>
     </owl:Class>
     
 
