@@ -29,6 +29,18 @@
     
 
 
+    <!-- http://edamontology.org/topic_0605 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_0605">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <obo:IAO_0000115>The study and practice of information processing and use of computer information systems.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-10T22:12:15Z</dc:date>
+        <rdfs:label>informatics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/n-lighten/NLN_0000001 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000001">
@@ -94,7 +106,7 @@
     <!-- http://purl.org/n-lighten/NLN_0000008 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <rdfs:label xml:lang="en">biomedical informatics</rdfs:label>
     </owl:Class>
     
