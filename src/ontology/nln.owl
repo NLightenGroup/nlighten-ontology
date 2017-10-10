@@ -69,6 +69,16 @@
     
 
 
+    <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Scientific_Communication -->
+
+    <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Scientific_Communication">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <obo:IAO_0000115>Formal or informal communication among professionals.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">scientific communication</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/n-lighten/NLN_0000001 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000001">
@@ -91,15 +101,6 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
         <rdfs:label xml:lang="en">literature critique</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000004 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
-        <rdfs:label xml:lang="en">study design</rdfs:label>
     </owl:Class>
     
 
@@ -149,29 +150,11 @@
     
 
 
-    <!-- http://purl.org/n-lighten/NLN_0000010 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
-        <rdfs:label xml:lang="en">scientific communication</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/n-lighten/NLN_0000012 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
         <rdfs:label xml:lang="en">translational teamwork</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000013 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
-        <rdfs:label xml:lang="en">leadership</rdfs:label>
     </owl:Class>
     
 
@@ -458,6 +441,35 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
         <rdfs:label xml:lang="en">research</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/http://purl.bioontology.org/ontology/MESH/D007857 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/http://purl.bioontology.org/ontology/MESH/D007857">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <obo:IAO_0000115>The function of directing or controlling the actions or attitudes of an individual or group with more or less willing acquiescence of the followers.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym>Influentials</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">leadership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001426 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001426">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
+        <obo:IAO_0000115>A study type is an experimental factor describing the method of investigating type is an experimental factor describing the method of investigating particular types of research questions or solving particular types of problems, for example, a set of protocols (which may specify how and what kinds of data will be gathered).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIt:C15320</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym>experimental design</oboInOwl:hasSynonym>
+        <rdfs:label xml:lang="en">study design</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001426"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A study type is an experimental factor describing the method of investigating type is an experimental factor describing the method of investigating particular types of research questions or solving particular types of problems, for example, a set of protocols (which may specify how and what kinds of data will be gathered).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>OBI_0500000</oboInOwl:hasDbXref>
+    </owl:Axiom>
 </rdf:RDF>
 
 
