@@ -93,6 +93,17 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/MESH/D000071252 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000071252">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
+        <obo:IAO_0000115>The art and practice of training, guiding, COUNSELING, and providing support to a less experienced, trained, or knowledgeable person.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>Coaching</oboInOwl:hasRelatedSynonym>
+        <rdfs:label xml:lang="en">mentoring</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/n-lighten/NLN_0000001 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000001">
@@ -391,15 +402,6 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
         <rdfs:label xml:lang="en">grants and funding</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000045 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
-        <rdfs:label xml:lang="en">mentoring</rdfs:label>
     </owl:Class>
     
 
