@@ -104,6 +104,17 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/MESH/D012106 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D012106">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
+        <obo:IAO_0000115>Critical and exhaustive investigation or experimentation, having for its aim the discovery of new facts and their correct interpretation, the revision of accepted conclusions, theories, or laws in the light of newly discovered facts, or the practical application of such new or revised conclusions, theories, or laws. (Webster, 3d ed)</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Research Activity</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">research</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/n-lighten/NLN_0000001 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000001">
@@ -420,15 +431,6 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000051">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
         <rdfs:label xml:lang="en">networking</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000052 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000043"/>
-        <rdfs:label xml:lang="en">research</rdfs:label>
     </owl:Class>
     
 
