@@ -46,6 +46,20 @@
     
 
 
+    <!-- http://edamontology.org/data_3670 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_3670">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Course"/>
+        <obo:IAO_0000115>A training course available for use on the Web.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BRO:Online_Course</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>On-line course</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>MOOC</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>Massive open online course</oboInOwl:hasNarrowSynonym>
+        <rdfs:label xml:lang="en">online course</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://edamontology.org/topic_0605 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_0605">
@@ -185,15 +199,6 @@
     
 
 
-    <!-- http://purl.org/n-lighten/NLN_0000019 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000019">
-        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Course"/>
-        <rdfs:label xml:lang="en">online course</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/n-lighten/NLN_0000021 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000021">
@@ -215,7 +220,7 @@
     <!-- http://purl.org/n-lighten/NLN_0000023 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3670"/>
         <rdfs:label xml:lang="en">asynchronous online course</rdfs:label>
     </owl:Class>
     
@@ -224,7 +229,7 @@
     <!-- http://purl.org/n-lighten/NLN_0000024 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000019"/>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3670"/>
         <rdfs:label xml:lang="en">synchronous online course</rdfs:label>
     </owl:Class>
     
