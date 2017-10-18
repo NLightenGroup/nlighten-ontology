@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://eagle-i.org/ont/app/1.0/nln-app.owl/"
+     xml:base="http://eagle-i.org/ont/app/1.0/nln-app.owl/"
+     xmlns:app="http://eagle-i.org/ont/app/1.0/"
+     xmlns:nln="http://purl.org/n-lighten"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://eagle-i.org/ont/app/1.0/nln-app.owl">
+        <owl:imports rdf:resource="http://purl.org/n-lighten/"/>
+        <owl:imports rdf:resource="http://eagle-i.org/ont/app/1.0/eagle-i-app-def.owl"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2017-10-12</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/domainConstraint -->
+
+    <owl:AnnotationProperty rdf:about="http://eagle-i.org/ont/app/1.0/domainConstraint"/>
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/inClassGroup -->
+
+    <owl:AnnotationProperty rdf:about="http://eagle-i.org/ont/app/1.0/inClassGroup"/>
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/inPropertyGroup -->
+
+    <owl:AnnotationProperty rdf:about="http://eagle-i.org/ont/app/1.0/inPropertyGroup"/>
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/preferredLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://eagle-i.org/ont/app/1.0/preferredLabel"/>
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/rangeConstraint -->
+
+    <owl:AnnotationProperty rdf:about="http://eagle-i.org/ont/app/1.0/rangeConstraint"/>
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/referencedTaxonomyIRI -->
+
+    <owl:AnnotationProperty rdf:about="http://eagle-i.org/ont/app/1.0/referencedTaxonomyIRI"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate -->
+
+    <owl:Thing rdf:about="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType -->
+
+    <owl:Thing rdf:about="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy -->
+
+    <owl:Thing rdf:about="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider -->
+
+    <owl:Thing rdf:about="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude -->
+
+    <owl:Thing rdf:about="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    </owl:Thing>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000001">
+        <app:referencedTaxonomyIRI>http://eagle-i.org/ont/app/1.0/nln-app.owl</app:referencedTaxonomyIRI>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000016">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
+        <app:preferredLabel>Educational Resource Format</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000025">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+        <app:preferredLabel>Resource Depth</app:preferredLabel>
+        <app:referencedTaxonomyIRI>http://eagle-i.org/ont/app/1.0/nln-app.owl</app:referencedTaxonomyIRI>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000043">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+        <app:referencedTaxonomyIRI>http://eagle-i.org/ont/app/1.0/nln-app.owl</app:referencedTaxonomyIRI>
+        <app:preferredLabel>CTSA Subjects</app:preferredLabel>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
