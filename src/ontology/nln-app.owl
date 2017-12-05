@@ -127,24 +127,223 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://bioontology.org/ontologies/Activity.owl#Community_Engagement">
+        <app:preferredLabel>Community Engagement</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/data_3670">
+        <app:preferredLabel>Online Course</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/topic_0605">
+        <app:preferredLabel>Informatics</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/topic_3071">
+        <app:preferredLabel>Data Management</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/topic_3344">
+        <app:preferredLabel>Biomedical Science</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/topic_3394">
+        <app:preferredLabel>Regulatory Affairs</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://edamontology.org/topic_3572">
+        <app:preferredLabel>Data Quality Management</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887">
+        <app:preferredLabel>Cultural Diversity</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Scientific_Communication">
+        <app:preferredLabel>Scientific Communication</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MEDDRA/10060933">
+        <app:preferredLabel>Adverse Event</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D000071252">
+        <app:preferredLabel>Mentoring</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D007857">
+        <app:preferredLabel>Leadership</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D012106">
+        <app:preferredLabel>Research</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D015507">
+        <app:preferredLabel>Investigational Drugs</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/Q000235">
+        <app:preferredLabel>Genetics</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/Q000494">
+        <app:preferredLabel>Pharmacology</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/NDFRT/N0000189392">
+        <app:preferredLabel>Biologics</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000347">
+        <app:preferredLabel>Intervention</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000714">
+        <app:preferredLabel>Human Subject Recruitment and Protection</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0000721">
+        <app:preferredLabel>Data Entry</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001309">
+        <app:preferredLabel>Data Analysis</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000311">
+        <app:preferredLabel>Publication</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBCS_0000100">
+        <app:preferredLabel>Type I Error</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBCS_0000101">
+        <app:preferredLabel>Type II Error</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001636">
+        <app:preferredLabel>Grant</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500002">
+        <app:preferredLabel>Repeated Measure Design</app:preferredLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000001">
-        <app:referencedTaxonomyIRI>http://eagle-i.org/ont/app/1.0/nln-app.owl</app:referencedTaxonomyIRI>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+        <app:referencedTaxonomyIRI rdf:resource="http://purl.org/n-lighten"/>
+        <app:preferredLabel>Resource Format</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000002">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+        <app:referencedTaxonomyIRI rdf:resource="http://purl.org/n-lighten"/>
+        <app:preferredLabel>Domain</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000004">
+        <app:preferredLabel>Resource Depth</app:preferredLabel>
+        <app:referencedTaxonomyIRI rdf:resource="http://purl.org/n-lighten"/>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000005">
+        <app:preferredLabel>Scientific Concepts and Research Design</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000006">
+        <app:preferredLabel>Ethical and Participant Safety Considerations</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000007">
+        <app:preferredLabel>Investigational Products Development and Regulation</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000008">
+        <app:preferredLabel>Clinical Study Operations</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000009">
+        <app:preferredLabel>Study and Site Management</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000010">
+        <app:preferredLabel>Data Management and Informatics</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000011">
+        <app:preferredLabel>Leadership and Professionalism</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000012">
+        <app:preferredLabel>Communication and Teamwork</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000013">
+        <app:preferredLabel>Partial Course</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000014">
+        <app:preferredLabel>Accelerated Course</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000015">
+        <app:preferredLabel>Statistical Approaches</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000016">
+        <app:preferredLabel>Asynchronous Online Course</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000017">
+        <app:preferredLabel>Synchronous Online Course</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000018">
+        <app:preferredLabel>Biomedical Informatics</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000019">
+        <app:preferredLabel>Introductory</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000020">
+        <app:preferredLabel>Advanced</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000021">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000022">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000023">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/CollegeOrUniversity">
+        <app:preferredLabel>College or University</app:preferredLabel>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Course">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/CreativeWork">
+        <app:preferredLabel>Creative Work</app:preferredLabel>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
-        <app:preferredLabel>Educational Resource Format</app:preferredLabel>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000025">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
-        <app:preferredLabel>Resource Depth</app:preferredLabel>
-        <app:referencedTaxonomyIRI>http://eagle-i.org/ont/app/1.0/nln-app.owl</app:referencedTaxonomyIRI>
+    <rdf:Description rdf:about="http://schema.org/EducationalOrganization">
+        <app:preferredLabel>Educational Organization</app:preferredLabel>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000043">
-        <app:preferredLabel>Domain</app:preferredLabel>
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
-        <app:referencedTaxonomyIRI>http://eagle-i.org/ont/app/1.0/nln-app.owl</app:referencedTaxonomyIRI>
+    <rdf:Description rdf:about="http://schema.org/GovernmentOrganization">
+        <app:preferredLabel>Government Organization</app:preferredLabel>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Movie">
+        <app:preferredLabel>Video</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Organization">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
+        <app:preferredLabel>Organization</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Person">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+        <app:preferredLabel>Person</app:preferredLabel>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/audience">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/contributor">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/copyrightHolder">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/creator">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/duration">
+        <app:preferredLabel rdf:resource="has duration"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/timeRequired">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Course">
+        <app:preferredLabel>Course</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Video">
+        <app:preferredLabel>Video</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Adaptive_design">
+        <app:preferredLabel>Adaptive Design</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design">
+        <app:preferredLabel>Clinical Trial Design</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001426">
+        <app:preferredLabel>Study Design</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Confidence_interval">
+        <app:preferredLabel>Confidence Interval</app:preferredLabel>
     </rdf:Description>
 </rdf:RDF>
 
