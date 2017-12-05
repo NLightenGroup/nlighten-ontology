@@ -1,0 +1,14 @@
+map[license:https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode url:https://lagunita.stanford.edu/courses/DB/RDB/SelfPaced/about 
+
+has_provider:[map[a:Organization name:BD2K uri:http://www.bigdatau.org/2017/04/18/provider#BD2K] map[a:Organization name:Stanford Lagunita uri:http://www.bigdatau.org/2017/04/18/provider#Stanford_Lagunita] map[a:Organization name:The Mobilize center uri:http://www.bigdatau.org/2017/04/18/provider#The_Mobilize_center]] 
+
+@context:file:/opt/bigdatau/karma/karma-context3.json 
+alternateName:NULL 
+name:Introduction and relational databases 
+
+a:[CreativeWork] 
+description:This mini-course provides a general introduction to databases, and introduces the popular relational data model. It will be available at least until December 2016. You will be notified by email of any changes to content availability beforehand.\n\nWe have created 14 mini-courses that can be assembled in a variety of ways to learn about different aspects of databases. Please visit the main Databases page for suggested pathways and general information, or click View Courseware above to begin this mini-course. 
+
+author:http://www.bigdatau.org/2017/04/18/instructor#NULL uri:https://lagunita.stanford.edu/courses/DB/RDB/SelfPaced/about 
+
+genre:[http://www.semanticweb.org/lfierro/ontologies/2016/11/tagging_skos.owl#introductory http://www.semanticweb.org/lfierro/ontologies/2016/11/tagging_skos.owl#written_documents http://www.semanticweb.org/lfierro/ontologies/2016/11/tagging_skos.owl#video http://www.semanticweb.org/lfierro/ontologies/2016/11/tagging_skos.owl#relational_database]]
