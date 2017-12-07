@@ -205,6 +205,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500002">
         <app:preferredLabel>Repeated Measure Design</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002000">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_DataModelExclude"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000001">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
         <app:referencedTaxonomyIRI rdf:resource="http://purl.org/n-lighten"/>
@@ -321,7 +324,7 @@
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/duration">
-        <app:preferredLabel rdf:resource="has duration"/>
+        <app:preferredLabel rdf:resource="http://eagle-i.org/ont/app/1.0/nln-app.owl/has%20duration"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/timeRequired">
