@@ -208,11 +208,23 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ERO_0001309">
         <app:preferredLabel>Data Analysis</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000004">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000136">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_DataModelExclude"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000311">
         <app:preferredLabel>Publication</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000404">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000405">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000406">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000417">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_DataModelExclude"/>
@@ -277,13 +289,13 @@
         <app:preferredLabel>Resource Format</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000002">
+        <app:referencedTaxonomyIRI rdf:resource="http://purl.org/n-lighten/"/>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
-        <app:referencedTaxonomyIRI rdf:resource="http://purl.org/n-lighten"/>
         <app:preferredLabel>Domain</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000004">
+        <app:referencedTaxonomyIRI rdf:resource="http://purl.org/n-lighten/"/>
         <app:preferredLabel>Resource Depth</app:preferredLabel>
-        <app:referencedTaxonomyIRI rdf:resource="http://purl.org/n-lighten"/>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000005">
@@ -335,24 +347,30 @@
         <app:preferredLabel>Advanced</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000021">
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000022">
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000023">
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Audience">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/CollegeOrUniversity">
         <app:preferredLabel>College or University</app:preferredLabel>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://schema.org/Course">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/CreativeWork">
-        <app:preferredLabel>Creative Work</app:preferredLabel>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+        <app:preferredLabel>Educational Resource</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Duration">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/EducationalOrganization">
@@ -371,30 +389,46 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/Person">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-        <app:preferredLabel>Person</app:preferredLabel>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
+        <app:preferredLabel>Person</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/audience">
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/contributor">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/copyrightHolder">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/creator">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/duration">
         <app:preferredLabel rdf:resource="http://eagle-i.org/ont/app/1.0/nln-app.owl/has%20duration"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/provider">
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/timeRequired">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#College">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Course">
         <app:preferredLabel>Course</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#GovernmentAgency">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#University">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Video">
         <app:preferredLabel>Video</app:preferredLabel>
@@ -410,6 +444,16 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Confidence_interval">
         <app:preferredLabel>Confidence Interval</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+        <app:preferredLabel>Agent</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <app:preferredLabel>Organization</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <app:preferredLabel>Person</app:preferredLabel>
     </rdf:Description>
 </rdf:RDF>
 
