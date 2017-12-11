@@ -361,10 +361,6 @@
     <rdf:Description rdf:about="http://schema.org/Audience">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://schema.org/CollegeOrUniversity">
-        <app:preferredLabel>College or University</app:preferredLabel>
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/CreativeWork">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
         <app:preferredLabel>Educational Resource</app:preferredLabel>
@@ -373,24 +369,8 @@
     <rdf:Description rdf:about="http://schema.org/Duration">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://schema.org/EducationalOrganization">
-        <app:preferredLabel>Educational Organization</app:preferredLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://schema.org/GovernmentOrganization">
-        <app:preferredLabel>Government Organization</app:preferredLabel>
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/Movie">
         <app:preferredLabel>Video</app:preferredLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://schema.org/Organization">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
-        <app:preferredLabel>Organization</app:preferredLabel>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://schema.org/Person">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
-        <app:preferredLabel>Person</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/audience">
         <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
