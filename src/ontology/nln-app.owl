@@ -449,7 +449,6 @@
         <app:preferredLabel>Confidence Interval</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
         <app:preferredLabel>Agent</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization">
