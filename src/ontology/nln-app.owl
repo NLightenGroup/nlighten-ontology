@@ -371,6 +371,7 @@
     <!-- http://xmlns.com/foaf/0.1/Organization -->
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
         <app:preferredLabel>Organization</app:preferredLabel>
     </rdf:Description>
     
@@ -379,6 +380,7 @@
     <!-- http://xmlns.com/foaf/0.1/Person -->
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
         <app:preferredLabel>Person</app:preferredLabel>
     </rdf:Description>
     
