@@ -148,15 +148,6 @@
     
 
 
-    <!-- http://schema.org/alternateName -->
-
-    <owl:DatatypeProperty rdf:about="http://schema.org/alternateName">
-        <rdfs:comment>An alias for the item.</rdfs:comment>
-        <rdfs:label>alternateName</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://schema.org/audienceType -->
 
     <owl:DatatypeProperty rdf:about="http://schema.org/audienceType">
