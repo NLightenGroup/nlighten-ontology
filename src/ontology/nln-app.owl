@@ -200,7 +200,9 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
+        <app:domainConstraint rdf:resource="http://schema.org/CreativeWork"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
+        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
     </rdf:Description>
     
