@@ -136,7 +136,6 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:preferredLabel>has contributor</app:preferredLabel>
     </rdf:Description>
@@ -173,7 +172,6 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:preferredLabel>has creator</app:preferredLabel>
     </rdf:Description>
