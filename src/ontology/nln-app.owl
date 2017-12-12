@@ -684,6 +684,16 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002002">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002350">
+        <app:domainConstraint rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <app:domainConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002351">
+        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <app:domainConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000005">
         <app:preferredLabel>Scientific Concepts and Research Design</app:preferredLabel>
     </rdf:Description>
