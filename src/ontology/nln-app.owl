@@ -71,335 +71,6 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000021 -->
-
-    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000021">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
-        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000022 -->
-
-    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000022">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000023 -->
-
-    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000023">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://purl.org/n-lighten/NLN_0000004"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/audience -->
-
-    <rdf:Description rdf:about="http://schema.org/audience">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://schema.org/Audience"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <app:preferredLabel>has audience</app:preferredLabel>
-        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/contributor -->
-
-    <rdf:Description rdf:about="http://schema.org/contributor">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
-                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <app:preferredLabel>has contributor</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/copyrightHolder -->
-
-    <rdf:Description rdf:about="http://schema.org/copyrightHolder">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
-                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <app:preferredLabel>copyright holder</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/creator -->
-
-    <rdf:Description rdf:about="http://schema.org/creator">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
-                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <app:preferredLabel>has creator</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/duration -->
-
-    <rdf:Description rdf:about="http://schema.org/duration">
-        <rdfs:domain rdf:resource="http://schema.org/Movie"/>
-        <rdfs:range rdf:resource="http://schema.org/Duration"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <app:preferredLabel>has duration</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/provider -->
-
-    <rdf:Description rdf:about="http://schema.org/provider">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
-                    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:range>
-        <app:domainConstraint rdf:resource="http://schema.org/CreativeWork"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
-        <app:preferredLabel>has provider</app:preferredLabel>
-        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/timeRequired -->
-
-    <rdf:Description rdf:about="http://schema.org/timeRequired">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://schema.org/Duration"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <app:preferredLabel>time required</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://schema.org/audienceType -->
-
-    <rdf:Description rdf:about="http://schema.org/audienceType">
-        <rdfs:domain rdf:resource="http://schema.org/Audience"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <app:preferredLabel>audience type</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/description -->
-
-    <rdf:Description rdf:about="http://schema.org/description">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/identifier -->
-
-    <rdf:Description rdf:about="http://schema.org/identifier">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/learningResourceType -->
-
-    <rdf:Description rdf:about="http://schema.org/learningResourceType">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <app:preferredLabel>learning resource type</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/license -->
-
-    <rdf:Description rdf:about="http://schema.org/license">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/name -->
-
-    <rdf:Description rdf:about="http://schema.org/name">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/url -->
-
-    <rdf:Description rdf:about="http://schema.org/url">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000001 -->
-
-    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000001">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
-        <app:preferredLabel>Resource Format</app:preferredLabel>
-        <app:referencedTaxonomyIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/n-lighten/</app:referencedTaxonomyIRI>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000002 -->
-
-    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000002">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
-        <app:preferredLabel>Domain</app:preferredLabel>
-        <app:referencedTaxonomyIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/n-lighten/</app:referencedTaxonomyIRI>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000004 -->
-
-    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000004">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
-        <app:preferredLabel>Resource Depth</app:preferredLabel>
-        <app:referencedTaxonomyIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/n-lighten/</app:referencedTaxonomyIRI>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/Audience -->
-
-    <rdf:Description rdf:about="http://schema.org/Audience">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/CreativeWork -->
-
-    <rdf:Description rdf:about="http://schema.org/CreativeWork">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
-        <app:preferredLabel>Educational Resource</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/Duration -->
-
-    <rdf:Description rdf:about="http://schema.org/Duration">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://schema.org/Movie -->
-
-    <rdf:Description rdf:about="http://schema.org/Movie">
-        <app:preferredLabel>Video</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/Organization -->
-
-    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-        <app:preferredLabel>Organization</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/Person -->
-
-    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
-        <app:preferredLabel>Person</app:preferredLabel>
-    </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Individuals
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -694,6 +365,21 @@
         <app:domainConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000001">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+        <app:referencedTaxonomyIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/n-lighten/</app:referencedTaxonomyIRI>
+        <app:preferredLabel>Resource Format</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000002">
+        <app:referencedTaxonomyIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/n-lighten/</app:referencedTaxonomyIRI>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+        <app:preferredLabel>Domain</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000004">
+        <app:preferredLabel>Resource Depth</app:preferredLabel>
+        <app:referencedTaxonomyIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/n-lighten/</app:referencedTaxonomyIRI>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000005">
         <app:preferredLabel>Scientific Concepts and Research Design</app:preferredLabel>
     </rdf:Description>
@@ -742,6 +428,87 @@
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000020">
         <app:preferredLabel>Advanced</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000021">
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000022">
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000023">
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Audience">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/CreativeWork">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+        <app:preferredLabel>Educational Resource</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Duration">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/Movie">
+        <app:preferredLabel>Video</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/audience">
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
+        <app:preferredLabel>has audience</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/audienceType">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+        <app:preferredLabel>audience type</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/contributor">
+        <app:preferredLabel>has contributor</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/copyrightHolder">
+        <app:preferredLabel>copyright holder</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/creator">
+        <app:preferredLabel>has creator</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/description">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/duration">
+        <app:preferredLabel>has duration</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/identifier">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/learningResourceType">
+        <app:preferredLabel>learning resource type</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/license">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/name">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/provider">
+        <app:domainConstraint rdf:resource="http://schema.org/CreativeWork"/>
+        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
+        <app:preferredLabel>has provider</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/timeRequired">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+        <app:preferredLabel>time required</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/url">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#College">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
@@ -774,6 +541,14 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Agent">
         <app:preferredLabel>Agent</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Organization">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+        <app:preferredLabel>Organization</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+        <app:preferredLabel>Person</app:preferredLabel>
     </rdf:Description>
 </rdf:RDF>
 
