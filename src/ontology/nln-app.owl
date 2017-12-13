@@ -356,14 +356,14 @@
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002350">
-        <app:domainConstraint rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <app:domainConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:domainConstraint>
+        <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:rangeConstraint>
+        <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Person</app:domainConstraint>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002351">
-        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
-        <app:domainConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:rangeConstraint>
+        <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:domainConstraint>
+        <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Person</app:rangeConstraint>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000001">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
@@ -376,8 +376,8 @@
         <app:preferredLabel>Domain</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000004">
-        <app:preferredLabel>Resource Depth</app:preferredLabel>
         <app:referencedTaxonomyIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/n-lighten/</app:referencedTaxonomyIRI>
+        <app:preferredLabel>Resource Depth</app:preferredLabel>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000005">
@@ -445,8 +445,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/CreativeWork">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
         <app:preferredLabel>Educational Resource</app:preferredLabel>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/Duration">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
@@ -493,8 +493,8 @@
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/provider">
-        <app:domainConstraint rdf:resource="http://schema.org/CreativeWork"/>
-        <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/CreativeWork</app:domainConstraint>
+        <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:rangeConstraint>
         <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
         <app:preferredLabel>has provider</app:preferredLabel>
