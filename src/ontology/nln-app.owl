@@ -492,9 +492,6 @@
     <rdf:Description rdf:about="http://schema.org/license">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://schema.org/name">
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
-    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/provider">
         <app:domainConstraint rdf:resource="http://schema.org/CreativeWork"/>
         <app:rangeConstraint rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
