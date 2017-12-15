@@ -353,8 +353,8 @@
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002350">
-        <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:rangeConstraint>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:domainConstraint>
+        <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:rangeConstraint>
         <app:inPropertyGroup>http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty</app:inPropertyGroup>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Person</app:domainConstraint>
     </rdf:Description>
@@ -465,15 +465,33 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/description">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
+        <app:preferredLabel>Description</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/duration">
         <app:inPropertyGroup>http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty</app:inPropertyGroup>
         <app:preferredLabel>Video Duration</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/email">
+        <app:preferredLabel>Email</app:preferredLabel>
+        <app:inPropertyGroup>http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty</app:inPropertyGroup>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/familyName">
+        <app:inPropertyGroup>http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty</app:inPropertyGroup>
+        <app:preferredLabel>Last Name</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/givenName">
+        <app:inPropertyGroup>http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty</app:inPropertyGroup>
+        <app:preferredLabel>First Name</app:preferredLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/instructor">
         <app:preferredLabel>Instructor</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/jobTitle">
+        <app:preferredLabel>Title</app:preferredLabel>
+        <app:inPropertyGroup>http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty</app:inPropertyGroup>
+    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/license">
+        <app:preferredLabel>License</app:preferredLabel>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/provider">
@@ -483,6 +501,10 @@
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_ResourceProvider"/>
         <app:preferredLabel>has provider</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/telephone">
+        <app:inPropertyGroup>http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty</app:inPropertyGroup>
+        <app:preferredLabel>Telephone</app:preferredLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/timeRequired">
         <app:preferredLabel>Time Required</app:preferredLabel>
         <app:inPropertyGroup>http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty</app:inPropertyGroup>
@@ -490,6 +512,7 @@
     <rdf:Description rdf:about="http://schema.org/url">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/CreativeWork</app:domainConstraint>
+        <app:preferredLabel>Web Address</app:preferredLabel>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Agent</app:domainConstraint>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#College">

@@ -325,6 +325,52 @@
     
 
 
+    <!-- http://schema.org/email -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/email">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115>Email address.</obo:IAO_0000115>
+        <rdfs:comment>Email address.</rdfs:comment>
+        <rdfs:label>email</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/familyName -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/familyName">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label>familyName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/givenName -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/givenName">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115>Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the name property.</obo:IAO_0000115>
+        <rdfs:comment>Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the name property.</rdfs:comment>
+        <rdfs:label>givenName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/jobTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/jobTitle">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115>The job title of the person (for example, Financial Manager).</obo:IAO_0000115>
+        <rdfs:comment>The job title of the person (for example, Financial Manager).</rdfs:comment>
+        <rdfs:label>jobTitle</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://schema.org/license -->
 
     <owl:DatatypeProperty rdf:about="http://schema.org/license">
@@ -333,6 +379,18 @@
         <obo:IAO_0000115>A license document that applies to this content, typically indicated by URL.</obo:IAO_0000115>
         <rdfs:comment>A license document that applies to this content, typically indicated by URL.</rdfs:comment>
         <rdfs:label>license</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://schema.org/telephone -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/telephone">
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115>The telephone number.</obo:IAO_0000115>
+        <rdfs:comment>The telephone number.</rdfs:comment>
+        <rdfs:label>telephone</rdfs:label>
     </owl:DatatypeProperty>
     
 
