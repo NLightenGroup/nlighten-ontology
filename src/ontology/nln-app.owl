@@ -504,6 +504,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/url">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+        <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/CreativeWork</app:domainConstraint>
+        <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Agent</app:domainConstraint>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#College">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
