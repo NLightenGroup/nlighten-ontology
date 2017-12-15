@@ -366,6 +366,9 @@
         <app:inPropertyGroup>http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty</app:inPropertyGroup>
         <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Person</app:rangeConstraint>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/license">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000002">
         <app:referencedTaxonomyIRI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/n-lighten/</app:referencedTaxonomyIRI>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ReferencedTaxonomy"/>
