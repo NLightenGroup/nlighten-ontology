@@ -137,16 +137,6 @@
     
 
 
-    <!-- http://purl.org/n-lighten/NLN_0000022 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/n-lighten/NLN_0000022">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
-        <rdfs:label xml:lang="en">has format</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.org/n-lighten/NLN_0000023 -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/n-lighten/NLN_0000023">
@@ -246,6 +236,19 @@
     
 
 
+    <!-- http://schema.org/instructor -->
+
+    <owl:ObjectProperty rdf:about="http://schema.org/instructor">
+        <rdfs:domain rdf:resource="http://schema.org/Course"/>
+        <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <obo:IAO_0000115>A person assigned to instruct or provide instructional assistance for a course.</obo:IAO_0000115>
+        <obo:IAO_0000116>In schema.org, the domain of this property is CourseInstance (a type of event) rather than Course.</obo:IAO_0000116>
+        <rdfs:comment>A person assigned to instruct or provide instructional assistance for a course.</rdfs:comment>
+        <rdfs:label>instructor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://schema.org/provider -->
 
     <owl:ObjectProperty rdf:about="http://schema.org/provider">
@@ -276,6 +279,18 @@
     
 
 
+    <!-- http://schema.org/dateCreated -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/dateCreated">
+        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <obo:IAO_0000115>The date on which the CreativeWork was created or the item was added to a DataFeed.</obo:IAO_0000115>
+        <rdfs:comment>The date on which the CreativeWork was created or the item was added to a DataFeed.</rdfs:comment>
+        <rdfs:label>dateCreated</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://schema.org/description -->
 
     <owl:DatatypeProperty rdf:about="http://schema.org/description">
@@ -296,30 +311,6 @@
         <obo:IAO_0000115>The duration of the item (movie, audio recording, event, etc.) in ISO 8601 date format.</obo:IAO_0000115>
         <rdfs:comment>The duration of the item (movie, audio recording, event, etc.) in ISO 8601 date format.</rdfs:comment>
         <rdfs:label>duration</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://schema.org/identifier -->
-
-    <owl:DatatypeProperty rdf:about="http://schema.org/identifier">
-        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <obo:IAO_0000115>The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links.</obo:IAO_0000115>
-        <rdfs:comment>The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links.</rdfs:comment>
-        <rdfs:label>identifier</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://schema.org/learningResourceType -->
-
-    <owl:DatatypeProperty rdf:about="http://schema.org/learningResourceType">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <obo:IAO_0000115>The predominant type or kind characterizing the learning resource. For example, &apos;presentation&apos;, &apos;handout&apos;.</obo:IAO_0000115>
-        <rdfs:comment>The predominant type or kind characterizing the learning resource. For example, &apos;presentation&apos;, &apos;handout&apos;.</rdfs:comment>
-        <rdfs:label>learningResourceType</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -400,21 +391,6 @@
         <obo:IAO_0000115>The P-value is the probability of obtaining by random chance a result that is at least as extreme as an observed result, assuming a NULL hypothesis is true. A z-value might be specified as a threshold for reporting hits from database searches.</obo:IAO_0000115>
         <rdfs:comment>The P-value is the probability of obtaining by random chance a result that is at least as extreme as an observed result, assuming a NULL hypothesis is true. A z-value might be specified as a threshold for reporting hits from database searches.</rdfs:comment>
         <rdfs:label>P-value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://edamontology.org/data_3670 -->
-
-    <owl:Class rdf:about="http://edamontology.org/data_3670">
-        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Course"/>
-        <obo:IAO_0000115>A training course available for use on the Web.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>BRO:Online_Course</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>On-line course</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>MOOC</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>Massive open online course</oboInOwl:hasNarrowSynonym>
-        <rdfs:comment>A training course available for use on the Web.</rdfs:comment>
-        <rdfs:label xml:lang="en">online course</rdfs:label>
     </owl:Class>
     
 
@@ -1209,14 +1185,6 @@
     
 
 
-    <!-- http://purl.org/n-lighten/NLN_0000001 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000001">
-        <rdfs:label xml:lang="en">resource format</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/n-lighten/NLN_0000002 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000002">
@@ -1333,47 +1301,11 @@
     
 
 
-    <!-- http://purl.org/n-lighten/NLN_0000013 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000013">
-        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Course"/>
-        <rdfs:label xml:lang="en">partial course</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000014 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000014">
-        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Course"/>
-        <rdfs:label xml:lang="en">accelerated course</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.org/n-lighten/NLN_0000015 -->
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <rdfs:label xml:lang="en">statistical approaches</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000016 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000016">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3670"/>
-        <rdfs:label xml:lang="en">asynchronous online course</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.org/n-lighten/NLN_0000017 -->
-
-    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000017">
-        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3670"/>
-        <rdfs:label xml:lang="en">synchronous online course</rdfs:label>
     </owl:Class>
     
 
@@ -1401,6 +1333,15 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000004"/>
         <rdfs:label xml:lang="en">advanced</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000032 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000004"/>
+        <rdfs:label xml:lang="en">intermediate</rdfs:label>
     </owl:Class>
     
 
@@ -1480,17 +1421,6 @@
     
 
 
-    <!-- http://vivoweb.org/ontology/core#Course -->
-
-    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Course">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
-        <obo:IAO_0000115>A course as taught in one time period by one or more instructors, normally but not always for credit. Does not represent either each meeting of the course or the course offering such as Biology 101 taught every semester from 1980 to 2010.</obo:IAO_0000115>
-        <rdfs:comment>A course as taught in one time period by one or more instructors, normally but not always for credit. Does not represent either each meeting of the course or the course offering such as Biology 101 taught every semester from 1980 to 2010.</rdfs:comment>
-        <rdfs:label xml:lang="en">course</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://vivoweb.org/ontology/core#GovernmentAgency -->
 
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#GovernmentAgency">
@@ -1509,18 +1439,6 @@
         <obo:IAO_0000115>An institution of higher education and research, which grants academic degrees in a variety of subjects, and provides both undergraduate education and postgraduate education.</obo:IAO_0000115>
         <rdfs:comment>An institution of higher education and research, which grants academic degrees in a variety of subjects, and provides both undergraduate education and postgraduate education.</rdfs:comment>
         <rdfs:label>University</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://vivoweb.org/ontology/core#Video -->
-
-    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Video">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
-        <obo:IAO_0000115>Audiovisual recording in video format.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>ERO:0000333</oboInOwl:hasDbXref>
-        <rdfs:comment>Audiovisual recording in video format.</rdfs:comment>
-        <rdfs:label xml:lang="en">video</rdfs:label>
     </owl:Class>
     
 
