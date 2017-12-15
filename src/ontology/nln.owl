@@ -85,8 +85,8 @@
     <owl:ObjectProperty rdf:about="http://schema.org/audience">
         <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
         <rdfs:range rdf:resource="http://schema.org/Audience"/>
+        <obo:IAO_0000115>An intended audience, i.e. a group for whom something was created.</obo:IAO_0000115>
         <rdfs:comment>An intended audience, i.e. a group for whom something was created.</rdfs:comment>
-		<obo:IAO_0000115>An intended audience, i.e. a group for whom something was created.</obo:IAO_0000115>
         <rdfs:label>audience</rdfs:label>
     </owl:ObjectProperty>
     
@@ -104,8 +104,8 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
+        <obo:IAO_0000115>A secondary contributor to the CreativeWork.</obo:IAO_0000115>
         <rdfs:comment>A secondary contributor to the CreativeWork.</rdfs:comment>
-		<obo:IAO_0000115>A secondary contributor to the CreativeWork.</obo:IAO_0000115>
         <rdfs:label>contributor</rdfs:label>
     </owl:ObjectProperty>
     
@@ -123,8 +123,8 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
+        <obo:IAO_0000115>The party holding the legal copyright to the CreativeWork.</obo:IAO_0000115>
         <rdfs:comment>The party holding the legal copyright to the CreativeWork.</rdfs:comment>
-		<obo:IAO_0000115>The party holding the legal copyright to the CreativeWork.</obo:IAO_0000115>
         <rdfs:label>copyrightHolder</rdfs:label>
     </owl:ObjectProperty>
     
@@ -142,8 +142,8 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
+        <obo:IAO_0000115>The creator/author of this CreativeWork.</obo:IAO_0000115>
         <rdfs:comment>The creator/author of this CreativeWork.</rdfs:comment>
-		<obo:IAO_0000115>The creator/author of this CreativeWork.</obo:IAO_0000115>
         <rdfs:label>creator</rdfs:label>
     </owl:ObjectProperty>
     
@@ -154,8 +154,8 @@
     <owl:ObjectProperty rdf:about="http://schema.org/duration">
         <rdfs:domain rdf:resource="http://schema.org/Movie"/>
         <rdfs:range rdf:resource="http://schema.org/Duration"/>
+        <obo:IAO_0000115>The duration of the item (movie, audio recording, event, etc.) in ISO 8601 date format.</obo:IAO_0000115>
         <rdfs:comment>The duration of the item (movie, audio recording, event, etc.) in ISO 8601 date format.</rdfs:comment>
-		<obo:IAO_0000115>The duration of the item (movie, audio recording, event, etc.) in ISO 8601 date format.</obo:IAO_0000115>
         <rdfs:label>duration</rdfs:label>
     </owl:ObjectProperty>
     
@@ -173,8 +173,8 @@
                 </owl:unionOf>
             </owl:Class>
         </rdfs:range>
+        <obo:IAO_0000115>The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.</obo:IAO_0000115>
         <rdfs:comment>The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.</rdfs:comment>
-		<obo:IAO_0000115>The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.</obo:IAO_0000115>
         <rdfs:label>provider</rdfs:label>
     </owl:ObjectProperty>
     
@@ -185,8 +185,8 @@
     <owl:ObjectProperty rdf:about="http://schema.org/timeRequired">
         <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
         <rdfs:range rdf:resource="http://schema.org/Duration"/>
+        <obo:IAO_0000115>Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. &apos;P30M&apos;, &apos;P1H25M&apos;.</obo:IAO_0000115>
         <rdfs:comment>Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. &apos;P30M&apos;, &apos;P1H25M&apos;.</rdfs:comment>
-		<obo:IAO_0000115>Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. &apos;P30M&apos;, &apos;P1H25M&apos;.</obo:IAO_0000115>
         <rdfs:label>timeRequired</rdfs:label>
     </owl:ObjectProperty>
     
@@ -203,25 +203,13 @@
     
 
 
-    <!-- http://schema.org/audienceType -->
-
-    <owl:DatatypeProperty rdf:about="http://schema.org/audienceType">
-        <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.).</rdfs:comment>
-		<obo:IAO_0000115>The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.).</obo:IAO_0000115>
-        <rdfs:label>audienceType</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://schema.org/description -->
 
     <owl:DatatypeProperty rdf:about="http://schema.org/description">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115>A description of the item.</obo:IAO_0000115>
         <rdfs:comment>A description of the item.</rdfs:comment>
-		<obo:IAO_0000115>A description of the item.</obo:IAO_0000115>
         <rdfs:label>description</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -232,8 +220,8 @@
     <owl:DatatypeProperty rdf:about="http://schema.org/identifier">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115>The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links.</obo:IAO_0000115>
         <rdfs:comment>The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links.</rdfs:comment>
-		<obo:IAO_0000115>The identifier property represents any kind of identifier for any kind of Thing, such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links.</obo:IAO_0000115>
         <rdfs:label>identifier</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -244,8 +232,8 @@
     <owl:DatatypeProperty rdf:about="http://schema.org/learningResourceType">
         <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115>The predominant type or kind characterizing the learning resource. For example, &apos;presentation&apos;, &apos;handout&apos;.</obo:IAO_0000115>
         <rdfs:comment>The predominant type or kind characterizing the learning resource. For example, &apos;presentation&apos;, &apos;handout&apos;.</rdfs:comment>
-		<obo:IAO_0000115>The predominant type or kind characterizing the learning resource. For example, &apos;presentation&apos;, &apos;handout&apos;.</obo:IAO_0000115>
         <rdfs:label>learningResourceType</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -256,8 +244,8 @@
     <owl:DatatypeProperty rdf:about="http://schema.org/license">
         <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <obo:IAO_0000115>A license document that applies to this content, typically indicated by URL.</obo:IAO_0000115>
         <rdfs:comment>A license document that applies to this content, typically indicated by URL.</rdfs:comment>
-		<obo:IAO_0000115>A license document that applies to this content, typically indicated by URL.</obo:IAO_0000115>
         <rdfs:label>license</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -268,8 +256,8 @@
     <owl:DatatypeProperty rdf:about="http://schema.org/url">
         <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <obo:IAO_0000115>URL of the item.</obo:IAO_0000115>
         <rdfs:comment>URL of the item.</rdfs:comment>
-		<obo:IAO_0000115>URL of the item.</obo:IAO_0000115>
         <rdfs:label>url</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -291,7 +279,7 @@
     <owl:Class rdf:about="http://bioontology.org/ontologies/Activity.owl#Community_Engagement">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>Individuals that come together and form a group, hence the term community. A community is a group of people that come together that have a common set of goals, values, and work together to achieve that common goals.</obo:IAO_0000115>
-		<rdfs:comment>Individuals that come together and form a group, hence the term community. A community is a group of people that come together that have a common set of goals, values, and work together to achieve that common goals.</rdfs:comment>
+        <rdfs:comment>Individuals that come together and form a group, hence the term community. A community is a group of people that come together that have a common set of goals, values, and work together to achieve that common goals.</rdfs:comment>
         <rdfs:label xml:lang="en">community engagement</rdfs:label>
     </owl:Class>
     
@@ -302,7 +290,7 @@
     <owl:Class rdf:about="http://bioontology.org/ontologies/Activity.owl#Medical_Device_Development">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>As defined in http://en.wikipedia.org/wiki/Medical_device</obo:IAO_0000115>
-		<rdfs:comment>As defined in http://en.wikipedia.org/wiki/Medical_device</rdfs:comment>
+        <rdfs:comment>As defined in http://en.wikipedia.org/wiki/Medical_device</rdfs:comment>
         <rdfs:label>Medical Device Development</rdfs:label>
     </owl:Class>
     
@@ -313,7 +301,7 @@
     <owl:Class rdf:about="http://edamontology.org/data_1669">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>The P-value is the probability of obtaining by random chance a result that is at least as extreme as an observed result, assuming a NULL hypothesis is true. A z-value might be specified as a threshold for reporting hits from database searches.</obo:IAO_0000115>
-		<rdfs:comment>The P-value is the probability of obtaining by random chance a result that is at least as extreme as an observed result, assuming a NULL hypothesis is true. A z-value might be specified as a threshold for reporting hits from database searches.</rdfs:comment>
+        <rdfs:comment>The P-value is the probability of obtaining by random chance a result that is at least as extreme as an observed result, assuming a NULL hypothesis is true. A z-value might be specified as a threshold for reporting hits from database searches.</rdfs:comment>
         <rdfs:label>P-value</rdfs:label>
     </owl:Class>
     
@@ -324,11 +312,11 @@
     <owl:Class rdf:about="http://edamontology.org/data_3670">
         <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Course"/>
         <obo:IAO_0000115>A training course available for use on the Web.</obo:IAO_0000115>
-		<rdfs:comment>A training course available for use on the Web.</rdfs:comment>
         <oboInOwl:hasDbXref>BRO:Online_Course</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>On-line course</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>MOOC</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym>Massive open online course</oboInOwl:hasNarrowSynonym>
+        <rdfs:comment>A training course available for use on the Web.</rdfs:comment>
         <rdfs:label xml:lang="en">online course</rdfs:label>
     </owl:Class>
     
@@ -339,7 +327,7 @@
     <owl:Class rdf:about="http://edamontology.org/topic_0208">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>The influence of genotype on drug response, for example by correlating gene expression or single-nucleotide polymorphisms with drug efficacy or toxicity.</obo:IAO_0000115>
-		<rdfs:comment>The influence of genotype on drug response, for example by correlating gene expression or single-nucleotide polymorphisms with drug efficacy or toxicity.</rdfs:comment>
+        <rdfs:comment>The influence of genotype on drug response, for example by correlating gene expression or single-nucleotide polymorphisms with drug efficacy or toxicity.</rdfs:comment>
         <rdfs:label>Pharmacogenomics</rdfs:label>
     </owl:Class>
     
@@ -350,9 +338,9 @@
     <owl:Class rdf:about="http://edamontology.org/topic_0605">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
         <obo:IAO_0000115>The study and practice of information processing and use of computer information systems.</obo:IAO_0000115>
-		<rdfs:comment>The study and practice of information processing and use of computer information systems.</rdfs:comment>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-10T22:12:15Z</dc:date>
+        <rdfs:comment>The study and practice of information processing and use of computer information systems.</rdfs:comment>
         <rdfs:label>informatics</rdfs:label>
     </owl:Class>
     
@@ -363,7 +351,7 @@
     <owl:Class rdf:about="http://edamontology.org/topic_3071">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
         <obo:IAO_0000115>The development and use of architectures, policies, practices and procedures for management of data.</obo:IAO_0000115>
-		<rdfs:comment>The development and use of architectures, policies, practices and procedures for management of data.</rdfs:comment>
+        <rdfs:comment>The development and use of architectures, policies, practices and procedures for management of data.</rdfs:comment>
         <rdfs:label>Data management</rdfs:label>
     </owl:Class>
     
@@ -374,7 +362,7 @@
     <owl:Class rdf:about="http://edamontology.org/topic_3344">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>Topic concerning biological science that is (typically) performed in the context of medicine.</obo:IAO_0000115>
-		<rdfs:comment>Topic concerning biological science that is (typically) performed in the context of medicine.</rdfs:comment>
+        <rdfs:comment>Topic concerning biological science that is (typically) performed in the context of medicine.</rdfs:comment>
         <rdfs:label>Biomedical science</rdfs:label>
     </owl:Class>
     
@@ -385,7 +373,7 @@
     <owl:Class rdf:about="http://edamontology.org/topic_3394">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>The protection of public health by controlling the safety and efficacy of products in areas including pharmaceuticals, veterinary medicine, medical devices, pesticides, agrochemicals, cosmetics, and complementary medicines.</obo:IAO_0000115>
-		<rdfs:comment>The protection of public health by controlling the safety and efficacy of products in areas including pharmaceuticals, veterinary medicine, medical devices, pesticides, agrochemicals, cosmetics, and complementary medicines.</rdfs:comment>
+        <rdfs:comment>The protection of public health by controlling the safety and efficacy of products in areas including pharmaceuticals, veterinary medicine, medical devices, pesticides, agrochemicals, cosmetics, and complementary medicines.</rdfs:comment>
         <rdfs:label>Regulatory affairs</rdfs:label>
     </owl:Class>
     
@@ -396,7 +384,7 @@
     <owl:Class rdf:about="http://edamontology.org/topic_3572">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
         <obo:IAO_0000115>The quality, integrity, and cleaning up of data.</obo:IAO_0000115>
-		<rdfs:comment>The quality, integrity, and cleaning up of data.</rdfs:comment>
+        <rdfs:comment>The quality, integrity, and cleaning up of data.</rdfs:comment>
         <rdfs:label>Data quality management</rdfs:label>
     </owl:Class>
     
@@ -407,8 +395,8 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>The inevitable variety in customs, attitudes, practices, and behaviors that exists among groups of individuals from different ethnic, racial, or national backgrounds who come into contact within a social unit, organization, or population.</obo:IAO_0000115>
-		<rdfs:comment>The inevitable variety in customs, attitudes, practices, and behaviors that exists among groups of individuals from different ethnic, racial, or national backgrounds who come into contact within a social unit, organization, or population.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D018864</oboInOwl:hasDbXref>
+        <rdfs:comment>The inevitable variety in customs, attitudes, practices, and behaviors that exists among groups of individuals from different ethnic, racial, or national backgrounds who come into contact within a social unit, organization, or population.</rdfs:comment>
         <rdfs:label xml:lang="en">cultural diversity</rdfs:label>
     </owl:Class>
     
@@ -419,7 +407,7 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28232">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>In a clinical trial, a flaw in the study design or method of collecting or interpreting information. Biases can lead to incorrect conclusions about what the study or trial showed.</obo:IAO_0000115>
-		<rdfs:comment>In a clinical trial, a flaw in the study design or method of collecting or interpreting information. Biases can lead to incorrect conclusions about what the study or trial showed.</rdfs:comment>
+        <rdfs:comment>In a clinical trial, a flaw in the study design or method of collecting or interpreting information. Biases can lead to incorrect conclusions about what the study or trial showed.</rdfs:comment>
         <rdfs:label>Bias</rdfs:label>
     </owl:Class>
     
@@ -430,7 +418,7 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48805">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>A process that acts to control the rate or manner in which another process progresses or a product is formed.</obo:IAO_0000115>
-		<rdfs:comment>A process that acts to control the rate or manner in which another process progresses or a product is formed.</rdfs:comment>
+        <rdfs:comment>A process that acts to control the rate or manner in which another process progresses or a product is formed.</rdfs:comment>
         <rdfs:label>Regulatory Process</rdfs:label>
     </owl:Class>
     
@@ -441,7 +429,7 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C88081">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>A geopolitical organization responsible for regulating products used in health care.</obo:IAO_0000115>
-		<rdfs:comment>A geopolitical organization responsible for regulating products used in health care.</rdfs:comment>
+        <rdfs:comment>A geopolitical organization responsible for regulating products used in health care.</rdfs:comment>
         <rdfs:label>Regulatory Authority</rdfs:label>
     </owl:Class>
     
@@ -452,8 +440,8 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94236">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000008"/>
         <obo:IAO_0000115>An international set of guidelines that helps make sure that the results of a clinical trial are reliable and that the patients are protected. Good Clinical Practice covers the way a clinical trial is designed, conducted, performed, monitored, audited, recorded, analyzed, and reported.</obo:IAO_0000115>
-		<rdfs:comment>An international set of guidelines that helps make sure that the results of a clinical trial are reliable and that the patients are protected. Good Clinical Practice covers the way a clinical trial is designed, conducted, performed, monitored, audited, recorded, analyzed, and reported.</rdfs:comment>
         <oboInOwl:hasSynonym>GCP</oboInOwl:hasSynonym>
+        <rdfs:comment>An international set of guidelines that helps make sure that the results of a clinical trial are reliable and that the patients are protected. Good Clinical Practice covers the way a clinical trial is designed, conducted, performed, monitored, audited, recorded, analyzed, and reported.</rdfs:comment>
         <rdfs:label>Good Clinical Practice</rdfs:label>
     </owl:Class>
     
@@ -464,7 +452,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Bioethics">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>Discipline concerned with the ethical and social implications of biological research and medicine.</obo:IAO_0000115>
-		<rdfs:comment>Discipline concerned with the ethical and social implications of biological research and medicine.</rdfs:comment>
+        <rdfs:comment>Discipline concerned with the ethical and social implications of biological research and medicine.</rdfs:comment>
         <rdfs:label>Bioethics</rdfs:label>
     </owl:Class>
     
@@ -475,7 +463,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Career_Development">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000011"/>
         <obo:IAO_0000115>Formation of work identity or progression of career decisions and/or events as influenced by life or work experience, education, on-the-job training, or other factors.</obo:IAO_0000115>
-		<rdfs:comment>Formation of work identity or progression of career decisions and/or events as influenced by life or work experience, education, on-the-job training, or other factors.</rdfs:comment>
+        <rdfs:comment>Formation of work identity or progression of career decisions and/or events as influenced by life or work experience, education, on-the-job training, or other factors.</rdfs:comment>
         <rdfs:label>Career Development</rdfs:label>
     </owl:Class>
     
@@ -486,7 +474,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Conflict_Resolution">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>Process of reducing or removing antagonisms among individuals, groups, organizations, or political entities.</obo:IAO_0000115>
-		<rdfs:comment>Process of reducing or removing antagonisms among individuals, groups, organizations, or political entities.</rdfs:comment>
+        <rdfs:comment>Process of reducing or removing antagonisms among individuals, groups, organizations, or political entities.</rdfs:comment>
         <rdfs:label>Conflict Resolution</rdfs:label>
     </owl:Class>
     
@@ -497,7 +485,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Cultural_Sensitivity">
         <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887"/>
         <obo:IAO_0000115>Awareness and appreciation of the values, norms, and beliefs unique to a particular cultural, minority, ethnic, or racial group.</obo:IAO_0000115>
-		<rdfs:comment>Awareness and appreciation of the values, norms, and beliefs unique to a particular cultural, minority, ethnic, or racial group.</rdfs:comment>
+        <rdfs:comment>Awareness and appreciation of the values, norms, and beliefs unique to a particular cultural, minority, ethnic, or racial group.</rdfs:comment>
         <rdfs:label>Cultural Sensitivity</rdfs:label>
     </owl:Class>
     
@@ -508,7 +496,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Hypothesis_Testing">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>Application of statistical tests to determine whether a research hypothesis should be accepted or rejected.</obo:IAO_0000115>
-		<rdfs:comment>Application of statistical tests to determine whether a research hypothesis should be accepted or rejected.</rdfs:comment>
+        <rdfs:comment>Application of statistical tests to determine whether a research hypothesis should be accepted or rejected.</rdfs:comment>
         <rdfs:label>Hypothesis Testing</rdfs:label>
     </owl:Class>
     
@@ -519,8 +507,8 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Linear_Regression">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>Linear Regression</obo:IAO_0000115>
-		<rdfs:comment>Linear Regression</rdfs:comment>
-		<rdfs:label>Linear Regression</rdfs:label>
+        <rdfs:comment>Linear Regression</rdfs:comment>
+        <rdfs:label>Linear Regression</rdfs:label>
     </owl:Class>
     
 
@@ -530,7 +518,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Logistic_Regression">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>A type of regression analysis used to predict whether or not something will happen. Most often used when the dependent variable is dichotomous or categorical.</obo:IAO_0000115>
-		<rdfs:comment>A type of regression analysis used to predict whether or not something will happen. Most often used when the dependent variable is dichotomous or categorical.</rdfs:comment>
+        <rdfs:comment>A type of regression analysis used to predict whether or not something will happen. Most often used when the dependent variable is dichotomous or categorical.</rdfs:comment>
         <rdfs:label>Logistic Regression</rdfs:label>
     </owl:Class>
     
@@ -541,7 +529,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Medical_Therapeutic_Devices">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>Equipment designed for rehabilitation or treatment of abnormal or undesirable conditions.</obo:IAO_0000115>
-		<rdfs:comment>Equipment designed for rehabilitation or treatment of abnormal or undesirable conditions.</rdfs:comment>
+        <rdfs:comment>Equipment designed for rehabilitation or treatment of abnormal or undesirable conditions.</rdfs:comment>
         <rdfs:label>Medical Therapeutic Devices</rdfs:label>
     </owl:Class>
     
@@ -552,7 +540,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Pathophysiology">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>The physiology of the functional and biochemical disturbances of diseases.</obo:IAO_0000115>
-		<rdfs:comment>The physiology of the functional and biochemical disturbances of diseases.</rdfs:comment>
+        <rdfs:comment>The physiology of the functional and biochemical disturbances of diseases.</rdfs:comment>
         <rdfs:label>Pathophysiology</rdfs:label>
     </owl:Class>
     
@@ -563,7 +551,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Professional_Networking">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
         <obo:IAO_0000115>A linkage, association, or partnership of individuals or groups who collaborate to achieve professional goals or objectives.</obo:IAO_0000115>
-		<rdfs:comment>A linkage, association, or partnership of individuals or groups who collaborate to achieve professional goals or objectives.</rdfs:comment>
+        <rdfs:comment>A linkage, association, or partnership of individuals or groups who collaborate to achieve professional goals or objectives.</rdfs:comment>
         <rdfs:label>Professional Networking</rdfs:label>
     </owl:Class>
     
@@ -574,7 +562,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Scientific_Communication">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
         <obo:IAO_0000115>Formal or informal communication among professionals.</obo:IAO_0000115>
-		<rdfs:comment>Formal or informal communication among professionals.</rdfs:comment>
+        <rdfs:comment>Formal or informal communication among professionals.</rdfs:comment>
         <rdfs:label xml:lang="en">scientific communication</rdfs:label>
     </owl:Class>
     
@@ -585,7 +573,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Statistical_Tests">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>Specific mathematical techniques used to analyze data in order to assess the probability that a set of results could have occurred by chance and hence to test for the probable correctness of empirical hypotheses.</obo:IAO_0000115>
-		<rdfs:comment>Specific mathematical techniques used to analyze data in order to assess the probability that a set of results could have occurred by chance and hence to test for the probable correctness of empirical hypotheses.</rdfs:comment>
+        <rdfs:comment>Specific mathematical techniques used to analyze data in order to assess the probability that a set of results could have occurred by chance and hence to test for the probable correctness of empirical hypotheses.</rdfs:comment>
         <rdfs:label>Statistical Tests</rdfs:label>
     </owl:Class>
     
@@ -596,7 +584,7 @@
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Training">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000011"/>
         <obo:IAO_0000115>Instruction and practice focused on acquiring specific skills and knowledge.</obo:IAO_0000115>
-		<rdfs:comment>Instruction and practice focused on acquiring specific skills and knowledge.</rdfs:comment>
+        <rdfs:comment>Instruction and practice focused on acquiring specific skills and knowledge.</rdfs:comment>
         <rdfs:label>Training</rdfs:label>
     </owl:Class>
     
@@ -616,8 +604,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000068397">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>A work that reports on the results of a research study to evaluate interventions or exposures on biomedical or health-related outcomes. The two main types of clinical studies are interventional studies (clinical trials) and observational studies. While most clinical studies concern humans, this publication type may be used for clinical veterinary articles meeting the requisites for humans.</obo:IAO_0000115>
-		<rdfs:comment>A work that reports on the results of a research study to evaluate interventions or exposures on biomedical or health-related outcomes. The two main types of clinical studies are interventional studies (clinical trials) and observational studies. While most clinical studies concern humans, this publication type may be used for clinical veterinary articles meeting the requisites for humans.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D000068397</oboInOwl:hasDbXref>
+        <rdfs:comment>A work that reports on the results of a research study to evaluate interventions or exposures on biomedical or health-related outcomes. The two main types of clinical studies are interventional studies (clinical trials) and observational studies. While most clinical studies concern humans, this publication type may be used for clinical veterinary articles meeting the requisites for humans.</rdfs:comment>
         <rdfs:label>Clinical Study</rdfs:label>
     </owl:Class>
     
@@ -628,8 +616,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000068616">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000011"/>
         <obo:IAO_0000115>The level of skill, good judgment, and polite behavior expected from people trained to do their jobs well.</obo:IAO_0000115>
-		<rdfs:comment>The level of skill, good judgment, and polite behavior expected from people trained to do their jobs well.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D000068616</oboInOwl:hasDbXref>
+        <rdfs:comment>The level of skill, good judgment, and polite behavior expected from people trained to do their jobs well.</rdfs:comment>
         <rdfs:label>Professionalism</rdfs:label>
     </owl:Class>
     
@@ -640,8 +628,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000071252">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000011"/>
         <obo:IAO_0000115>The art and practice of training, guiding, COUNSELING, and providing support to a less experienced, trained, or knowledgeable person.</obo:IAO_0000115>
-		<rdfs:comment>The art and practice of training, guiding, COUNSELING, and providing support to a less experienced, trained, or knowledgeable person.</rdfs:comment>
         <oboInOwl:hasRelatedSynonym>Coaching</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>The art and practice of training, guiding, COUNSELING, and providing support to a less experienced, trained, or knowledgeable person.</rdfs:comment>
         <rdfs:label xml:lang="en">mentoring</rdfs:label>
     </owl:Class>
     
@@ -652,7 +640,7 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D001185">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
         <obo:IAO_0000115>Theory and development of COMPUTER SYSTEMS which perform tasks that normally require human intelligence. Such tasks may include speech recognition, LEARNING; VISUAL PERCEPTION; MATHEMATICAL COMPUTING; reasoning, PROBLEM SOLVING, DECISION-MAKING, and translation of language.</obo:IAO_0000115>
-		<rdfs:comment>Theory and development of COMPUTER SYSTEMS which perform tasks that normally require human intelligence. Such tasks may include speech recognition, LEARNING; VISUAL PERCEPTION; MATHEMATICAL COMPUTING; reasoning, PROBLEM SOLVING, DECISION-MAKING, and translation of language.</rdfs:comment>
+        <rdfs:comment>Theory and development of COMPUTER SYSTEMS which perform tasks that normally require human intelligence. Such tasks may include speech recognition, LEARNING; VISUAL PERCEPTION; MATHEMATICAL COMPUTING; reasoning, PROBLEM SOLVING, DECISION-MAKING, and translation of language.</rdfs:comment>
         <rdfs:label>Artificial Intelligence</rdfs:label>
     </owl:Class>
     
@@ -663,8 +651,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D003142">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
         <obo:IAO_0000115>The exchange or transmission of ideas, attitudes, or beliefs between individuals or groups.</obo:IAO_0000115>
-		<rdfs:comment>The exchange or transmission of ideas, attitudes, or beliefs between individuals or groups.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D003142</oboInOwl:hasDbXref>
+        <rdfs:comment>The exchange or transmission of ideas, attitudes, or beliefs between individuals or groups.</rdfs:comment>
         <rdfs:label>Communication</rdfs:label>
     </owl:Class>
     
@@ -675,8 +663,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D003625">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
         <obo:IAO_0000115>Systematic gathering of data for a particular purpose from various sources, including questionnaires, interviews, observation, existing records, and electronic devices. The process is usually preliminary to statistical analysis of the data.</obo:IAO_0000115>
-		<rdfs:comment>Systematic gathering of data for a particular purpose from various sources, including questionnaires, interviews, observation, existing records, and electronic devices. The process is usually preliminary to statistical analysis of the data.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D003625</oboInOwl:hasDbXref>
+        <rdfs:comment>Systematic gathering of data for a particular purpose from various sources, including questionnaires, interviews, observation, existing records, and electronic devices. The process is usually preliminary to statistical analysis of the data.</rdfs:comment>
         <rdfs:label>Data Collection</rdfs:label>
     </owl:Class>
     
@@ -687,8 +675,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D007258">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>Voluntary authorization, by a patient or research subject, with full comprehension of the risks involved, for diagnostic or investigative procedures, and for medical and surgical treatment.</obo:IAO_0000115>
-		<rdfs:comment>Voluntary authorization, by a patient or research subject, with full comprehension of the risks involved, for diagnostic or investigative procedures, and for medical and surgical treatment.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D007258</oboInOwl:hasDbXref>
+        <rdfs:comment>Voluntary authorization, by a patient or research subject, with full comprehension of the risks involved, for diagnostic or investigative procedures, and for medical and surgical treatment.</rdfs:comment>
         <rdfs:label>Informed Consent</rdfs:label>
     </owl:Class>
     
@@ -699,8 +687,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D007857">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000011"/>
         <obo:IAO_0000115>The function of directing or controlling the actions or attitudes of an individual or group with more or less willing acquiescence of the followers.</obo:IAO_0000115>
-		<rdfs:comment>The function of directing or controlling the actions or attitudes of an individual or group with more or less willing acquiescence of the followers.</rdfs:comment>
         <oboInOwl:hasSynonym>Influentials</oboInOwl:hasSynonym>
+        <rdfs:comment>The function of directing or controlling the actions or attitudes of an individual or group with more or less willing acquiescence of the followers.</rdfs:comment>
         <rdfs:label xml:lang="en">leadership</rdfs:label>
     </owl:Class>
     
@@ -711,8 +699,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D012106">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>Critical and exhaustive investigation or experimentation, having for its aim the discovery of new facts and their correct interpretation, the revision of accepted conclusions, theories, or laws in the light of newly discovered facts, or the practical application of such new or revised conclusions, theories, or laws. (Webster, 3d ed)</obo:IAO_0000115>
-		<rdfs:comment>Critical and exhaustive investigation or experimentation, having for its aim the discovery of new facts and their correct interpretation, the revision of accepted conclusions, theories, or laws in the light of newly discovered facts, or the practical application of such new or revised conclusions, theories, or laws. (Webster, 3d ed)</rdfs:comment>
         <oboInOwl:hasExactSynonym>Research Activity</oboInOwl:hasExactSynonym>
+        <rdfs:comment>Critical and exhaustive investigation or experimentation, having for its aim the discovery of new facts and their correct interpretation, the revision of accepted conclusions, theories, or laws in the light of newly discovered facts, or the practical application of such new or revised conclusions, theories, or laws. (Webster, 3d ed)</rdfs:comment>
         <rdfs:label xml:lang="en">research</rdfs:label>
     </owl:Class>
     
@@ -723,8 +711,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D012449">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000008"/>
         <obo:IAO_0000115>Freedom from exposure to danger and protection from the occurrence or risk of injury or loss. It suggests optimal precautions in the workplace, on the street, in the home, etc., and includes personal safety as well as the safety of property.</obo:IAO_0000115>
-		<rdfs:comment>Freedom from exposure to danger and protection from the occurrence or risk of injury or loss. It suggests optimal precautions in the workplace, on the street, in the home, etc., and includes personal safety as well as the safety of property.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D012449</oboInOwl:hasDbXref>
+        <rdfs:comment>Freedom from exposure to danger and protection from the occurrence or risk of injury or loss. It suggests optimal precautions in the workplace, on the street, in the home, etc., and includes personal safety as well as the safety of property.</rdfs:comment>
         <rdfs:label>Safety</rdfs:label>
     </owl:Class>
     
@@ -746,8 +734,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D016265">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000009"/>
         <obo:IAO_0000115>A situation in which an individual might benefit personally from official or professional actions. It includes a conflict between a person&apos;s private interests and official responsibilities in a position of trust. The term is not restricted to government officials. The concept refers both to actual conflict of interest and the appearance or perception of conflict.</obo:IAO_0000115>
-		<rdfs:comment>A situation in which an individual might benefit personally from official or professional actions. It includes a conflict between a person&apos;s private interests and official responsibilities in a position of trust. The term is not restricted to government officials. The concept refers both to actual conflict of interest and the appearance or perception of conflict.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D016265</oboInOwl:hasDbXref>
+        <rdfs:comment>A situation in which an individual might benefit personally from official or professional actions. It includes a conflict between a person&apos;s private interests and official responsibilities in a position of trust. The term is not restricted to government officials. The concept refers both to actual conflict of interest and the appearance or perception of conflict.</rdfs:comment>
         <rdfs:label>Conflict of Interest</rdfs:label>
     </owl:Class>
     
@@ -758,8 +746,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D016430">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>A work that reports on the results of a clinical study in which participants are assigned to receive one or more interventions so that researchers can evaluate the interventions on biomedical or health-related outcomes. The assignments are determined by the study protocol. Participants may receive diagnostic, therapeutic, or other types of interventions. While most clinical trials concern humans, this publication type may be used for clinical veterinary articles meeting the requisites for humans.</obo:IAO_0000115>
-		<rdfs:comment>A work that reports on the results of a clinical study in which participants are assigned to receive one or more interventions so that researchers can evaluate the interventions on biomedical or health-related outcomes. The assignments are determined by the study protocol. Participants may receive diagnostic, therapeutic, or other types of interventions. While most clinical trials concern humans, this publication type may be used for clinical veterinary articles meeting the requisites for humans.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D016430</oboInOwl:hasDbXref>
+        <rdfs:comment>A work that reports on the results of a clinical study in which participants are assigned to receive one or more interventions so that researchers can evaluate the interventions on biomedical or health-related outcomes. The assignments are determined by the study protocol. Participants may receive diagnostic, therapeutic, or other types of interventions. While most clinical trials concern humans, this publication type may be used for clinical veterinary articles meeting the requisites for humans.</rdfs:comment>
         <rdfs:label>Clinical Trial</rdfs:label>
     </owl:Class>
     
@@ -770,8 +758,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D017751">
         <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D012449"/>
         <obo:IAO_0000115>The development of systems to prevent accidents, injuries, and other adverse occurrences in an institutional setting. The concept includes prevention or reduction of adverse events or incidents involving employees, patients, or facilities. Examples include plans to reduce injuries from falls or plans for fire safety to promote a safe institutional environment.</obo:IAO_0000115>
-		<rdfs:comment>The development of systems to prevent accidents, injuries, and other adverse occurrences in an institutional setting. The concept includes prevention or reduction of adverse events or incidents involving employees, patients, or facilities. Examples include plans to reduce injuries from falls or plans for fire safety to promote a safe institutional environment.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D017751</oboInOwl:hasDbXref>
+        <rdfs:comment>The development of systems to prevent accidents, injuries, and other adverse occurrences in an institutional setting. The concept includes prevention or reduction of adverse events or incidents involving employees, patients, or facilities. Examples include plans to reduce injuries from falls or plans for fire safety to promote a safe institutional environment.</rdfs:comment>
         <rdfs:label>Safety Management</rdfs:label>
     </owl:Class>
     
@@ -782,8 +770,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D018907">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>The state of being free from intrusion or disturbance in one&apos;s private life or affairs. (Random House Unabridged Dictionary, 2d ed, 1993)</obo:IAO_0000115>
-		<rdfs:comment>The state of being free from intrusion or disturbance in one&apos;s private life or affairs. (Random House Unabridged Dictionary, 2d ed, 1993)</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D018907</oboInOwl:hasDbXref>
+        <rdfs:comment>The state of being free from intrusion or disturbance in one&apos;s private life or affairs. (Random House Unabridged Dictionary, 2d ed, 1993)</rdfs:comment>
         <rdfs:label>Privacy</rdfs:label>
     </owl:Class>
     
@@ -794,9 +782,9 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D020408">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>Public Law 104-91 enacted in 1996, was designed to improve the efficiency and effectiveness of the healthcare system, protect health insurance coverage for workers and their families, and to protect individual personal health information.</obo:IAO_0000115>
-		<rdfs:comment>Public Law 104-91 enacted in 1996, was designed to improve the efficiency and effectiveness of the healthcare system, protect health insurance coverage for workers and their families, and to protect individual personal health information.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D020408</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym>HIPAA</oboInOwl:hasSynonym>
+        <rdfs:comment>Public Law 104-91 enacted in 1996, was designed to improve the efficiency and effectiveness of the healthcare system, protect health insurance coverage for workers and their families, and to protect individual personal health information.</rdfs:comment>
         <rdfs:label>Health Insurance Portability and Accountability Act</rdfs:label>
     </owl:Class>
     
@@ -807,8 +795,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D023281">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>The systematic study of the complete DNA sequences (GENOME) of organisms.</obo:IAO_0000115>
-		<rdfs:comment>The systematic study of the complete DNA sequences (GENOME) of organisms.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D023281</oboInOwl:hasDbXref>
+        <rdfs:comment>The systematic study of the complete DNA sequences (GENOME) of organisms.</rdfs:comment>
         <rdfs:label>Genomics</rdfs:label>
     </owl:Class>
     
@@ -819,8 +807,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D032982">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000009"/>
         <obo:IAO_0000115>Agreements between two or more parties, especially those that are written and enforceable by law (American Heritage Dictionary of the English Language, 4th ed). It is sometimes used to characterize the nature of the professional-patient relationship.</obo:IAO_0000115>
-		<rdfs:comment>Agreements between two or more parties, especially those that are written and enforceable by law (American Heritage Dictionary of the English Language, 4th ed). It is sometimes used to characterize the nature of the professional-patient relationship.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D032982</oboInOwl:hasDbXref>
+        <rdfs:comment>Agreements between two or more parties, especially those that are written and enforceable by law (American Heritage Dictionary of the English Language, 4th ed). It is sometimes used to characterize the nature of the professional-patient relationship.</rdfs:comment>
         <rdfs:label>Contracts</rdfs:label>
     </owl:Class>
     
@@ -831,8 +819,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D033181">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
         <obo:IAO_0000115>The circulation or wide dispersal of information.</obo:IAO_0000115>
-		<rdfs:comment>The circulation or wide dispersal of information.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D033181</oboInOwl:hasDbXref>
+        <rdfs:comment>The circulation or wide dispersal of information.</rdfs:comment>
         <rdfs:label>Information Dissemination</rdfs:label>
     </owl:Class>
     
@@ -843,8 +831,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D035862">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>Groups of persons whose range of options is severely limited, who are frequently subjected to COERCION in their DECISION MAKING, or who may be compromised in their ability to give INFORMED CONSENT. Patient groups that may include those with special needs, homeless people, those with low income, or in remote communities and minority groups</obo:IAO_0000115>
-		<rdfs:comment>Groups of persons whose range of options is severely limited, who are frequently subjected to COERCION in their DECISION MAKING, or who may be compromised in their ability to give INFORMED CONSENT. Patient groups that may include those with special needs, homeless people, those with low income, or in remote communities and minority groups</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D035862</oboInOwl:hasDbXref>
+        <rdfs:comment>Groups of persons whose range of options is severely limited, who are frequently subjected to COERCION in their DECISION MAKING, or who may be compromised in their ability to give INFORMED CONSENT. Patient groups that may include those with special needs, homeless people, those with low income, or in remote communities and minority groups</rdfs:comment>
         <rdfs:label>Vulnerable Populations</rdfs:label>
     </owl:Class>
     
@@ -855,8 +843,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D040442">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
         <obo:IAO_0000115>The systematic application of information and computer sciences to public health practice, research, and learning.</obo:IAO_0000115>
-		<rdfs:comment>The systematic application of information and computer sciences to public health practice, research, and learning.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D040442</oboInOwl:hasDbXref>
+        <rdfs:comment>The systematic application of information and computer sciences to public health practice, research, and learning.</rdfs:comment>
         <rdfs:label>Public Health Informatics</rdfs:label>
     </owl:Class>
     
@@ -867,8 +855,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D054521">
         <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887"/>
         <obo:IAO_0000115>Cultural and linguistic competence is a set of congruent behaviors, attitudes, and policies that come together in a system, agency, or among professionals that enables effective work in cross-cultural situations. Competence implies the capacity to function effectively as an individual and an organization within the context of the cultural beliefs, behaviors, and needs presented by consumers and their communities.</obo:IAO_0000115>
-		<rdfs:comment>Cultural and linguistic competence is a set of congruent behaviors, attitudes, and policies that come together in a system, agency, or among professionals that enables effective work in cross-cultural situations. Competence implies the capacity to function effectively as an individual and an organization within the context of the cultural beliefs, behaviors, and needs presented by consumers and their communities.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D054521</oboInOwl:hasDbXref>
+        <rdfs:comment>Cultural and linguistic competence is a set of congruent behaviors, attitudes, and policies that come together in a system, agency, or among professionals that enables effective work in cross-cultural situations. Competence implies the capacity to function effectively as an individual and an organization within the context of the cultural beliefs, behaviors, and needs presented by consumers and their communities.</rdfs:comment>
         <rdfs:label>Cultural Competency</rdfs:label>
     </owl:Class>
     
@@ -879,8 +867,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D054869">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000008"/>
         <obo:IAO_0000115>A detailed review and evaluation of selected clinical records by qualified professional personnel to improve the quality of patient care and outcomes. The clinical audit was formally introduced in 1993 into the United Kingdom&apos;s National Health Service.</obo:IAO_0000115>
-		<rdfs:comment>A detailed review and evaluation of selected clinical records by qualified professional personnel to improve the quality of patient care and outcomes. The clinical audit was formally introduced in 1993 into the United Kingdom&apos;s National Health Service.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D054869</oboInOwl:hasDbXref>
+        <rdfs:comment>A detailed review and evaluation of selected clinical records by qualified professional personnel to improve the quality of patient care and outcomes. The clinical audit was formally introduced in 1993 into the United Kingdom&apos;s National Health Service.</rdfs:comment>
         <rdfs:label>Clinical Audit</rdfs:label>
     </owl:Class>
     
@@ -891,8 +879,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D055990">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>Misunderstanding among individuals, frequently research subjects, of scientific methods such as randomization and placebo controls. Underestimation of risk and overestimation of benefit by subjects participating in medical research.</obo:IAO_0000115>
-		<rdfs:comment>Misunderstanding among individuals, frequently research subjects, of scientific methods such as randomization and placebo controls. Underestimation of risk and overestimation of benefit by subjects participating in medical research.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D055990</oboInOwl:hasDbXref>
+        <rdfs:comment>Misunderstanding among individuals, frequently research subjects, of scientific methods such as randomization and placebo controls. Underestimation of risk and overestimation of benefit by subjects participating in medical research.</rdfs:comment>
         <rdfs:label>Therapeutic Misconception</rdfs:label>
     </owl:Class>
     
@@ -903,8 +891,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D056808">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>The application of STATISTICS to biological systems and organisms involving the retrieval or collection, analysis, reduction, and interpretation of qualitative and quantitative data.</obo:IAO_0000115>
-		<rdfs:comment>The application of STATISTICS to biological systems and organisms involving the retrieval or collection, analysis, reduction, and interpretation of qualitative and quantitative data.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D056808</oboInOwl:hasDbXref>
+        <rdfs:comment>The application of STATISTICS to biological systems and organisms involving the retrieval or collection, analysis, reduction, and interpretation of qualitative and quantitative data.</rdfs:comment>
         <rdfs:label>Biostatistics</rdfs:label>
     </owl:Class>
     
@@ -915,8 +903,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D057170">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>The application of discoveries generated by laboratory research and preclinical studies to the development of clinical trials and studies in humans. A second area of translational research concerns enhancing the adoption of best practices.</obo:IAO_0000115>
-		<rdfs:comment>The application of discoveries generated by laboratory research and preclinical studies to the development of clinical trials and studies in humans. A second area of translational research concerns enhancing the adoption of best practices.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D057170</oboInOwl:hasDbXref>
+        <rdfs:comment>The application of discoveries generated by laboratory research and preclinical studies to the development of clinical trials and studies in humans. A second area of translational research concerns enhancing the adoption of best practices.</rdfs:comment>
         <rdfs:label>Translational Medical Research</rdfs:label>
     </owl:Class>
     
@@ -927,8 +915,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D057212">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>Expectation of real uncertainty on the part of the investigator regarding the comparative therapeutic merits of each arm in a trial.</obo:IAO_0000115>
-		<rdfs:comment>Expectation of real uncertainty on the part of the investigator regarding the comparative therapeutic merits of each arm in a trial.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D057212</oboInOwl:hasDbXref>
+        <rdfs:comment>Expectation of real uncertainty on the part of the investigator regarding the comparative therapeutic merits of each arm in a trial.</rdfs:comment>
         <rdfs:label>Therapeutic Equipoise</rdfs:label>
     </owl:Class>
     
@@ -939,8 +927,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D058996">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>The attainment or process of attaining a new level of performance or quality.</obo:IAO_0000115>
-		<rdfs:comment>The attainment or process of attaining a new level of performance or quality.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D058996</oboInOwl:hasDbXref>
+        <rdfs:comment>The attainment or process of attaining a new level of performance or quality.</rdfs:comment>
         <rdfs:label>Quality Improvement</rdfs:label>
     </owl:Class>
     
@@ -951,8 +939,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D059039">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>The minimum acceptable patient care, based on statutes, court decisions, policies, or professional guidelines.</obo:IAO_0000115>
-		<rdfs:comment>The minimum acceptable patient care, based on statutes, court decisions, policies, or professional guidelines.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D059039</oboInOwl:hasDbXref>
+        <rdfs:comment>The minimum acceptable patient care, based on statutes, court decisions, policies, or professional guidelines.</rdfs:comment>
         <rdfs:label>Standard of Care</rdfs:label>
     </owl:Class>
     
@@ -963,8 +951,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D060735">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000008"/>
         <obo:IAO_0000115>The detection of long and short term side effects of conventional and traditional medicines through research, data mining, monitoring, and evaluation of healthcare information obtained from healthcare providers and patients.</obo:IAO_0000115>
-		<rdfs:comment>The detection of long and short term side effects of conventional and traditional medicines through research, data mining, monitoring, and evaluation of healthcare information obtained from healthcare providers and patients.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:D060735</oboInOwl:hasDbXref>
+        <rdfs:comment>The detection of long and short term side effects of conventional and traditional medicines through research, data mining, monitoring, and evaluation of healthcare information obtained from healthcare providers and patients.</rdfs:comment>
         <rdfs:label>Pharmacovigilance</rdfs:label>
     </owl:Class>
     
@@ -975,8 +963,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/Q000235">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>Used for mechanisms of heredity and the genetics of organisms, for the genetic basis of normal and pathologic states, and for the genetic aspects of endogenous chemicals. It includes biochemical and molecular influence on genetic material.</obo:IAO_0000115>
-		<rdfs:comment>Used for mechanisms of heredity and the genetics of organisms, for the genetic basis of normal and pathologic states, and for the genetic aspects of endogenous chemicals. It includes biochemical and molecular influence on genetic material.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:Q000235</oboInOwl:hasDbXref>
+        <rdfs:comment>Used for mechanisms of heredity and the genetics of organisms, for the genetic basis of normal and pathologic states, and for the genetic aspects of endogenous chemicals. It includes biochemical and molecular influence on genetic material.</rdfs:comment>
         <rdfs:label>genetics</rdfs:label>
     </owl:Class>
     
@@ -987,8 +975,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/Q000494">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>Used with drugs and exogenously administered chemical substances for their effects on living tissues and organisms. It includes acceleration and inhibition of physiological and biochemical processes and other pharmacologic mechanisms of action.</obo:IAO_0000115>
-		<rdfs:comment>Used with drugs and exogenously administered chemical substances for their effects on living tissues and organisms. It includes acceleration and inhibition of physiological and biochemical processes and other pharmacologic mechanisms of action.</rdfs:comment>
         <oboInOwl:hasDbXref>MESH:Q000494</oboInOwl:hasDbXref>
+        <rdfs:comment>Used with drugs and exogenously administered chemical substances for their effects on living tissues and organisms. It includes acceleration and inhibition of physiological and biochemical processes and other pharmacologic mechanisms of action.</rdfs:comment>
         <rdfs:label>pharmacology</rdfs:label>
     </owl:Class>
     
@@ -999,7 +987,7 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/NDFRT/N0000189392">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>Complex pharmaceutical substances, preparations, or matter derived from organisms usually obtained by biological methods or assay.</obo:IAO_0000115>
-		<rdfs:comment>Complex pharmaceutical substances, preparations, or matter derived from organisms usually obtained by biological methods or assay.</rdfs:comment>
+        <rdfs:comment>Complex pharmaceutical substances, preparations, or matter derived from organisms usually obtained by biological methods or assay.</rdfs:comment>
         <rdfs:label>Biological Products [Chemical/Ingredient]</rdfs:label>
     </owl:Class>
     
@@ -1010,7 +998,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000347">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>A planned process used to influence one or more factors in a research study, and the independent variable in an interventional study wherein the influence is measured or evaluated.</obo:IAO_0000115>
-		<rdfs:comment>A planned process used to influence one or more factors in a research study, and the independent variable in an interventional study wherein the influence is measured or evaluated.</rdfs:comment>
+        <rdfs:comment>A planned process used to influence one or more factors in a research study, and the independent variable in an interventional study wherein the influence is measured or evaluated.</rdfs:comment>
         <rdfs:label>intervention</rdfs:label>
     </owl:Class>
     
@@ -1021,7 +1009,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000714">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>A clinical trial technique used to recruit human subjects for clinical trials and to protect their privacy.</obo:IAO_0000115>
-		<rdfs:comment>A clinical trial technique used to recruit human subjects for clinical trials and to protect their privacy.</rdfs:comment>
+        <rdfs:comment>A clinical trial technique used to recruit human subjects for clinical trials and to protect their privacy.</rdfs:comment>
         <rdfs:label>human subject recruitment and protection</rdfs:label>
     </owl:Class>
     
@@ -1032,7 +1020,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000721">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
         <obo:IAO_0000115>A data transformation technique that involves transcribing some form of data into another form, usually a computer program.</obo:IAO_0000115>
-		<rdfs:comment>A data transformation technique that involves transcribing some form of data into another form, usually a computer program.</rdfs:comment>
+        <rdfs:comment>A data transformation technique that involves transcribing some form of data into another form, usually a computer program.</rdfs:comment>
         <rdfs:label>data entry</rdfs:label>
     </owl:Class>
     
@@ -1043,7 +1031,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001309">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
         <obo:IAO_0000115>A data transformation technique used to analyze and interpret data to gain a better understanding of it.</obo:IAO_0000115>
-		<rdfs:comment>A data transformation technique used to analyze and interpret data to gain a better understanding of it.</rdfs:comment>
+        <rdfs:comment>A data transformation technique used to analyze and interpret data to gain a better understanding of it.</rdfs:comment>
         <rdfs:label>data analysis</rdfs:label>
     </owl:Class>
     
@@ -1062,8 +1050,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000079">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>A specially constituted independent review body comprised of medical, scientific and non-scientific members established and designated by an entity to ensure the protection of the rights, safety and well-being of human subjects recruited to participate in biomedical or behavioral research according to the requirements outlined in Title 38, part 16 (same as Title 45, part 46 and Title 21, part 56) of the U.S. Code of Federal Regulations. IRB responsibility include but not limited to the reviewing, approving, and providing continuing review of trial protocol and amendments and of the methods and material(s) to be used in obtaining and documenting informed consent of the trial. Other equivalent committees with the same or similar functions are also considered to be IRBs.</obo:IAO_0000115>
-		<rdfs:comment>A specially constituted independent review body comprised of medical, scientific and non-scientific members established and designated by an entity to ensure the protection of the rights, safety and well-being of human subjects recruited to participate in biomedical or behavioral research according to the requirements outlined in Title 38, part 16 (same as Title 45, part 46 and Title 21, part 56) of the U.S. Code of Federal Regulations. IRB responsibility include but not limited to the reviewing, approving, and providing continuing review of trial protocol and amendments and of the methods and material(s) to be used in obtaining and documenting informed consent of the trial. Other equivalent committees with the same or similar functions are also considered to be IRBs.</rdfs:comment>
         <oboInOwl:hasSynonym>IRB</oboInOwl:hasSynonym>
+        <rdfs:comment>A specially constituted independent review body comprised of medical, scientific and non-scientific members established and designated by an entity to ensure the protection of the rights, safety and well-being of human subjects recruited to participate in biomedical or behavioral research according to the requirements outlined in Title 38, part 16 (same as Title 45, part 46 and Title 21, part 56) of the U.S. Code of Federal Regulations. IRB responsibility include but not limited to the reviewing, approving, and providing continuing review of trial protocol and amendments and of the methods and material(s) to be used in obtaining and documenting informed consent of the trial. Other equivalent committees with the same or similar functions are also considered to be IRBs.</rdfs:comment>
         <rdfs:label>Institutional Review Board</rdfs:label>
     </owl:Class>
     
@@ -1074,7 +1062,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>the null hypothesis is true but has been rejected; a test result that indicates a given condition has been fulfilled, when it actually has not been fulfilled</obo:IAO_0000115>
-		<rdfs:comment>the null hypothesis is true but has been rejected; a test result that indicates a given condition has been fulfilled, when it actually has not been fulfilled</rdfs:comment>
+        <rdfs:comment>the null hypothesis is true but has been rejected; a test result that indicates a given condition has been fulfilled, when it actually has not been fulfilled</rdfs:comment>
         <rdfs:label>type I error</rdfs:label>
     </owl:Class>
     
@@ -1085,7 +1073,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000101">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>the null hypothesis is false but has been accepted; a test result indicates that a condition failed, while it actually was successful.</obo:IAO_0000115>
-		<rdfs:comment>the null hypothesis is false but has been accepted; a test result indicates that a condition failed, while it actually was successful.</rdfs:comment>
+        <rdfs:comment>the null hypothesis is false but has been accepted; a test result indicates that a condition failed, while it actually was successful.</rdfs:comment>
         <rdfs:label>type II error</rdfs:label>
     </owl:Class>
     
@@ -1096,7 +1084,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001636">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000009"/>
         <obo:IAO_0000115>A plan specification of organization A to give money to organization B so that B conducts investigations. Organization A has funder role and Organization B has research organization role.</obo:IAO_0000115>
-		<rdfs:comment>A plan specification of organization A to give money to organization B so that B conducts investigations. Organization A has funder role and Organization B has research organization role.</rdfs:comment>
+        <rdfs:comment>A plan specification of organization A to give money to organization B so that B conducts investigations. Organization A has funder role and Organization B has research organization role.</rdfs:comment>
         <rdfs:label>grant</rdfs:label>
     </owl:Class>
     
@@ -1107,7 +1095,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200201">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>ANOVA or analysis of variance is a data transformation in which a statistical test of whether the means of several groups are all equal.</obo:IAO_0000115>
-		<rdfs:comment>ANOVA or analysis of variance is a data transformation in which a statistical test of whether the means of several groups are all equal.</rdfs:comment>
+        <rdfs:comment>ANOVA or analysis of variance is a data transformation in which a statistical test of whether the means of several groups are all equal.</rdfs:comment>
         <rdfs:label>ANOVA</rdfs:label>
     </owl:Class>
     
@@ -1118,7 +1106,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0500002">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001426"/>
         <obo:IAO_0000115>a study design which use the same individuals and exposure them to a set of conditions. The effect of order and practice can be confounding factor in such designs</obo:IAO_0000115>
-		<rdfs:comment>a study design which use the same individuals and exposure them to a set of conditions. The effect of order and practice can be confounding factor in such designs</rdfs:comment>
+        <rdfs:comment>a study design which use the same individuals and exposure them to a set of conditions. The effect of order and practice can be confounding factor in such designs</rdfs:comment>
         <rdfs:label>repeated measure design</rdfs:label>
     </owl:Class>
     
@@ -1136,8 +1124,8 @@
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000002">
         <obo:IAO_0000115>The knowledge, skills, and attitudes necessary for conducting safe, ethical, and high-quality clinical research.</obo:IAO_0000115>
-		<rdfs:comment>The knowledge, skills, and attitudes necessary for conducting safe, ethical, and high-quality clinical research.</rdfs:comment>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
+        <rdfs:comment>The knowledge, skills, and attitudes necessary for conducting safe, ethical, and high-quality clinical research.</rdfs:comment>
         <rdfs:label xml:lang="en">clinical research competency domain</rdfs:label>
     </owl:Class>
     
@@ -1157,8 +1145,8 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses knowledge of scientific concepts related to the design and analysis of clinical trials.</obo:IAO_0000115>
-		<rdfs:comment>Encompasses knowledge of scientific concepts related to the design and analysis of clinical trials.</rdfs:comment>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
+        <rdfs:comment>Encompasses knowledge of scientific concepts related to the design and analysis of clinical trials.</rdfs:comment>
         <rdfs:label xml:lang="en">scientific concepts and research design</rdfs:label>
     </owl:Class>
     
@@ -1169,8 +1157,8 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses care of patients, aspects of human subject protection, and safety in the conduct of a clinical trial.</obo:IAO_0000115>
-		<rdfs:comment>Encompasses care of patients, aspects of human subject protection, and safety in the conduct of a clinical trial.</rdfs:comment>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
+        <rdfs:comment>Encompasses care of patients, aspects of human subject protection, and safety in the conduct of a clinical trial.</rdfs:comment>
         <rdfs:label xml:lang="en">ethical and participant saftety considerations</rdfs:label>
     </owl:Class>
     
@@ -1181,8 +1169,8 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses knowledge of how investigational products are developed and regulated.</obo:IAO_0000115>
-		<rdfs:comment>Encompasses knowledge of how investigational products are developed and regulated.</rdfs:comment>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
+        <rdfs:comment>Encompasses knowledge of how investigational products are developed and regulated.</rdfs:comment>
         <rdfs:label xml:lang="en">investigational products development and regulation</rdfs:label>
     </owl:Class>
     
@@ -1193,8 +1181,8 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses study management and GCP compliance; safety management (adverse event identification and reporting, post-market surveillance, and pharmacovigilance), and handling of investigational product.</obo:IAO_0000115>
-		<rdfs:comment>Encompasses study management and GCP compliance; safety management (adverse event identification and reporting, post-market surveillance, and pharmacovigilance), and handling of investigational product.</rdfs:comment>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
+        <rdfs:comment>Encompasses study management and GCP compliance; safety management (adverse event identification and reporting, post-market surveillance, and pharmacovigilance), and handling of investigational product.</rdfs:comment>
         <rdfs:label xml:lang="en">clinical study operations</rdfs:label>
     </owl:Class>
     
@@ -1205,8 +1193,8 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses content required at the site level to run a study (financial and personnel aspects). Includes site and study operations (not encompassing regulatory/GCPs).</obo:IAO_0000115>
-		<rdfs:comment>Encompasses content required at the site level to run a study (financial and personnel aspects). Includes site and study operations (not encompassing regulatory/GCPs).</rdfs:comment>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
+        <rdfs:comment>Encompasses content required at the site level to run a study (financial and personnel aspects). Includes site and study operations (not encompassing regulatory/GCPs).</rdfs:comment>
         <rdfs:label xml:lang="en">study and site management</rdfs:label>
     </owl:Class>
     
@@ -1217,8 +1205,8 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses how data are acquired and managed during a clinical trial, including source data, data entry, queries, quality control, and correction and the concept of a locked database.</obo:IAO_0000115>
-		<rdfs:comment>Encompasses how data are acquired and managed during a clinical trial, including source data, data entry, queries, quality control, and correction and the concept of a locked database.</rdfs:comment>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
+        <rdfs:comment>Encompasses how data are acquired and managed during a clinical trial, including source data, data entry, queries, quality control, and correction and the concept of a locked database.</rdfs:comment>
         <rdfs:label xml:lang="en">data management and informatics</rdfs:label>
     </owl:Class>
     
@@ -1229,8 +1217,8 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses the principles and practice of leadership and professionalism in clinical research.</obo:IAO_0000115>
-		<rdfs:comment>Encompasses the principles and practice of leadership and professionalism in clinical research.</rdfs:comment>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
+        <rdfs:comment>Encompasses the principles and practice of leadership and professionalism in clinical research.</rdfs:comment>
         <rdfs:label xml:lang="en">leadership and professionalism</rdfs:label>
     </owl:Class>
     
@@ -1241,8 +1229,8 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses all elements of communication within the site and between the site and sponsor, CRO, and regulators. Understanding of teamwork skills necessary for conducting a clinical trial.</obo:IAO_0000115>
-		<rdfs:comment>Encompasses all elements of communication within the site and between the site and sponsor, CRO, and regulators. Understanding of teamwork skills necessary for conducting a clinical trial.</rdfs:comment>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
+        <rdfs:comment>Encompasses all elements of communication within the site and between the site and sponsor, CRO, and regulators. Understanding of teamwork skills necessary for conducting a clinical trial.</rdfs:comment>
         <rdfs:label xml:lang="en">communication and teamwork</rdfs:label>
     </owl:Class>
     
@@ -1324,8 +1312,8 @@
 
     <owl:Class rdf:about="http://schema.org/Audience">
         <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <obo:IAO_0000115>Intended audience for an item, i.e. the group for whom the item was created.</obo:IAO_0000115>
         <rdfs:comment>Intended audience for an item, i.e. the group for whom the item was created.</rdfs:comment>
-		<obo:IAO_0000115>Intended audience for an item, i.e. the group for whom the item was created.</obo:IAO_0000115>
         <rdfs:label>Audience</rdfs:label>
     </owl:Class>
     
@@ -1335,8 +1323,8 @@
 
     <owl:Class rdf:about="http://schema.org/Course">
         <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <obo:IAO_0000115>A description of an educational course which may be offered as distinct instances at which take place at different times or take place at different locations, or be offered through different media or modes of study. An educational course is a sequence of one or more educational events and/or creative works which aims to build knowledge, competence or ability of learners.</obo:IAO_0000115>
         <rdfs:comment>A description of an educational course which may be offered as distinct instances at which take place at different times or take place at different locations, or be offered through different media or modes of study. An educational course is a sequence of one or more educational events and/or creative works which aims to build knowledge, competence or ability of learners.</rdfs:comment>
-		<obo:IAO_0000115>A description of an educational course which may be offered as distinct instances at which take place at different times or take place at different locations, or be offered through different media or modes of study. An educational course is a sequence of one or more educational events and/or creative works which aims to build knowledge, competence or ability of learners.</obo:IAO_0000115>
         <rdfs:label>Course</rdfs:label>
     </owl:Class>
     
@@ -1345,8 +1333,8 @@
     <!-- http://schema.org/CreativeWork -->
 
     <owl:Class rdf:about="http://schema.org/CreativeWork">
+        <obo:IAO_0000115>The most generic kind of creative work, including books, movies, photographs, software programs, etc.</obo:IAO_0000115>
         <rdfs:comment>The most generic kind of creative work, including books, movies, photographs, software programs, etc.</rdfs:comment>
-		<obo:IAO_0000115>The most generic kind of creative work, including books, movies, photographs, software programs, etc.</obo:IAO_0000115>
         <rdfs:label>CreativeWork</rdfs:label>
     </owl:Class>
     
@@ -1356,8 +1344,8 @@
 
     <owl:Class rdf:about="http://schema.org/Duration">
         <rdfs:subClassOf rdf:resource="http://schema.org/Quantity"/>
+        <obo:IAO_0000115>Quantity: Duration</obo:IAO_0000115>
         <rdfs:comment>Quantity: Duration</rdfs:comment>
-		<obo:IAO_0000115>Quantity: Duration</obo:IAO_0000115>
         <rdfs:label>Duration</rdfs:label>
     </owl:Class>
     
@@ -1366,8 +1354,8 @@
     <!-- http://schema.org/Intangible -->
 
     <owl:Class rdf:about="http://schema.org/Intangible">
+        <obo:IAO_0000115>A utility class that serves as the umbrella for a number of &apos;intangible&apos; things such as quantities, structured values, etc.</obo:IAO_0000115>
         <rdfs:comment>A utility class that serves as the umbrella for a number of &apos;intangible&apos; things such as quantities, structured values, etc.</rdfs:comment>
-		<obo:IAO_0000115>A utility class that serves as the umbrella for a number of &apos;intangible&apos; things such as quantities, structured values, etc.</obo:IAO_0000115>
         <rdfs:label>Intangible</rdfs:label>
     </owl:Class>
     
@@ -1377,8 +1365,8 @@
 
     <owl:Class rdf:about="http://schema.org/Movie">
         <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <obo:IAO_0000115>A movie.</obo:IAO_0000115>
         <rdfs:comment>A movie.</rdfs:comment>
-		<obo:IAO_0000115>A movie.</obo:IAO_0000115>
         <rdfs:label>Movie</rdfs:label>
     </owl:Class>
     
@@ -1388,8 +1376,8 @@
 
     <owl:Class rdf:about="http://schema.org/Quantity">
         <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <obo:IAO_0000115>Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are entities like &apos;3 Kg&apos; or &apos;4 milligrams&apos;.</obo:IAO_0000115>
         <rdfs:comment>Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are entities like &apos;3 Kg&apos; or &apos;4 milligrams&apos;.</rdfs:comment>
-		<obo:IAO_0000115>Quantities such as distance, time, mass, weight, etc. Particular instances of say Mass are entities like &apos;3 Kg&apos; or &apos;4 milligrams&apos;.</obo:IAO_0000115>
         <rdfs:label>Quantity</rdfs:label>
     </owl:Class>
     
@@ -1400,7 +1388,6 @@
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#College">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <obo:IAO_0000115>A primary academic unit within a University or a free-standing higher education organization without graduate degree programs.</obo:IAO_0000115>
-		<rdfs:comment>A primary academic unit within a University or a free-standing higher education organization without graduate degree programs.</rdfs:comment>
         <rdfs:comment>A primary academic unit within a University or a free-standing higher education organization without graduate degree programs.</rdfs:comment>
         <rdfs:label>College</rdfs:label>
     </owl:Class>
@@ -1412,7 +1399,7 @@
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#ConferencePoster">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
         <obo:IAO_0000115>The digital file (or physical equivalent), if available after the conference, vs. the act of attending/presenting: use ConferencePresentation for information about date/time/location/name of the event where the poster was presented</obo:IAO_0000115>
-		<rdfs:comment>The digital file (or physical equivalent), if available after the conference, vs. the act of attending/presenting: use ConferencePresentation for information about date/time/location/name of the event where the poster was presented</rdfs:comment>
+        <rdfs:comment>The digital file (or physical equivalent), if available after the conference, vs. the act of attending/presenting: use ConferencePresentation for information about date/time/location/name of the event where the poster was presented</rdfs:comment>
         <rdfs:label>Conference Poster</rdfs:label>
     </owl:Class>
     
@@ -1423,7 +1410,7 @@
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#Course">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
         <obo:IAO_0000115>A course as taught in one time period by one or more instructors, normally but not always for credit. Does not represent either each meeting of the course or the course offering such as Biology 101 taught every semester from 1980 to 2010.</obo:IAO_0000115>
-		<rdfs:comment>A course as taught in one time period by one or more instructors, normally but not always for credit. Does not represent either each meeting of the course or the course offering such as Biology 101 taught every semester from 1980 to 2010.</rdfs:comment>
+        <rdfs:comment>A course as taught in one time period by one or more instructors, normally but not always for credit. Does not represent either each meeting of the course or the course offering such as Biology 101 taught every semester from 1980 to 2010.</rdfs:comment>
         <rdfs:label xml:lang="en">course</rdfs:label>
     </owl:Class>
     
@@ -1434,7 +1421,6 @@
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#GovernmentAgency">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <obo:IAO_0000115>A unit of government responsible for oversight and regulation of certain activities or the administration and provision of specific services.</obo:IAO_0000115>
-		<rdfs:comment>A unit of government responsible for oversight and regulation of certain activities or the administration and provision of specific services.</rdfs:comment>
         <rdfs:comment>A unit of government responsible for oversight and regulation of certain activities or the administration and provision of specific services.</rdfs:comment>
         <rdfs:label>Government Agency</rdfs:label>
     </owl:Class>
@@ -1446,7 +1432,6 @@
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#University">
         <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
         <obo:IAO_0000115>An institution of higher education and research, which grants academic degrees in a variety of subjects, and provides both undergraduate education and postgraduate education.</obo:IAO_0000115>
-		<rdfs:comment>An institution of higher education and research, which grants academic degrees in a variety of subjects, and provides both undergraduate education and postgraduate education.</rdfs:comment>
         <rdfs:comment>An institution of higher education and research, which grants academic degrees in a variety of subjects, and provides both undergraduate education and postgraduate education.</rdfs:comment>
         <rdfs:label>University</rdfs:label>
     </owl:Class>
@@ -1458,8 +1443,8 @@
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#Video">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000001"/>
         <obo:IAO_0000115>Audiovisual recording in video format.</obo:IAO_0000115>
-		<rdfs:comment>Audiovisual recording in video format.</rdfs:comment>
         <oboInOwl:hasDbXref>ERO:0000333</oboInOwl:hasDbXref>
+        <rdfs:comment>Audiovisual recording in video format.</rdfs:comment>
         <rdfs:label xml:lang="en">video</rdfs:label>
     </owl:Class>
     
@@ -1470,7 +1455,7 @@
     <owl:Class rdf:about="http://www.CareLex.org/2012/carelex.owl#Safety_Reporting">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>Documents describing safety reporting, monitoring and notification for a clinical trial.</obo:IAO_0000115>
-		<rdfs:comment>Documents describing safety reporting, monitoring and notification for a clinical trial.</rdfs:comment>
+        <rdfs:comment>Documents describing safety reporting, monitoring and notification for a clinical trial.</rdfs:comment>
         <rdfs:label>Safety Reporting</rdfs:label>
     </owl:Class>
     
@@ -1481,7 +1466,7 @@
     <owl:Class rdf:about="http://www.CareLex.org/2012/carelex.owl#Site_Management">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000009"/>
         <obo:IAO_0000115>Documentation related to sites selected for the trial.</obo:IAO_0000115>
-		<rdfs:comment>Documentation related to sites selected for the trial.</rdfs:comment>
+        <rdfs:comment>Documentation related to sites selected for the trial.</rdfs:comment>
         <rdfs:label>Site Management</rdfs:label>
     </owl:Class>
     
@@ -1492,7 +1477,7 @@
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Adaptive_design">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001426"/>
         <obo:IAO_0000115>Adaptive design combines prospective development of a gene expression-based classifier to select sensitive patients with a properly powered test for overall effect.</obo:IAO_0000115>
-		<rdfs:comment>Adaptive design combines prospective development of a gene expression-based classifier to select sensitive patients with a properly powered test for overall effect.</rdfs:comment>
+        <rdfs:comment>Adaptive design combines prospective development of a gene expression-based classifier to select sensitive patients with a properly powered test for overall effect.</rdfs:comment>
         <rdfs:label>Adaptive design</rdfs:label>
     </owl:Class>
     
@@ -1512,9 +1497,9 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001426">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>A study type is an experimental factor describing the method of investigating type is an experimental factor describing the method of investigating particular types of research questions or solving particular types of problems, for example, a set of protocols (which may specify how and what kinds of data will be gathered).</obo:IAO_0000115>
-		<rdfs:comment>A study type is an experimental factor describing the method of investigating type is an experimental factor describing the method of investigating particular types of research questions or solving particular types of problems, for example, a set of protocols (which may specify how and what kinds of data will be gathered).</rdfs:comment>
         <oboInOwl:hasDbXref>NCIt:C15320</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonym>experimental design</oboInOwl:hasSynonym>
+        <rdfs:comment>A study type is an experimental factor describing the method of investigating type is an experimental factor describing the method of investigating particular types of research questions or solving particular types of problems, for example, a set of protocols (which may specify how and what kinds of data will be gathered).</rdfs:comment>
         <rdfs:label xml:lang="en">study design</rdfs:label>
     </owl:Class>
     
@@ -1525,7 +1510,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Confidence_interval">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>A measure of the uncertainty around the main finding of a statistical analysis- Estimates of unknown quantities such as the odds ratio comparing an experimental intervention with a control, are usually presented as a point estimate and a 95% confidence interval. this means that if someone were to keep repeating a study in other samples from the same population, 95% of the confidence intervals from those studies would contain the true value of the unknown quantity.</obo:IAO_0000115>
-		<rdfs:comment>A measure of the uncertainty around the main finding of a statistical analysis- Estimates of unknown quantities such as the odds ratio comparing an experimental intervention with a control, are usually presented as a point estimate and a 95% confidence interval. this means that if someone were to keep repeating a study in other samples from the same population, 95% of the confidence intervals from those studies would contain the true value of the unknown quantity.</rdfs:comment>
+        <rdfs:comment>A measure of the uncertainty around the main finding of a statistical analysis- Estimates of unknown quantities such as the odds ratio comparing an experimental intervention with a control, are usually presented as a point estimate and a 95% confidence interval. this means that if someone were to keep repeating a study in other samples from the same population, 95% of the confidence intervals from those studies would contain the true value of the unknown quantity.</rdfs:comment>
         <rdfs:label>Confidence interval</rdfs:label>
     </owl:Class>
     
@@ -1536,7 +1521,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ontologies/2012/0/Ontology1325521724189.owl#Funding">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000009"/>
         <obo:IAO_0000115>Fiscal support for research from industry, government, or non-commercial. non-governmental organizations. EXAMPLE(S): Funding from pharmaceutical, device or biotechnology companies, the US NIH or the Gates Foundation.</obo:IAO_0000115>
-		<rdfs:comment>Fiscal support for research from industry, government, or non-commercial. non-governmental organizations. EXAMPLE(S): Funding from pharmaceutical, device or biotechnology companies, the US NIH or the Gates Foundation.</rdfs:comment>
+        <rdfs:comment>Fiscal support for research from industry, government, or non-commercial. non-governmental organizations. EXAMPLE(S): Funding from pharmaceutical, device or biotechnology companies, the US NIH or the Gates Foundation.</rdfs:comment>
         <rdfs:label>Funding</rdfs:label>
     </owl:Class>
     

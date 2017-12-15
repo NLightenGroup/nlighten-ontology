@@ -459,10 +459,6 @@
         <app:preferredLabel>has audience</app:preferredLabel>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://schema.org/audienceType">
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
-        <app:preferredLabel>audience type</app:preferredLabel>
-    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/contributor">
         <app:preferredLabel>has contributor</app:preferredLabel>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
