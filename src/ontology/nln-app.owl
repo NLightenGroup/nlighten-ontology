@@ -182,18 +182,18 @@
         <app:preferredLabel>Biologics</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
-        <app:preferredLabel>Is Part Of</app:preferredLabel>
+        <app:preferredLabel>Part Of</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:preferredDefinition>The relationship between a part and its whole.</app:preferredDefinition>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/CreativeWork</app:domainConstraint>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
         <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/CreativeWork</app:rangeConstraint>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
         <app:preferredLabel>Has Part</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/CreativeWork</app:rangeConstraint>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/CreativeWork</app:domainConstraint>
         <app:preferredDefinition>The relationship between a whole and its part.</app:preferredDefinition>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000054">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
@@ -370,14 +370,14 @@
         <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:rangeConstraint>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:domainConstraint>
         <app:preferredLabel>Member Of</app:preferredLabel>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:preferredDefinition>The relationship between a Person or Organization and the Organization it is a member of.</app:preferredDefinition>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Person</app:domainConstraint>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0002351">
         <app:preferredDefinition>The relationship between an Organization and one of its members, which may be a Person or other Organization.</app:preferredDefinition>
         <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:rangeConstraint>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Organization</app:domainConstraint>
         <app:preferredLabel>Has Member</app:preferredLabel>
         <app:rangeConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Person</app:rangeConstraint>
@@ -442,8 +442,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000023">
         <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
-        <app:preferredLabel>Training Level</app:preferredLabel>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
+        <app:preferredLabel>Level</app:preferredLabel>
         <app:preferredDefinition>The level of skill or knowledge imparted by an Educational Resource.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000030">
@@ -473,30 +473,30 @@
         <app:preferredLabel>Video</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/audience">
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
-        <app:preferredLabel>Intended Audience</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
         <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
+        <app:preferredLabel>Intended Audience</app:preferredLabel>
         <app:preferredDefinition>An intended audience, i.e. a group for whom something was created.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/contributor">
         <app:preferredLabel>Contributor</app:preferredLabel>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
         <app:preferredDefinition>A secondary contributor to the Educational Resource.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/copyrightHolder">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
         <app:preferredLabel>Copyright Holder</app:preferredLabel>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
         <app:preferredDefinition>The party holding the legal copyright to the Educational Resource.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/creator">
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
         <app:preferredDefinition>The creator of this Educational Resource.</app:preferredDefinition>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:preferredLabel>Created By</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/dateCreated">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:preferredLabel>Date Created</app:preferredLabel>
         <app:preferredDefinition>The date on which an Educational Resource was created.</app:preferredDefinition>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/description">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
@@ -506,11 +506,11 @@
     <rdf:Description rdf:about="http://schema.org/duration">
         <app:preferredDefinition>The duration of a video in ISO 8601 date format.</app:preferredDefinition>
         <app:preferredLabel>Video Duration</app:preferredLabel>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/email">
         <app:preferredLabel>Email</app:preferredLabel>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
         <app:preferredDefinition>Email address.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/familyName">
@@ -535,8 +535,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/license">
         <app:preferredLabel>License</app:preferredLabel>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty	"/>
         <app:preferredDefinition>A license document that applies to this content, typically indicated by URL.</app:preferredDefinition>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/provider">
         <app:preferredLabel>Provider</app:preferredLabel>
@@ -547,18 +547,18 @@
         <app:preferredDefinition>The relationship between an Educational Resource and the Organization that provides it.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/telephone">
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
         <app:preferredDefinition>A telephone number.</app:preferredDefinition>
         <app:preferredLabel>Telephone</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/timeRequired">
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
         <app:preferredDefinition>Approximate or typical time it takes to work with or through this learning resource for the typical intended target audience, e.g. &apos;P30M&apos;, &apos;P1H25M&apos;.</app:preferredDefinition>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
         <app:preferredLabel>Time Required</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/url">
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://schema.org/CreativeWork</app:domainConstraint>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
         <app:preferredLabel>Web Address</app:preferredLabel>
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Agent</app:domainConstraint>
         <app:preferredDefinition>Web address of the item.</app:preferredDefinition>
@@ -573,7 +573,8 @@
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#orcidId">
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
+        <app:preferredLabel>ORCiD</app:preferredLabel>
         <app:preferredDefinition>A persistent digital identifier that distinguishes researchers from each other that is intended to support automatic linkage between researchers and their professional activities.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Adaptive_design">
