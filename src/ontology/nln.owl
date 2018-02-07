@@ -1479,6 +1479,17 @@
     
 
 
+    <!-- http://vivoweb.org/ontology/core#Company -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Company">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115>A legally-recognized business organization.</obo:IAO_0000115>
+        <rdfs:comment>A legally-recognized business organization.</rdfs:comment>
+        <rdfs:label>Company</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://vivoweb.org/ontology/core#ConferencePoster -->
 
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#ConferencePoster">
@@ -1497,6 +1508,17 @@
         <obo:IAO_0000115>A unit of government responsible for oversight and regulation of certain activities or the administration and provision of specific services.</obo:IAO_0000115>
         <rdfs:comment>A unit of government responsible for oversight and regulation of certain activities or the administration and provision of specific services.</rdfs:comment>
         <rdfs:label>Government Agency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#PrivateCompany -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#PrivateCompany">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Company"/>
+        <obo:IAO_0000115>A private company is one that is privately-owned, and thus, is not publicly-traded in the stock market. Members of the general public cannot purchase stock in a private company unless that company chooses to go public and become a public company.</obo:IAO_0000115>
+        <rdfs:comment>A private company is one that is privately-owned, and thus, is not publicly-traded in the stock market. Members of the general public cannot purchase stock in a private company unless that company chooses to go public and become a public company.</rdfs:comment>
+        <rdfs:label>Private Company</rdfs:label>
     </owl:Class>
     
 

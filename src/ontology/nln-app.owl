@@ -474,8 +474,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/audience">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
-        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
         <app:preferredLabel>Intended Audience</app:preferredLabel>
+        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
         <app:preferredDefinition>An intended audience, i.e. a group for whom something was created.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/contributor">
@@ -534,8 +534,8 @@
         <app:preferredLabel>Title</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/license">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty%20"/>
         <app:preferredLabel>License</app:preferredLabel>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty	"/>
         <app:preferredDefinition>A license document that applies to this content, typically indicated by URL.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/provider">
@@ -566,7 +566,13 @@
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#College">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Company">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#GovernmentAgency">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#PrivateCompany">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#University">
