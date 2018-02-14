@@ -580,7 +580,7 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94236">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000008"/>
         <obo:IAO_0000115>An international set of guidelines that helps make sure that the results of a clinical trial are reliable and that the patients are protected. Good Clinical Practice covers the way a clinical trial is designed, conducted, performed, monitored, audited, recorded, analyzed, and reported.</obo:IAO_0000115>
-        <oboInOwl:hasSynonym>GCP</oboInOwl:hasSynonym>
+        <obo:IAO_0000118>GCP</obo:IAO_0000118>
         <rdfs:comment>An international set of guidelines that helps make sure that the results of a clinical trial are reliable and that the patients are protected. Good Clinical Practice covers the way a clinical trial is designed, conducted, performed, monitored, audited, recorded, analyzed, and reported.</rdfs:comment>
         <rdfs:label>Good Clinical Practice</rdfs:label>
     </owl:Class>
@@ -829,7 +829,7 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D007857">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000011"/>
         <obo:IAO_0000115>The function of directing or controlling the actions or attitudes of an individual or group with more or less willing acquiescence of the followers.</obo:IAO_0000115>
-        <oboInOwl:hasSynonym>Influentials</oboInOwl:hasSynonym>
+        <obo:IAO_0000118>Influentials</obo:IAO_0000118>
         <rdfs:comment>The function of directing or controlling the actions or attitudes of an individual or group with more or less willing acquiescence of the followers.</rdfs:comment>
         <rdfs:label xml:lang="en">leadership</rdfs:label>
     </owl:Class>
@@ -924,8 +924,8 @@
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D020408">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>Public Law 104-91 enacted in 1996, was designed to improve the efficiency and effectiveness of the healthcare system, protect health insurance coverage for workers and their families, and to protect individual personal health information.</obo:IAO_0000115>
+        <obo:IAO_0000118>HIPAA</obo:IAO_0000118>
         <oboInOwl:hasDbXref>MESH:D020408</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym>HIPAA</oboInOwl:hasSynonym>
         <rdfs:comment>Public Law 104-91 enacted in 1996, was designed to improve the efficiency and effectiveness of the healthcare system, protect health insurance coverage for workers and their families, and to protect individual personal health information.</rdfs:comment>
         <rdfs:label>Health Insurance Portability and Accountability Act</rdfs:label>
     </owl:Class>
@@ -1192,7 +1192,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ICO_0000079">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>A specially constituted independent review body comprised of medical, scientific and non-scientific members established and designated by an entity to ensure the protection of the rights, safety and well-being of human subjects recruited to participate in biomedical or behavioral research according to the requirements outlined in Title 38, part 16 (same as Title 45, part 46 and Title 21, part 56) of the U.S. Code of Federal Regulations. IRB responsibility include but not limited to the reviewing, approving, and providing continuing review of trial protocol and amendments and of the methods and material(s) to be used in obtaining and documenting informed consent of the trial. Other equivalent committees with the same or similar functions are also considered to be IRBs.</obo:IAO_0000115>
-        <oboInOwl:hasSynonym>IRB</oboInOwl:hasSynonym>
+        <obo:IAO_0000118>IRB</obo:IAO_0000118>
         <rdfs:comment>A specially constituted independent review body comprised of medical, scientific and non-scientific members established and designated by an entity to ensure the protection of the rights, safety and well-being of human subjects recruited to participate in biomedical or behavioral research according to the requirements outlined in Title 38, part 16 (same as Title 45, part 46 and Title 21, part 56) of the U.S. Code of Federal Regulations. IRB responsibility include but not limited to the reviewing, approving, and providing continuing review of trial protocol and amendments and of the methods and material(s) to be used in obtaining and documenting informed consent of the trial. Other equivalent committees with the same or similar functions are also considered to be IRBs.</rdfs:comment>
         <rdfs:label>Institutional Review Board</rdfs:label>
     </owl:Class>
@@ -1581,8 +1581,8 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001426">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>A study type is an experimental factor describing the method of investigating type is an experimental factor describing the method of investigating particular types of research questions or solving particular types of problems, for example, a set of protocols (which may specify how and what kinds of data will be gathered).</obo:IAO_0000115>
+        <obo:IAO_0000118>experimental design</obo:IAO_0000118>
         <oboInOwl:hasDbXref>NCIt:C15320</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonym>experimental design</oboInOwl:hasSynonym>
         <rdfs:comment>A study type is an experimental factor describing the method of investigating type is an experimental factor describing the method of investigating particular types of research questions or solving particular types of problems, for example, a set of protocols (which may specify how and what kinds of data will be gathered).</rdfs:comment>
         <rdfs:label xml:lang="en">study design</rdfs:label>
     </owl:Class>
