@@ -459,8 +459,8 @@
         <app:preferredLabel>Intermediate</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/Audience">
-        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_SearchFlatten"/>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_InstanceCreate"/>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_Global"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/CreativeWork">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_PrimaryResourceType"/>
