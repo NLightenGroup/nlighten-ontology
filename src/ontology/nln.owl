@@ -1644,6 +1644,28 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://vivoweb.org/ontology/core#AcademicDepartment -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#AcademicDepartment">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Department"/>
+        <obo:IAO_0000115>A distinct, usually specialized educational unit within an educational organization.</obo:IAO_0000115>
+        <rdfs:comment>A distinct, usually specialized educational unit within an educational organization.</rdfs:comment>
+        <rdfs:label>Academic Department</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#ClinicalOrganization -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#ClinicalOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115>Any organization with a significant clinical function as a matter of course and not just through occasional clinical roles</obo:IAO_0000115>
+        <rdfs:comment>Any organization with a significant clinical function as a matter of course and not just through occasional clinical roles</rdfs:comment>
+        <rdfs:label>Clinical Organization</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://vivoweb.org/ontology/core#College -->
 
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#College">
@@ -1677,6 +1699,17 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://vivoweb.org/ontology/core#Department -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Department">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115>A unit within a larger organization that addresses a specific subject or area of activity.</obo:IAO_0000115>
+        <rdfs:comment>A unit within a larger organization that addresses a specific subject or area of activity.</rdfs:comment>
+        <rdfs:label>Department</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://vivoweb.org/ontology/core#GovernmentAgency -->
 
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#GovernmentAgency">
@@ -1688,6 +1721,28 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://vivoweb.org/ontology/core#Hospital -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Hospital">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115>An institution that provides medical, surgical, or psychiatric care and treatment for the sick or the injured.</obo:IAO_0000115>
+        <rdfs:comment>An institution that provides medical, surgical, or psychiatric care and treatment for the sick or the injured.</rdfs:comment>
+        <rdfs:label>Hospital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Institute -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Institute">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115>An Institute normally has a research focus but may also fulfill instructional or outreach roles.</obo:IAO_0000115>
+        <rdfs:comment>An Institute normally has a research focus but may also fulfill instructional or outreach roles.</rdfs:comment>
+        <rdfs:label>Institute</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://vivoweb.org/ontology/core#PrivateCompany -->
 
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#PrivateCompany">
@@ -1695,6 +1750,39 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
         <obo:IAO_0000115>A private company is one that is privately-owned, and thus, is not publicly-traded in the stock market. Members of the general public cannot purchase stock in a private company unless that company chooses to go public and become a public company.</obo:IAO_0000115>
         <rdfs:comment>A private company is one that is privately-owned, and thus, is not publicly-traded in the stock market. Members of the general public cannot purchase stock in a private company unless that company chooses to go public and become a public company.</rdfs:comment>
         <rdfs:label>Private Company</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Program -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Program">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115>An ongoing academic initiative not formalized with department or division status.</obo:IAO_0000115>
+        <rdfs:comment>An ongoing academic initiative not formalized with department or division status.</rdfs:comment>
+        <rdfs:label>Program</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#ResearchOrganization -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#ResearchOrganization">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115>Any organization (likely also asserted as another class of Organization) with a primary, ongoing research function, not just through occasional roles</obo:IAO_0000115>
+        <rdfs:comment>Any organization (likely also asserted as another class of Organization) with a primary, ongoing research function, not just through occasional roles</rdfs:comment>
+        <rdfs:label>Research Organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#School -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#School">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <obo:IAO_0000115>An institution for instruction in a particular skill or field.</obo:IAO_0000115>
+        <rdfs:comment>An institution for instruction in a particular skill or field.</rdfs:comment>
+        <rdfs:label>School</rdfs:label>
     </owl:Class>
     
 

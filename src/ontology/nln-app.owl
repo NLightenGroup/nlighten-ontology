@@ -557,7 +557,6 @@
     <rdf:Description rdf:about="http://schema.org/keywords">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:preferredLabel>Keywords</app:preferredLabel>
-        <app:preferredDefinition>Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/license">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
@@ -589,16 +588,40 @@
         <app:domainConstraint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://xmlns.com/foaf/0.1/Agent</app:domainConstraint>
         <app:preferredDefinition>Web address of the item.</app:preferredDefinition>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#AcademicDepartment">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#ClinicalOrganization">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#College">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Company">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Department">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#GovernmentAgency">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Hospital">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Institute">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#PrivateCompany">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Program">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#ResearchOrganization">
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#School">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#University">
