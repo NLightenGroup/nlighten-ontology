@@ -1457,7 +1457,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
         <obo:IAO_0000115>Encompasses care of patients, aspects of human subject protection, and safety in the conduct of a clinical trial.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>Encompasses care of patients, aspects of human subject protection, and safety in the conduct of a clinical trial.</rdfs:comment>
-        <rdfs:label xml:lang="en">ethical and participant saftety considerations</rdfs:label>
+        <rdfs:label xml:lang="en">ethical and participant safety considerations</rdfs:label>
     </owl:Class>
     
 
