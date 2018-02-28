@@ -370,6 +370,16 @@
     
 
 
+    <!-- http://schema.org/keywords -->
+
+    <owl:DatatypeProperty rdf:about="http://schema.org/keywords">
+        <obo:IAO_0000115>Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas.</obo:IAO_0000115>
+        <rdfs:comment>Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas.</rdfs:comment>
+        <rdfs:label>keywords</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://schema.org/license -->
 
     <owl:DatatypeProperty rdf:about="http://schema.org/license">
@@ -443,7 +453,7 @@
     <!-- http://bioontology.org/ontologies/Activity.owl#Medical_Device_Development -->
 
     <owl:Class rdf:about="http://bioontology.org/ontologies/Activity.owl#Medical_Device_Development">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18741"/>
         <obo:IAO_0000115>As defined in http://en.wikipedia.org/wiki/Medical_device</obo:IAO_0000115>
         <rdfs:comment>As defined in http://en.wikipedia.org/wiki/Medical_device</rdfs:comment>
         <rdfs:label>Medical Device Development</rdfs:label>
@@ -497,6 +507,17 @@
     
 
 
+    <!-- http://edamontology.org/topic_3295 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3295">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/Q000235"/>
+        <obo:IAO_0000115>Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence.</obo:IAO_0000115>
+        <rdfs:comment>Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence.</rdfs:comment>
+        <rdfs:label>Epigenetics</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://edamontology.org/topic_3344 -->
 
     <owl:Class rdf:about="http://edamontology.org/topic_3344">
@@ -504,6 +525,17 @@
         <obo:IAO_0000115>Topic concerning biological science that is (typically) performed in the context of medicine.</obo:IAO_0000115>
         <rdfs:comment>Topic concerning biological science that is (typically) performed in the context of medicine.</rdfs:comment>
         <rdfs:label>Biomedical science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3360 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3360">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>Objective indicators of biological state often used to assess health, and determinate treatment.</obo:IAO_0000115>
+        <rdfs:comment>Objective indicators of biological state often used to assess health, and determinate treatment.</rdfs:comment>
+        <rdfs:label>Biomarkers</rdfs:label>
     </owl:Class>
     
 
@@ -530,14 +562,48 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C112278 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C112278">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>The class of medical device as determined by the US Food and Drug Administration, based upon the level of control necessary to ensure safety and effectiveness (21 CFR 860).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C112278</oboInOwl:hasDbXref>
+        <rdfs:comment>The class of medical device as determined by the US Food and Drug Administration, based upon the level of control necessary to ensure safety and effectiveness (21 CFR 860).</rdfs:comment>
+        <rdfs:label>FDA Device Classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15238 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15238">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>Application of genetic material (usually DNA) into cells in order to permanently correct an inherited disease or acquired disease.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C15238</oboInOwl:hasDbXref>
+        <rdfs:comment>Application of genetic material (usually DNA) into cells in order to permanently correct an inherited disease or acquired disease.</rdfs:comment>
+        <rdfs:label>Gene Therapy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>The inevitable variety in customs, attitudes, practices, and behaviors that exists among groups of individuals from different ethnic, racial, or national backgrounds who come into contact within a social unit, organization, or population.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>MESH:D018864</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C17887</oboInOwl:hasDbXref>
         <rdfs:comment>The inevitable variety in customs, attitudes, practices, and behaviors that exists among groups of individuals from different ethnic, racial, or national backgrounds who come into contact within a social unit, organization, or population.</rdfs:comment>
         <rdfs:label xml:lang="en">cultural diversity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18741 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18741">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <oboInOwl:hasDbXref>NCIT:C18741</oboInOwl:hasDbXref>
+        <rdfs:label>Device or Instrument Development</rdfs:label>
     </owl:Class>
     
 
@@ -547,8 +613,21 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28232">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>In a clinical trial, a flaw in the study design or method of collecting or interpreting information. Biases can lead to incorrect conclusions about what the study or trial showed.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C28232</oboInOwl:hasDbXref>
         <rdfs:comment>In a clinical trial, a flaw in the study design or method of collecting or interpreting information. Biases can lead to incorrect conclusions about what the study or trial showed.</rdfs:comment>
         <rdfs:label>Bias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41203 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41203">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>Any display of a written, printed, or graphic matter upon the immediate container of any substance or device to identify something and to indicate the nature, ownership, contents and other characteristic particulars of the object. FDA and the Supreme Court have stated that label is to be interpreted liberally, and includes not only that which accompanies an article but also that which spiritually accompanies an article as well as supplements. Drug label must include: trademark and category of product, description of product chemical and physical characteristics, clinical pharmacology, pharmacokinetics, data on absorption, distribution, metabolism and excretion, special populations, clinical studies, efficacy and safety data, indications, contraindications, adverse events warnings and precautions including lab tests; potential drug interactions, carcinogens statement, pregnancy category.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C41203</oboInOwl:hasDbXref>
+        <rdfs:comment>Any display of a written, printed, or graphic matter upon the immediate container of any substance or device to identify something and to indicate the nature, ownership, contents and other characteristic particulars of the object. FDA and the Supreme Court have stated that label is to be interpreted liberally, and includes not only that which accompanies an article but also that which spiritually accompanies an article as well as supplements. Drug label must include: trademark and category of product, description of product chemical and physical characteristics, clinical pharmacology, pharmacokinetics, data on absorption, distribution, metabolism and excretion, special populations, clinical studies, efficacy and safety data, indications, contraindications, adverse events warnings and precautions including lab tests; potential drug interactions, carcinogens statement, pregnancy category.</rdfs:comment>
+        <rdfs:label>Medical Product Label</rdfs:label>
     </owl:Class>
     
 
@@ -558,8 +637,56 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48805">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>A process that acts to control the rate or manner in which another process progresses or a product is formed.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C48805</oboInOwl:hasDbXref>
         <rdfs:comment>A process that acts to control the rate or manner in which another process progresses or a product is formed.</rdfs:comment>
         <rdfs:label>Regulatory Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70880 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70880">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>Stability data submitted for a PMA application.
+
+An application to FDA for a license to market a new device in the United states.</obo:IAO_0000115>
+        <obo:IAO_0000118>pre-Market approval application (PMA)</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>NCIT:C70880</oboInOwl:hasDbXref>
+        <rdfs:comment>Stability data submitted for a PMA application.
+
+An application to FDA for a license to market a new device in the United states.</rdfs:comment>
+        <rdfs:label>Premarket Approval Application</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80442 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80442">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>A premarket submission made to FDA to demonstrate that a device to be marketed is at least as safe and effective as a legally marketed device that is not subject to PMA (Premarket Authorization).</obo:IAO_0000115>
+        <obo:IAO_0000118>510k</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>NCIT:C80442</oboInOwl:hasDbXref>
+        <rdfs:comment>A premarket submission made to FDA to demonstrate that a device to be marketed is at least as safe and effective as a legally marketed device that is not subject to PMA (Premarket Authorization).</rdfs:comment>
+        <rdfs:label>Premarket Device Notification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84342 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C84342">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>The application of genomic and molecular data to tailor medical care to individuals.
+
+A form of medicine that uses information about a person&apos;s genes, proteins, and environment to prevent, diagnose, and treat disease.</obo:IAO_0000115>
+        <obo:IAO_0000118>Personalized Therapeutics</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>NCIT:C84342</oboInOwl:hasDbXref>
+        <rdfs:comment>The application of genomic and molecular data to tailor medical care to individuals.
+
+A form of medicine that uses information about a person&apos;s genes, proteins, and environment to prevent, diagnose, and treat disease.</rdfs:comment>
+        <rdfs:label>Personalized Medicine</rdfs:label>
     </owl:Class>
     
 
@@ -569,6 +696,7 @@
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C88081">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>A geopolitical organization responsible for regulating products used in health care.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C88081</oboInOwl:hasDbXref>
         <rdfs:comment>A geopolitical organization responsible for regulating products used in health care.</rdfs:comment>
         <rdfs:label>Regulatory Authority</rdfs:label>
     </owl:Class>
@@ -581,6 +709,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000008"/>
         <obo:IAO_0000115>An international set of guidelines that helps make sure that the results of a clinical trial are reliable and that the patients are protected. Good Clinical Practice covers the way a clinical trial is designed, conducted, performed, monitored, audited, recorded, analyzed, and reported.</obo:IAO_0000115>
         <obo:IAO_0000118>GCP</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>NCIT:C94236</oboInOwl:hasDbXref>
         <rdfs:comment>An international set of guidelines that helps make sure that the results of a clinical trial are reliable and that the patients are protected. Good Clinical Practice covers the way a clinical trial is designed, conducted, performed, monitored, audited, recorded, analyzed, and reported.</rdfs:comment>
         <rdfs:label>Good Clinical Practice</rdfs:label>
     </owl:Class>
@@ -730,6 +859,17 @@
     
 
 
+    <!-- http://purl.bioontology.org/ontology/CSP/0944-4477 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/0944-4477">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>factors that affect the probability or predisposition of an individual to the development of a disease(s) or disorder(s).</obo:IAO_0000115>
+        <rdfs:comment>factors that affect the probability or predisposition of an individual to the development of a disease(s) or disorder(s).</rdfs:comment>
+        <rdfs:label>disease/disorder proneness/risk</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/MEDDRA/10060933 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MEDDRA/10060933">
@@ -761,6 +901,17 @@
         <oboInOwl:hasDbXref>MESH:D000068616</oboInOwl:hasDbXref>
         <rdfs:comment>The level of skill, good judgment, and polite behavior expected from people trained to do their jobs well.</rdfs:comment>
         <rdfs:label>Professionalism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D000068936 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000068936">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>An integrated nano-scale approach to MEDICINE which involves concurrent diagnosis, drug delivery, therapy, and monitoring of therapeutic response.</obo:IAO_0000115>
+        <rdfs:comment>An integrated nano-scale approach to MEDICINE which involves concurrent diagnosis, drug delivery, therapy, and monitoring of therapeutic response.</rdfs:comment>
+        <rdfs:label>Theranostic Nanomedicine</rdfs:label>
     </owl:Class>
     
 
@@ -808,6 +959,18 @@
         <oboInOwl:hasDbXref>MESH:D003625</oboInOwl:hasDbXref>
         <rdfs:comment>Systematic gathering of data for a particular purpose from various sources, including questionnaires, interviews, observation, existing records, and electronic devices. The process is usually preliminary to statistical analysis of the data.</rdfs:comment>
         <rdfs:label>Data Collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D004348 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004348">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>Use of written, printed, or graphic materials upon or accompanying a drug container or wrapper. It includes contents, indications, effects, dosages, routes, methods, frequency and duration of administration, warnings, hazards, contraindications, side effects, precautions, and other relevant information.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D004348</oboInOwl:hasDbXref>
+        <rdfs:comment>Use of written, printed, or graphic materials upon or accompanying a drug container or wrapper. It includes contents, indications, effects, dosages, routes, methods, frequency and duration of administration, warnings, hazards, contraindications, side effects, precautions, and other relevant information.</rdfs:comment>
+        <rdfs:label>Drug Labeling</rdfs:label>
     </owl:Class>
     
 
@@ -864,8 +1027,9 @@
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D015507">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
-        <oboInOwl:hasDbXref>Drugs which have received FDA approval for human testing but have yet to be approved for commercial marketing. This includes drugs used for treatment while they still are undergoing clinical trials (Treatment IND). The main heading includes drugs under investigation in foreign countries.</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Drugs which have received FDA approval for human testing but have yet to be approved for commercial marketing. This includes drugs used for treatment while they still are undergoing clinical trials (Treatment IND). The main heading includes drugs under investigation in foreign countries.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MESH:D015507</oboInOwl:hasDbXref>
+        <rdfs:comment>Drugs which have received FDA approval for human testing but have yet to be approved for commercial marketing. This includes drugs used for treatment while they still are undergoing clinical trials (Treatment IND). The main heading includes drugs under investigation in foreign countries.</rdfs:comment>
         <rdfs:label>Drugs, Investigational</rdfs:label>
     </owl:Class>
     
@@ -1411,6 +1575,18 @@
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000004"/>
         <rdfs:label xml:lang="en">intermediate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000034 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>A companion diagnostic is a medical device, often an in vitro device, which provides information that is essential for the safe and effective use of a corresponding drug or biological product. The test helps a health care professional determine whether a particular therapeutic product’s benefits to patients will outweigh any potential serious side effects or risks.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/InVitroDiagnostics/ucm407297.htm</obo:IAO_0000119>
+        <rdfs:comment>A companion diagnostic is a medical device, often an in vitro device, which provides information that is essential for the safe and effective use of a corresponding drug or biological product. The test helps a health care professional determine whether a particular therapeutic product’s benefits to patients will outweigh any potential serious side effects or risks.</rdfs:comment>
+        <rdfs:label xml:lang="en">Companion Diagnostics</rdfs:label>
     </owl:Class>
     
 

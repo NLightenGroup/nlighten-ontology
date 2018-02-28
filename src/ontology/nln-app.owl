@@ -151,14 +151,35 @@
     <rdf:Description rdf:about="http://edamontology.org/topic_3572">
         <app:preferredLabel>Data Quality Management</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C112278">
+        <app:preferredLabel>Device Classification</app:preferredLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887">
         <app:preferredLabel>Cultural Diversity</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18741">
+        <app:preferredLabel>Device Development</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C41203">
+        <app:preferredLabel>Device Labeling</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70880">
+        <app:preferredLabel>PMA</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C80442">
+        <app:preferredLabel>510k</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Scientific_Communication">
         <app:preferredLabel>Scientific Communication</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/CSP/0944-4477">
+        <app:preferredLabel>Disease Risk</app:preferredLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MEDDRA/10060933">
         <app:preferredLabel>Adverse Event</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D000068936">
+        <app:preferredLabel>Theranostic</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D000071252">
         <app:preferredLabel>Mentoring</app:preferredLabel>
@@ -533,8 +554,13 @@
         <app:preferredDefinition>A person&apos;s job title.</app:preferredDefinition>
         <app:preferredLabel>Title</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://schema.org/keywords">
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+        <app:preferredLabel>Keywords</app:preferredLabel>
+        <app:preferredDefinition>Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas.</app:preferredDefinition>
+    </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/license">
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty%20"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
         <app:preferredLabel>License</app:preferredLabel>
         <app:preferredDefinition>A license document that applies to this content, typically indicated by URL.</app:preferredDefinition>
     </rdf:Description>
