@@ -537,8 +537,8 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/contributor">
         <app:preferredLabel>Contributor</app:preferredLabel>
-        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
         <app:preferredDefinition>A secondary contributor to the Educational Resource.</app:preferredDefinition>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/copyrightHolder">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_TertiaryProperty"/>
@@ -546,14 +546,14 @@
         <app:preferredDefinition>The party holding the legal copyright to the Educational Resource.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/creator">
-        <app:preferredDefinition>The creator of this Educational Resource.</app:preferredDefinition>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
+        <app:preferredDefinition>The creator of this Educational Resource.</app:preferredDefinition>
         <app:preferredLabel>Created By</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/dateCreated">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SecondaryProperty"/>
         <app:preferredLabel>Date Created</app:preferredLabel>
-        <app:preferredDefinition>The date on which an Educational Resource was created.</app:preferredDefinition>
+        <app:preferredDefinition>The date on which an Educational Resource was created, in the ISO 8601 formats supported by xsd:dateTime.  See https://www.w3.org/TR/xmlschema-2/#dateTime and https://www.w3.org/TR/xmlschema-2/#isoformats.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/description">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
