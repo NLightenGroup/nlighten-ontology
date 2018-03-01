@@ -461,6 +461,18 @@
     
 
 
+    <!-- http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Clinical_Research_Data -->
+
+    <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Clinical_Research_Data">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
+        <obo:IAO_0000115>A resource that provides data on clinical trials and outcomes studies.</obo:IAO_0000115>
+        <rdfs:comment>A resource that provides data on clinical trials and outcomes studies.</rdfs:comment>
+        <rdfs:label>Clinical Research Data</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://edamontology.org/data_1669 -->
 
     <owl:Class rdf:about="http://edamontology.org/data_1669">
@@ -468,6 +480,28 @@
         <obo:IAO_0000115>The P-value is the probability of obtaining by random chance a result that is at least as extreme as an observed result, assuming a NULL hypothesis is true. A z-value might be specified as a threshold for reporting hits from database searches.</obo:IAO_0000115>
         <rdfs:comment>The P-value is the probability of obtaining by random chance a result that is at least as extreme as an observed result, assuming a NULL hypothesis is true. A z-value might be specified as a threshold for reporting hits from database searches.</rdfs:comment>
         <rdfs:label>P-value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/data_2042 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_2042">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>Typically a statement about some data or results, including evidence or the source of a statement, which may include computational prediction, laboratory experiment, literature reference etc.</obo:IAO_0000115>
+        <rdfs:comment>Typically a statement about some data or results, including evidence or the source of a statement, which may include computational prediction, laboratory experiment, literature reference etc.</rdfs:comment>
+        <rdfs:label>Evidence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/operation_0305 -->
+
+    <owl:Class rdf:about="http://edamontology.org/operation_0305">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>Query scientific literature, in search for articles, article data, concepts, named entities, or for statistics.</obo:IAO_0000115>
+        <rdfs:comment>Query scientific literature, in search for articles, article data, concepts, named entities, or for statistics.</rdfs:comment>
+        <rdfs:label>Literature search</rdfs:label>
     </owl:Class>
     
 
@@ -514,6 +548,17 @@
         <obo:IAO_0000115>Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence.</obo:IAO_0000115>
         <rdfs:comment>Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence.</rdfs:comment>
         <rdfs:label>Epigenetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3342 -->
+
+    <owl:Class rdf:about="http://edamontology.org/topic_3342">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>&apos;translating&apos; the output of basic and biomedical research into better diagnostic tools, medicines, medical procedures, policies and advice.</obo:IAO_0000115>
+        <rdfs:comment>&apos;translating&apos; the output of basic and biomedical research into better diagnostic tools, medicines, medical procedures, policies and advice.</rdfs:comment>
+        <rdfs:label>Translational medicine</rdfs:label>
     </owl:Class>
     
 
@@ -574,6 +619,114 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115525 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C115525">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000008"/>
+        <obo:IAO_0000115>Documentation that describes the safe handling, storage, distribution, and return of unused investigational product (IP) during the entire study period, including transit to and from the sponsor&apos;s facility.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C115525</oboInOwl:hasDbXref>
+        <rdfs:comment>Documentation that describes the safe handling, storage, distribution, and return of unused investigational product (IP) during the entire study period, including transit to and from the sponsor&apos;s facility.</rdfs:comment>
+        <rdfs:label>Investigational Product Handling Instruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142488 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142488">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
+        <obo:IAO_0000115>Process by which clinical data are examined for completeness, consistency, and accuracy.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C142488</oboInOwl:hasDbXref>
+        <rdfs:comment>Process by which clinical data are examined for completeness, consistency, and accuracy.</rdfs:comment>
+        <rdfs:label>Data Monitoring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142491 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142491">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
+        <obo:IAO_0000115>A dimension of data contributing its trustworthiness and pertaining to accuracy, sensitivity, validity, and suitability to purpose. Key elements of data quality include attribution, legibility (decipherable, unambiguous), contemporaneousness, originality (i.e., not duplicated), accuracy, precision, completeness, consistency (logical, not out of range), and those who have modified the data. NOTE: Scientists may reasonably trust data that are accurate (high quality) that have also been reviewed by investigators and protected from unauthorized alteration (high integrity).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C142491</oboInOwl:hasDbXref>
+        <rdfs:comment>A dimension of data contributing its trustworthiness and pertaining to accuracy, sensitivity, validity, and suitability to purpose. Key elements of data quality include attribution, legibility (decipherable, unambiguous), contemporaneousness, originality (i.e., not duplicated), accuracy, precision, completeness, consistency (logical, not out of range), and those who have modified the data. NOTE: Scientists may reasonably trust data that are accurate (high quality) that have also been reviewed by investigators and protected from unauthorized alteration (high integrity).</rdfs:comment>
+        <rdfs:label>Data Quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142529 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142529">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
+        <obo:IAO_0000115>A digital version of a patient&apos;s medical history.</obo:IAO_0000115>
+        <obo:IAO_0000118>EHR</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>NCIT:C142529</oboInOwl:hasDbXref>
+        <rdfs:comment>A digital version of a patient&apos;s medical history.</rdfs:comment>
+        <rdfs:label>Electronic Health Record</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142616 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142616">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53228"/>
+        <obo:IAO_0000115>A statistical method to test if observations are significant or due to chance. It proposes that no statistical significance exists in a set of given observations and attempts to show that no variation exists between variables or that a single variable is no different than its mean. It is presumed to be true until statistical evidence nullifies it for an alternative hypothesis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C142616</oboInOwl:hasDbXref>
+        <rdfs:comment>A statistical method to test if observations are significant or due to chance. It proposes that no statistical significance exists in a set of given observations and attempts to show that no variation exists between variables or that a single variable is no different than its mean. It is presumed to be true until statistical evidence nullifies it for an alternative hypothesis.</rdfs:comment>
+        <rdfs:label>Null Hypothesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142640 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142640">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000008"/>
+        <obo:IAO_0000115>Programs to identify adverse events that did not appear during the drug approval process.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C142640</oboInOwl:hasDbXref>
+        <rdfs:comment>Programs to identify adverse events that did not appear during the drug approval process.</rdfs:comment>
+        <rdfs:label>Postmarketing Surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142642 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142642">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>Animal studies that support Phase 1 safety and tolerance studies and must comply with good laboratory practice (GLP). NOTE: Data about a drug&apos;s activities and effects in animals help establish boundaries for safe use of the drug in subsequent human testing (clinical studies or trials).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C142642</oboInOwl:hasDbXref>
+        <rdfs:comment>Animal studies that support Phase 1 safety and tolerance studies and must comply with good laboratory practice (GLP). NOTE: Data about a drug&apos;s activities and effects in animals help establish boundaries for safe use of the drug in subsequent human testing (clinical studies or trials).</rdfs:comment>
+        <rdfs:label>Preclinical Study</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142668 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142668">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>The proposition that a study sets out to support (or disprove); for example, &quot;blood pressure will be lowered by [specific endpoint] in subjects who receive the test product.&quot;</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C142668</oboInOwl:hasDbXref>
+        <rdfs:comment>The proposition that a study sets out to support (or disprove); for example, &quot;blood pressure will be lowered by [specific endpoint] in subjects who receive the test product.&quot;</rdfs:comment>
+        <rdfs:label>Research Hypothesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142728 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C142728">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>A group of patients to which the indication of an investigational or authorized medicinal product applies. (ISO)</obo:IAO_0000115>
+        <rdfs:comment>A group of patients to which the indication of an investigational or authorized medicinal product applies. (ISO)</rdfs:comment>
+        <rdfs:label>Target Study Population</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15238 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15238">
@@ -582,6 +735,90 @@
         <oboInOwl:hasDbXref>NCIT:C15238</oboInOwl:hasDbXref>
         <rdfs:comment>Application of genetic material (usually DNA) into cells in order to permanently correct an inherited disease or acquired disease.</rdfs:comment>
         <rdfs:label>Gene Therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15381 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15381">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>Programs of regular assessment of medical and nursing activities to evaluate the quality of medical care including all actions taken to ensure that standards and procedures are adhered to and that delivered products or services meet performance requirements.</obo:IAO_0000115>
+        <obo:IAO_0000118>QA</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>NCIT:C15381</oboInOwl:hasDbXref>
+        <rdfs:comment>Programs of regular assessment of medical and nursing activities to evaluate the quality of medical care including all actions taken to ensure that standards and procedures are adhered to and that delivered products or services meet performance requirements.</rdfs:comment>
+        <rdfs:label>Quality Assurance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15426 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15426">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
+        <obo:IAO_0000115>An information set with a regular structure. Although it can be applied to any set of information the term was invented to refer to computerized data, and is used almost exclusively in computing.</obo:IAO_0000115>
+        <rdfs:comment>An information set with a regular structure. Although it can be applied to any set of information the term was invented to refer to computerized data, and is used almost exclusively in computing.</rdfs:comment>
+        <rdfs:label>Database</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15428 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15428">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
+        <obo:IAO_0000115>Studies that bring together multiple scientific disciplines to address specific issues.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C15428</oboInOwl:hasDbXref>
+        <rdfs:comment>Studies that bring together multiple scientific disciplines to address specific issues.</rdfs:comment>
+        <rdfs:label>Interdisciplinary Research</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15787 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15787">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001426"/>
+        <obo:IAO_0000115>The detailed planning of studies of the safety, efficacy, or optimum dosage schedule (if appropriate) of one or more diagnostic, therapeutic, or prophylactic drugs, devices, or techniques selected according to predetermined criteria of eligibility and observed for predefined evidence of favorable and unfavorable effects.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C15787</oboInOwl:hasDbXref>
+        <rdfs:comment>The detailed planning of studies of the safety, efficacy, or optimum dosage schedule (if appropriate) of one or more diagnostic, therapeutic, or prophylactic drugs, devices, or techniques selected according to predetermined criteria of eligibility and observed for predefined evidence of favorable and unfavorable effects.</rdfs:comment>
+        <rdfs:label>Clinical Trials Design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16493 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16493">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
+        <obo:IAO_0000115>The person or authoritative body who provided the information.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C16493</oboInOwl:hasDbXref>
+        <rdfs:comment>The person or authoritative body who provided the information.</rdfs:comment>
+        <rdfs:label>Data Source</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16830 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16830">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>Any physical object that is useful for prevention, diagnosis, monitoring, or treatment of disease or other conditions.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C16830</oboInOwl:hasDbXref>
+        <rdfs:comment>Any physical object that is useful for prevention, diagnosis, monitoring, or treatment of disease or other conditions.</rdfs:comment>
+        <rdfs:label>Medical Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16963 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16963">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
+        <obo:IAO_0000115>A scholarly process that subjects an author&apos;s work or ideas to the scrutiny of one or more others who are experts in the field. These referees each return an evaluation of the work, including suggestions for improvement. Evaluations usually include an explicit recommendation of what to do with the manuscript or proposal. A chief rationale for peer review is that rarely is just one person, or one closely working group, able to spot every mistake or weakness in a complicated piece of work. This is not necessarily because these deficiencies represent needles in a haystack, but because in a new and creative and perhaps eclectic intellectual product, any one of these opportunities for improvement may stand out only to someone with a particular expertise and/or history of experience. Therefore showing a work to various others increases the probability that the weakness will be identified and fixed.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C16963</oboInOwl:hasDbXref>
+        <rdfs:comment>A scholarly process that subjects an author&apos;s work or ideas to the scrutiny of one or more others who are experts in the field. These referees each return an evaluation of the work, including suggestions for improvement. Evaluations usually include an explicit recommendation of what to do with the manuscript or proposal. A chief rationale for peer review is that rarely is just one person, or one closely working group, able to spot every mistake or weakness in a complicated piece of work. This is not necessarily because these deficiencies represent needles in a haystack, but because in a new and creative and perhaps eclectic intellectual product, any one of these opportunities for improvement may stand out only to someone with a particular expertise and/or history of experience. Therefore showing a work to various others increases the probability that the weakness will be identified and fixed.</rdfs:comment>
+        <rdfs:label>Peer Review</rdfs:label>
     </owl:Class>
     
 
@@ -598,6 +835,18 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18268 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18268">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
+        <obo:IAO_0000115>Community health; community-focused health delivery systems.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C18268</oboInOwl:hasDbXref>
+        <rdfs:comment>Community health; community-focused health delivery systems.</rdfs:comment>
+        <rdfs:label>Community Health</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18741 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18741">
@@ -608,10 +857,58 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25196 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25196">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15787"/>
+        <obo:IAO_0000115>The allocation of individuals to groups by chance, especially in order to control the variables in an experiment.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C25196</oboInOwl:hasDbXref>
+        <rdfs:comment>The allocation of individuals to groups by chance, especially in order to control the variables in an experiment.</rdfs:comment>
+        <rdfs:label>Randomization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25662 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25662">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>The selection and obtaining of small representative quantities of biological material for the purpose of analysis; also, in biomedical statistics, sampling is the selection and implementation of statistical observations in order to estimate properties of an underlying population; also, in environmental science, the collection of representative specimens analyzed to characterize site conditions.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C25662</oboInOwl:hasDbXref>
+        <rdfs:comment>The selection and obtaining of small representative quantities of biological material for the purpose of analysis; also, in biomedical statistics, sampling is the selection and implementation of statistical observations in order to estimate properties of an underlying population; also, in environmental science, the collection of representative specimens analyzed to characterize site conditions.</rdfs:comment>
+        <rdfs:label>Sampling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25713 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25713">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>An alteration or difference from a norm or standard.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C25713</oboInOwl:hasDbXref>
+        <rdfs:comment>An alteration or difference from a norm or standard.</rdfs:comment>
+        <rdfs:label>Variation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28186 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28186">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28232"/>
+        <obo:IAO_0000115>An error in choosing the individuals or groups to take part in a study. Ideally, the subjects in a study should be very similar to one another and to the larger population from which they are drawn (for example, all individuals with the same disease or condition). If there are important differences, the results of the study may not be valid.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C28186</oboInOwl:hasDbXref>
+        <rdfs:comment>An error in choosing the individuals or groups to take part in a study. Ideally, the subjects in a study should be very similar to one another and to the larger population from which they are drawn (for example, all individuals with the same disease or condition). If there are important differences, the results of the study may not be valid.</rdfs:comment>
+        <rdfs:label>Selection Bias</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28232 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C28232">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
         <obo:IAO_0000115>In a clinical trial, a flaw in the study design or method of collecting or interpreting information. Biases can lead to incorrect conclusions about what the study or trial showed.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>NCIT:C28232</oboInOwl:hasDbXref>
         <rdfs:comment>In a clinical trial, a flaw in the study design or method of collecting or interpreting information. Biases can lead to incorrect conclusions about what the study or trial showed.</rdfs:comment>
@@ -632,6 +929,30 @@
     
 
 
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45782 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45782">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>Existing conditions, especially those that would be confused with the phenomenon to be observed or measured.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C45782</oboInOwl:hasDbXref>
+        <rdfs:comment>Existing conditions, especially those that would be confused with the phenomenon to be observed or measured.</rdfs:comment>
+        <rdfs:label>Background</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48045 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48045">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
+        <obo:IAO_0000115>A quantitative representation of the degree of accuracy necessary for or associated with a particular action.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C48045</oboInOwl:hasDbXref>
+        <rdfs:comment>A quantitative representation of the degree of accuracy necessary for or associated with a particular action.</rdfs:comment>
+        <rdfs:label>Precision</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48805 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48805">
@@ -640,6 +961,54 @@
         <oboInOwl:hasDbXref>NCIT:C48805</oboInOwl:hasDbXref>
         <rdfs:comment>A process that acts to control the rate or manner in which another process progresses or a product is formed.</rdfs:comment>
         <rdfs:label>Regulatory Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53190 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53190">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
+        <obo:IAO_0000115>A subset of a larger population, selected for investigation to draw conclusions or make estimates about the larger population.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C53190</oboInOwl:hasDbXref>
+        <rdfs:comment>A subset of a larger population, selected for investigation to draw conclusions or make estimates about the larger population.</rdfs:comment>
+        <rdfs:label>Sample Size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53228 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53228">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
+        <obo:IAO_0000115>A test used to determine the statistical significance of an observation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ncit:C53228</oboInOwl:hasDbXref>
+        <rdfs:comment>A test used to determine the statistical significance of an observation.</rdfs:comment>
+        <rdfs:label>Statistical Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53325 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53325">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
+        <obo:IAO_0000115>Either of the two numbers that specify the endpoints of a confidence interval.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C53325</oboInOwl:hasDbXref>
+        <rdfs:comment>Either of the two numbers that specify the endpoints of a confidence interval.</rdfs:comment>
+        <rdfs:label>Confidence Limit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70817 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70817">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>The formal plan of an experiment or research activity, including the objective, rationale, design, materials and methods for the conduct of the study; intervention description, and method of data analysis.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C70817</oboInOwl:hasDbXref>
+        <rdfs:comment>The formal plan of an experiment or research activity, including the objective, rationale, design, materials and methods for the conduct of the study; intervention description, and method of data analysis.</rdfs:comment>
+        <rdfs:label>Study Protocol</rdfs:label>
     </owl:Class>
     
 
@@ -657,6 +1026,55 @@ An application to FDA for a license to market a new device in the United states.
 
 An application to FDA for a license to market a new device in the United states.</rdfs:comment>
         <rdfs:label>Premarket Approval Application</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73529 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73529">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
+        <obo:IAO_0000115>The process by which two or more parties work jointly towards a common goal.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C73529</oboInOwl:hasDbXref>
+        <rdfs:comment>The process by which two or more parties work jointly towards a common goal.</rdfs:comment>
+        <rdfs:label>Collaboration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73623 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73623">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>The presence of truth ascribed to a situation or result.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C73623</oboInOwl:hasDbXref>
+        <rdfs:comment>The presence of truth ascribed to a situation or result.</rdfs:comment>
+        <rdfs:label>Validity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75591 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C75591">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>The process by which conclusions are derived from stated facts by the application of logical rules.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C75591</oboInOwl:hasDbXref>
+        <rdfs:comment>The process by which conclusions are derived from stated facts by the application of logical rules.</rdfs:comment>
+        <rdfs:label>Inference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C78343 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C78343">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>The process of enrolling, enlisting, or adding individuals to a group.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C78343</oboInOwl:hasDbXref>
+        <rdfs:comment>The process of enrolling, enlisting, or adding individuals to a group.</rdfs:comment>
+        <rdfs:label>Recruitment</rdfs:label>
     </owl:Class>
     
 
@@ -716,6 +1134,15 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Adult_Learning -->
+
+    <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Adult_Learning">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
+        <rdfs:label>Adult Learning</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Bioethics -->
 
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Bioethics">
@@ -760,10 +1187,54 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Error_of_Measurement -->
+
+    <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Error_of_Measurement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
+        <obo:IAO_0000115>Observed differences in obtained scores or measures due to chance variance.</obo:IAO_0000115>
+        <rdfs:comment>Observed differences in obtained scores or measures due to chance variance.</rdfs:comment>
+        <rdfs:label>Error of Measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Group_Decision_Making -->
+
+    <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Group_Decision_Making">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
+        <obo:IAO_0000115>Process of arriving at a decision or judgment by a group.</obo:IAO_0000115>
+        <rdfs:comment>Process of arriving at a decision or judgment by a group.</rdfs:comment>
+        <rdfs:label>Group Decision Making</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Health_Disparities -->
+
+    <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Health_Disparities">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887"/>
+        <obo:IAO_0000115>Disparities in the quality of health, including disease incidence, health outcomes, and access to health care across racial, ethnic and socioeconomic groups and geographical regions.</obo:IAO_0000115>
+        <rdfs:comment>Disparities in the quality of health, including disease incidence, health outcomes, and access to health care across racial, ethnic and socioeconomic groups and geographical regions.</rdfs:comment>
+        <rdfs:label>Health Disparities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Health_Literacy -->
+
+    <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Health_Literacy">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
+        <obo:IAO_0000115>The ability to understand health information and to use that information to make appropriate health decisions.</obo:IAO_0000115>
+        <rdfs:comment>The ability to understand health information and to use that information to make appropriate health decisions.</rdfs:comment>
+        <rdfs:label>Health Literacy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Hypothesis_Testing -->
 
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Hypothesis_Testing">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
         <obo:IAO_0000115>Application of statistical tests to determine whether a research hypothesis should be accepted or rejected.</obo:IAO_0000115>
         <rdfs:comment>Application of statistical tests to determine whether a research hypothesis should be accepted or rejected.</rdfs:comment>
         <rdfs:label>Hypothesis Testing</rdfs:label>
@@ -840,8 +1311,9 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Statistical_Tests -->
 
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Statistical_Tests">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115>Specific mathematical techniques used to analyze data in order to assess the probability that a set of results could have occurred by chance and hence to test for the probable correctness of empirical hypotheses.</obo:IAO_0000115>
+        <oboInOwl:replacedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C53228"/>
         <rdfs:comment>Specific mathematical techniques used to analyze data in order to assess the probability that a set of results could have occurred by chance and hence to test for the probable correctness of empirical hypotheses.</rdfs:comment>
         <rdfs:label>Statistical Tests</rdfs:label>
     </owl:Class>
@@ -866,6 +1338,39 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
         <obo:IAO_0000115>factors that affect the probability or predisposition of an individual to the development of a disease(s) or disorder(s).</obo:IAO_0000115>
         <rdfs:comment>factors that affect the probability or predisposition of an individual to the development of a disease(s) or disorder(s).</rdfs:comment>
         <rdfs:label>disease/disorder proneness/risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/CSP/2490-9027 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/2490-9027">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>detailed critical inspection of published writings on a particular subject.</obo:IAO_0000115>
+        <rdfs:comment>detailed critical inspection of published writings on a particular subject.</rdfs:comment>
+        <rdfs:label>literature survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/CSP/4005-0024 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/4005-0024">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
+        <obo:IAO_0000115>information leading to decisions on the formation of policies pertaining to the health care system.</obo:IAO_0000115>
+        <rdfs:comment>information leading to decisions on the formation of policies pertaining to the health care system.</rdfs:comment>
+        <rdfs:label>health care policy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/CSP/4006-0105 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/CSP/4006-0105">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D012106"/>
+        <obo:IAO_0000115>research conducted with human subjects or on material of human origin in which an investigator directly interacts with human subjects; includes development of new technologies, mechanism of human diseases, therapy, clinical trials, epidemiology, behavior and health services research.</obo:IAO_0000115>
+        <rdfs:comment>research conducted with human subjects or on material of human origin in which an investigator directly interacts with human subjects; includes development of new technologies, mechanism of human diseases, therapy, clinical trials, epidemiology, behavior and health services research.</rdfs:comment>
+        <rdfs:label>clinical research</rdfs:label>
     </owl:Class>
     
 
@@ -951,6 +1456,18 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://purl.bioontology.org/ontology/MESH/D003162 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D003162">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
+        <obo:IAO_0000115>Educational programs designed to ensure that students attain prespecified levels of competence in a given field or training activity. Emphasis is on achievement or specified objectives.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D003162</oboInOwl:hasDbXref>
+        <rdfs:comment>Educational programs designed to ensure that students attain prespecified levels of competence in a given field or training activity. Emphasis is on achievement or specified objectives.</rdfs:comment>
+        <rdfs:label>Competency-Based Education</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/MESH/D003625 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D003625">
@@ -975,6 +1492,18 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://purl.bioontology.org/ontology/MESH/D004364 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004364">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>Drugs intended for human or veterinary use, presented in their finished dosage form. Included here are materials used in the preparation and/or formulation of the finished dosage form.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D004364</oboInOwl:hasDbXref>
+        <rdfs:comment>Drugs intended for human or veterinary use, presented in their finished dosage form. Included here are materials used in the preparation and/or formulation of the finished dosage form.</rdfs:comment>
+        <rdfs:label>Pharmaceutical Preparations</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/MESH/D007258 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D007258">
@@ -995,6 +1524,18 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
         <obo:IAO_0000118>Influentials</obo:IAO_0000118>
         <rdfs:comment>The function of directing or controlling the actions or attitudes of an individual or group with more or less willing acquiescence of the followers.</rdfs:comment>
         <rdfs:label xml:lang="en">leadership</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D011154 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D011154">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887"/>
+        <obo:IAO_0000115>Qualities and characterization of various types of populations within a social or geographic group, with emphasis on demography, health status, and socioeconomic factors.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D011154</oboInOwl:hasDbXref>
+        <rdfs:comment>Qualities and characterization of various types of populations within a social or geographic group, with emphasis on demography, health status, and socioeconomic factors.</rdfs:comment>
+        <rdfs:label>Population Characteristics</rdfs:label>
     </owl:Class>
     
 
@@ -1035,9 +1576,23 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://purl.bioontology.org/ontology/MESH/D015986 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D015986">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>Factors that can cause or prevent the outcome of interest but are not intermediate variables of the factor(s) under investigation.</obo:IAO_0000115>
+        <obo:IAO_0000118>Confounding Variable</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>MESH:D015986</oboInOwl:hasDbXref>
+        <rdfs:comment>Factors that can cause or prevent the outcome of interest but are not intermediate variables of the factor(s) under investigation.</rdfs:comment>
+        <rdfs:label>Confounding Factors (Epidemiology)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/MESH/D016265 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D016265">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000009"/>
         <obo:IAO_0000115>A situation in which an individual might benefit personally from official or professional actions. It includes a conflict between a person&apos;s private interests and official responsibilities in a position of trust. The term is not restricted to government officials. The concept refers both to actual conflict of interest and the appearance or perception of conflict.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MESH:D016265</oboInOwl:hasDbXref>
@@ -1083,6 +1638,18 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://purl.bioontology.org/ontology/MESH/D019370 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D019370">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>The act of regarding attentively and studying facts and occurrences, gathering data through analyzing, measuring, and drawing conclusions, with the purpose of applying the observed information to theoretical assumptions. Observation as a scientific method in the acquisition of knowledge began in classical antiquity; in modern science and medicine its greatest application is facilitated by modern technology. Observation is one of the components of the research process.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D019370</oboInOwl:hasDbXref>
+        <rdfs:comment>The act of regarding attentively and studying facts and occurrences, gathering data through analyzing, measuring, and drawing conclusions, with the purpose of applying the observed information to theoretical assumptions. Observation as a scientific method in the acquisition of knowledge began in classical antiquity; in modern science and medicine its greatest application is facilitated by modern technology. Observation is one of the components of the research process.</rdfs:comment>
+        <rdfs:label>Observation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/MESH/D020408 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D020408">
@@ -1108,6 +1675,18 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://purl.bioontology.org/ontology/MESH/D028743 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D028743">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
+        <obo:IAO_0000115>Violation of laws, regulations, or professional standards.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D028743</oboInOwl:hasDbXref>
+        <rdfs:comment>Violation of laws, regulations, or professional standards.</rdfs:comment>
+        <rdfs:label>Professional Misconduct</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.bioontology.org/ontology/MESH/D032982 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D032982">
@@ -1116,6 +1695,18 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
         <oboInOwl:hasDbXref>MESH:D032982</oboInOwl:hasDbXref>
         <rdfs:comment>Agreements between two or more parties, especially those that are written and enforceable by law (American Heritage Dictionary of the English Language, 4th ed). It is sometimes used to characterize the nature of the professional-patient relationship.</rdfs:comment>
         <rdfs:label>Contracts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D032984 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D032984">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
+        <obo:IAO_0000115>The moral obligations governing the conduct of research. Used for discussions of research ethics as a general topic.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D032984</oboInOwl:hasDbXref>
+        <rdfs:comment>The moral obligations governing the conduct of research. Used for discussions of research ethics as a general topic.</rdfs:comment>
+        <rdfs:label>Ethics, Research</rdfs:label>
     </owl:Class>
     
 
@@ -1299,6 +1890,17 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ERO_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>A funded collection of investigations as described in a research proposal.</obo:IAO_0000115>
+        <rdfs:comment>A funded collection of investigations as described in a research proposal.</rdfs:comment>
+        <rdfs:label>research project</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ERO_0000347 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000347">
@@ -1339,6 +1941,17 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
         <obo:IAO_0000115>A data transformation technique used to analyze and interpret data to gain a better understanding of it.</obo:IAO_0000115>
         <rdfs:comment>A data transformation technique used to analyze and interpret data to gain a better understanding of it.</rdfs:comment>
         <rdfs:label>data analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0001509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001509">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
+        <obo:IAO_0000115>A technique that identifies a unique skill set facilitating successful engagement of communities, which for any number of reasons might be less inclined to participate in more traditional research partnerships.</obo:IAO_0000115>
+        <rdfs:comment>A technique that identifies a unique skill set facilitating successful engagement of communities, which for any number of reasons might be less inclined to participate in more traditional research partnerships.</rdfs:comment>
+        <rdfs:label>community-based participatory research</rdfs:label>
     </owl:Class>
     
 
@@ -1591,6 +2204,79 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://purl.org/n-lighten/NLN_0000035 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000079"/>
+        <obo:IAO_0000115>A single institutional review board (IRB) platform for multisite clinical studies: the NCATS Streamlined, Multisite, Accelerated Resources for Trials (SMART) IRB Platform.</obo:IAO_0000115>
+        <rdfs:comment>A single institutional review board (IRB) platform for multisite clinical studies: the NCATS Streamlined, Multisite, Accelerated Resources for Trials (SMART) IRB Platform.</rdfs:comment>
+        <rdfs:label xml:lang="en">SMART IRB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000036 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000079"/>
+        <obo:IAO_0000115>A formal, written document that provides a mechanism for an institution engaged in research to delegate institutional review board (IRB) review to an independent IRB or an IRB of another institution.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.niaid.nih.gov/research/reliance-authorization-agreements-frequently-asked-questions</obo:IAO_0000119>
+        <rdfs:comment>A formal, written document that provides a mechanism for an institution engaged in research to delegate institutional review board (IRB) review to an independent IRB or an IRB of another institution.</rdfs:comment>
+        <rdfs:label xml:lang="en">Reliance Agreement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000037 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000037">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
+        <obo:IAO_0000115>A quality system concerned with the organizational process and the conditions under which non-clinical health and environmental safety studies are planned, performed, monitored, recorded, archived and reported.</obo:IAO_0000115>
+        <obo:IAO_0000118>GLP</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.pda.org/docs/default-source/website-document-library/chapters/presentations/southeast/glp-vs-gmp-vs-gcp.pdf?sfvrsn=6</obo:IAO_0000119>
+        <rdfs:comment>A quality system concerned with the organizational process and the conditions under which non-clinical health and environmental safety studies are planned, performed, monitored, recorded, archived and reported.</rdfs:comment>
+        <rdfs:label xml:lang="en">Good Laboratory Practice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000038 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000038">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
+        <obo:IAO_0000115>The part of quality assurance which ensures that products are consistently produced and controlled to the quality standard appropriate to their intended use and as required by the Marketing Authorization or product specification.</obo:IAO_0000115>
+        <obo:IAO_0000118>GMP</obo:IAO_0000118>
+        <obo:IAO_0000119>https://www.pda.org/docs/default-source/website-document-library/chapters/presentations/southeast/glp-vs-gmp-vs-gcp.pdf?sfvrsn=6</obo:IAO_0000119>
+        <rdfs:comment>The part of quality assurance which ensures that products are consistently produced and controlled to the quality standard appropriate to their intended use and as required by the Marketing Authorization or product specification.</rdfs:comment>
+        <rdfs:label xml:lang="en">Good Manufacturing Practice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000039 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000018"/>
+        <obo:IAO_0000115>Autonomous devices that are worn by a person and provide medical monitoring or support over a prolonged period of time. Their distinguishing characteristic is that they are worn either as an accessory or are embedded into clothing. Such devices normally incorporate noninvasive physiological sensors, data processing modules, medical feedback, and wireless data transmission capabilities. They are small, light, unobtrusive, and designed for operation by unskilled users. Current developments include real-time feedback, alerting mechanisms, medical decision support, and wireless access to information. Wearable medical devices offer the supporting hardware for dealing with the emerging medical trend of delivering point-of-care service, unconfined medical monitoring and support, and assisting in the remote management of medical conditions for rehabilitating patients, the chronically ill, and the disabled.</obo:IAO_0000115>
+        <obo:IAO_0000119>10.1002/9780471740360.ebs1326</obo:IAO_0000119>
+        <rdfs:comment>Autonomous devices that are worn by a person and provide medical monitoring or support over a prolonged period of time. Their distinguishing characteristic is that they are worn either as an accessory or are embedded into clothing. Such devices normally incorporate noninvasive physiological sensors, data processing modules, medical feedback, and wireless data transmission capabilities. They are small, light, unobtrusive, and designed for operation by unskilled users. Current developments include real-time feedback, alerting mechanisms, medical decision support, and wireless access to information. Wearable medical devices offer the supporting hardware for dealing with the emerging medical trend of delivering point-of-care service, unconfined medical monitoring and support, and assisting in the remote management of medical conditions for rehabilitating patients, the chronically ill, and the disabled.</rdfs:comment>
+        <rdfs:label xml:lang="en">Wearable Medical Devices</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/n-lighten/NLN_0000040 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
+        <obo:IAO_0000115>Team science is a collaborative effort to address a scientific challenge that leverages the strengths and expertise of professionals trained in different fields. Although traditional single-investigator driven approaches are ideal for many scientific endeavors, coordinated teams of investigators with diverse skills and knowledge may be especially helpful for studies of complex social problems with multiple causes.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.teamsciencetoolkit.cancer.gov/public/WhatisTS.aspx</obo:IAO_0000119>
+        <rdfs:comment>Team science is a collaborative effort to address a scientific challenge that leverages the strengths and expertise of professionals trained in different fields. Although traditional single-investigator driven approaches are ideal for many scientific endeavors, coordinated teams of investigators with diverse skills and knowledge may be especially helpful for studies of complex social problems with multiple causes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Team Science</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://schema.org/Audience -->
 
     <owl:Class rdf:about="http://schema.org/Audience">
@@ -1644,6 +2330,17 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://semanticscience.org/resource/SIO_000403 -->
+
+    <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000403">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>A study group is a group of individuals that are subjects in an observational or intervention study.</obo:IAO_0000115>
+        <rdfs:comment>A study group is a group of individuals that are subjects in an observational or intervention study.</rdfs:comment>
+        <rdfs:label>study group</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://vivoweb.org/ontology/core#AcademicDepartment -->
 
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#AcademicDepartment">
@@ -1651,6 +2348,17 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
         <obo:IAO_0000115>A distinct, usually specialized educational unit within an educational organization.</obo:IAO_0000115>
         <rdfs:comment>A distinct, usually specialized educational unit within an educational organization.</rdfs:comment>
         <rdfs:label>Academic Department</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#CaseStudy -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#CaseStudy">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <obo:IAO_0000115>A qualitative descriptive research study of individuals or a group</obo:IAO_0000115>
+        <rdfs:comment>A qualitative descriptive research study of individuals or a group</rdfs:comment>
+        <rdfs:label>Case Study</rdfs:label>
     </owl:Class>
     
 
@@ -1776,6 +2484,17 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://vivoweb.org/ontology/core#ResearchProposal -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#ResearchProposal">
+        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>A proposal for a research grant that has been submitted but not approved; does not represent an existing activity</obo:IAO_0000115>
+        <rdfs:comment>A proposal for a research grant that has been submitted but not approved; does not represent an existing activity</rdfs:comment>
+        <rdfs:label>Research Proposal</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://vivoweb.org/ontology/core#School -->
 
     <owl:Class rdf:about="http://vivoweb.org/ontology/core#School">
@@ -1834,8 +2553,20 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <!-- http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001426"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <oboInOwl:replacedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C15787"/>
         <rdfs:label>Clinical trial design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00369 -->
+
+    <owl:Class rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00369">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887"/>
+        <obo:IAO_0000115>a speaker&apos;s implicit, internalized knowledge of the rules of their language.</obo:IAO_0000115>
+        <rdfs:comment>a speaker&apos;s implicit, internalized knowledge of the rules of their language.</rdfs:comment>
+        <rdfs:label>Linguistic competence</rdfs:label>
     </owl:Class>
     
 
