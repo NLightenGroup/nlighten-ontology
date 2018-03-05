@@ -465,7 +465,6 @@
 
     <owl:Class rdf:about="http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Clinical_Research_Data">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000010"/>
         <obo:IAO_0000115>A resource that provides data on clinical trials and outcomes studies.</obo:IAO_0000115>
         <rdfs:comment>A resource that provides data on clinical trials and outcomes studies.</rdfs:comment>
         <rdfs:label>Clinical Research Data</rdfs:label>
@@ -1033,7 +1032,6 @@ An application to FDA for a license to market a new device in the United states.
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73529 -->
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73529">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000009"/>
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
         <obo:IAO_0000115>The process by which two or more parties work jointly towards a common goal.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>NCIT:C73529</oboInOwl:hasDbXref>
@@ -1593,7 +1591,6 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D016265">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000009"/>
         <obo:IAO_0000115>A situation in which an individual might benefit personally from official or professional actions. It includes a conflict between a person&apos;s private interests and official responsibilities in a position of trust. The term is not restricted to government officials. The concept refers both to actual conflict of interest and the appearance or perception of conflict.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MESH:D016265</oboInOwl:hasDbXref>
         <rdfs:comment>A situation in which an individual might benefit personally from official or professional actions. It includes a conflict between a person&apos;s private interests and official responsibilities in a position of trust. The term is not restricted to government officials. The concept refers both to actual conflict of interest and the appearance or perception of conflict.</rdfs:comment>
