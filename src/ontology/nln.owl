@@ -2274,6 +2274,17 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
+    <!-- http://purl.org/n-lighten/NLN_0000041 -->
+
+    <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000041">
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+        <obo:IAO_0000115>Document, infographic, chart, or other item that can support learning in a course or supplement content in a video or case study.</obo:IAO_0000115>
+        <rdfs:comment>Document, infographic, chart, or other item that can support learning in a course or supplement content in a video or case study.</rdfs:comment>
+        <rdfs:label xml:lang="en">Resource Material</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://schema.org/Audience -->
 
     <owl:Class rdf:about="http://schema.org/Audience">
