@@ -495,7 +495,7 @@
         <app:preferredDefinition>Suitable for a level of knowledge or skill that is ahead of introductory and intermediate levels.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000021">
-        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
         <app:preferredDefinition>The Clinical Research Competencies addressed by an Educational Resource.</app:preferredDefinition>
         <app:preferredLabel>Clinical Research Competency</app:preferredLabel>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
