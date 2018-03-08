@@ -2528,7 +2528,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <!-- http://www.CareLex.org/2012/carelex.owl#Safety_Reporting -->
 
     <owl:Class rdf:about="http://www.CareLex.org/2012/carelex.owl#Safety_Reporting">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D012449"/>
         <obo:IAO_0000115>Documents describing safety reporting, monitoring and notification for a clinical trial.</obo:IAO_0000115>
         <rdfs:comment>Documents describing safety reporting, monitoring and notification for a clinical trial.</rdfs:comment>
         <rdfs:label>Safety Reporting</rdfs:label>
