@@ -131,6 +131,10 @@
     <owl:ObjectProperty rdf:about="http://purl.org/n-lighten/NLN_0000021">
         <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
         <rdfs:range rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
+        <obo:IAO_0000115>The relationship between an educational resource and the clinical research competency domain it addresses.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>PERSON: Marijane White</obo:IAO_0000119>
+        <rdfs:comment>The relationship between an educational resource and the clinical research competency domain it addresses.</rdfs:comment>
         <rdfs:label xml:lang="en">has domain</rdfs:label>
     </owl:ObjectProperty>
     
@@ -141,6 +145,10 @@
     <owl:ObjectProperty rdf:about="http://purl.org/n-lighten/NLN_0000023">
         <rdfs:domain rdf:resource="http://schema.org/CreativeWork"/>
         <rdfs:range rdf:resource="http://purl.org/n-lighten/NLN_0000004"/>
+        <obo:IAO_0000115>The relationship between an educational resource and the level of training it is targeted at.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>PERSON: Marijane White</obo:IAO_0000119>
+        <rdfs:comment>The relationship between an educational resource and the level of training it is targeted at.</rdfs:comment>
         <rdfs:label xml:lang="en">has depth</rdfs:label>
     </owl:ObjectProperty>
     
@@ -160,6 +168,8 @@
         </rdfs:domain>
         <rdfs:range rdf:resource="http://schema.org/CreativeWork"/>
         <obo:IAO_0000115>The relationship between an organization or person and the good or service they provide.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>PERSON: Marijane White</obo:IAO_0000119>
         <rdfs:comment>The relationship between an organization or person and the good or service they provide.</rdfs:comment>
         <rdfs:label xml:lang="en">provides</rdfs:label>
     </owl:ObjectProperty>
@@ -2033,6 +2043,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000002">
         <obo:IAO_0000115>The knowledge, skills, and attitudes necessary for conducting safe, ethical, and high-quality clinical research.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>The knowledge, skills, and attitudes necessary for conducting safe, ethical, and high-quality clinical research.</rdfs:comment>
         <rdfs:label xml:lang="en">clinical research competency domain</rdfs:label>
@@ -2044,7 +2055,11 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000004">
         <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
-        <rdfs:label xml:lang="en">resource depth</rdfs:label>
+        <obo:IAO_0000115>The difficulty level of the educational resource.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>PERSON: Marijane White</obo:IAO_0000119>
+        <rdfs:comment>The difficulty level of the educational resource.</rdfs:comment>
+        <rdfs:label xml:lang="en">training level</rdfs:label>
     </owl:Class>
     
 
@@ -2054,6 +2069,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses knowledge of scientific concepts related to the design and analysis of clinical trials.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>Encompasses knowledge of scientific concepts related to the design and analysis of clinical trials.</rdfs:comment>
         <rdfs:label xml:lang="en">scientific concepts and research design</rdfs:label>
@@ -2066,6 +2082,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses care of patients, aspects of human subject protection, and safety in the conduct of a clinical trial.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>Encompasses care of patients, aspects of human subject protection, and safety in the conduct of a clinical trial.</rdfs:comment>
         <rdfs:label xml:lang="en">ethical and participant safety considerations</rdfs:label>
@@ -2078,6 +2095,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses knowledge of how investigational products are developed and regulated.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>Encompasses knowledge of how investigational products are developed and regulated.</rdfs:comment>
         <rdfs:label xml:lang="en">investigational products development and regulation</rdfs:label>
@@ -2090,6 +2108,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses study management and GCP compliance; safety management (adverse event identification and reporting, post-market surveillance, and pharmacovigilance), and handling of investigational product.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>Encompasses study management and GCP compliance; safety management (adverse event identification and reporting, post-market surveillance, and pharmacovigilance), and handling of investigational product.</rdfs:comment>
         <rdfs:label xml:lang="en">clinical study operations</rdfs:label>
@@ -2102,6 +2121,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses content required at the site level to run a study (financial and personnel aspects). Includes site and study operations (not encompassing regulatory/GCPs).</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>Encompasses content required at the site level to run a study (financial and personnel aspects). Includes site and study operations (not encompassing regulatory/GCPs).</rdfs:comment>
         <rdfs:label xml:lang="en">study and site management</rdfs:label>
@@ -2114,6 +2134,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses how data are acquired and managed during a clinical trial, including source data, data entry, queries, quality control, and correction and the concept of a locked database.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>Encompasses how data are acquired and managed during a clinical trial, including source data, data entry, queries, quality control, and correction and the concept of a locked database.</rdfs:comment>
         <rdfs:label xml:lang="en">data management and informatics</rdfs:label>
@@ -2126,6 +2147,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses the principles and practice of leadership and professionalism in clinical research.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>Encompasses the principles and practice of leadership and professionalism in clinical research.</rdfs:comment>
         <rdfs:label xml:lang="en">leadership and professionalism</rdfs:label>
@@ -2138,6 +2160,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000002"/>
         <obo:IAO_0000115>Encompasses all elements of communication within the site and between the site and sponsor, CRO, and regulators. Understanding of teamwork skills necessary for conducting a clinical trial.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.clinicaltrialcompetency.org/framework-domains-1/</obo:IAO_0000119>
         <rdfs:comment>Encompasses all elements of communication within the site and between the site and sponsor, CRO, and regulators. Understanding of teamwork skills necessary for conducting a clinical trial.</rdfs:comment>
         <rdfs:label xml:lang="en">communication and teamwork</rdfs:label>
@@ -2149,6 +2172,10 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000005"/>
+        <obo:IAO_0000115>Mathematical concepts, formulas, models, and techniques used in statistical analyses of data.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>PERSON: Marijane White</obo:IAO_0000119>
+        <rdfs:comment>Mathematical concepts, formulas, models, and techniques used in statistical analyses of data.</rdfs:comment>
         <rdfs:label xml:lang="en">statistical approaches</rdfs:label>
     </owl:Class>
     
@@ -2158,6 +2185,10 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000018">
         <rdfs:subClassOf rdf:resource="http://edamontology.org/topic_0605"/>
+        <obo:IAO_0000115>The science underlying the acquisition, maintenance, retrieval, and application of biomedical knowledge and information to improve patient care, medical education, and health sciences research.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>http://faculty.washington.edu/gennari/MedicalInformaticsDef.html</obo:IAO_0000119>
+        <rdfs:comment>The science underlying the acquisition, maintenance, retrieval, and application of biomedical knowledge and information to improve patient care, medical education, and health sciences research.</rdfs:comment>
         <rdfs:label xml:lang="en">biomedical informatics</rdfs:label>
     </owl:Class>
     
@@ -2167,6 +2198,11 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000004"/>
+        <obo:IAO_0000112>an introductory course in calculus.</obo:IAO_0000112>
+        <obo:IAO_0000115>Of, relating to, or being a first step that sets something going or in proper perspective.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.merriam-webster.com/dictionary/introductory</obo:IAO_0000119>
+        <rdfs:comment>Of, relating to, or being a first step that sets something going or in proper perspective.</rdfs:comment>
         <rdfs:label xml:lang="en">introductory</rdfs:label>
     </owl:Class>
     
@@ -2176,6 +2212,11 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000004"/>
+        <obo:IAO_0000112>advanced chemistry</obo:IAO_0000112>
+        <obo:IAO_0000115>Being beyond the elementary or introductory.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.merriam-webster.com/dictionary/advanced</obo:IAO_0000119>
+        <rdfs:comment>Being beyond the elementary or introductory.</rdfs:comment>
         <rdfs:label xml:lang="en">advanced</rdfs:label>
     </owl:Class>
     
@@ -2185,6 +2226,11 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000004"/>
+        <obo:IAO_0000112>an intermediate curriculum.</obo:IAO_0000112>
+        <obo:IAO_0000115>Being or occurring at the middle place, stage, or degree or between extremes; of or relating to an intermediate school.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.merriam-webster.com/dictionary/intermediate</obo:IAO_0000119>
+        <rdfs:comment>Being or occurring at the middle place, stage, or degree or between extremes; of or relating to an intermediate school.</rdfs:comment>
         <rdfs:label xml:lang="en">intermediate</rdfs:label>
     </owl:Class>
     
@@ -2195,6 +2241,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
         <obo:IAO_0000115>A companion diagnostic is a medical device, often an in vitro device, which provides information that is essential for the safe and effective use of a corresponding drug or biological product. The test helps a health care professional determine whether a particular therapeutic product’s benefits to patients will outweigh any potential serious side effects or risks.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.fda.gov/MedicalDevices/ProductsandMedicalProcedures/InVitroDiagnostics/ucm407297.htm</obo:IAO_0000119>
         <rdfs:comment>A companion diagnostic is a medical device, often an in vitro device, which provides information that is essential for the safe and effective use of a corresponding drug or biological product. The test helps a health care professional determine whether a particular therapeutic product’s benefits to patients will outweigh any potential serious side effects or risks.</rdfs:comment>
         <rdfs:label xml:lang="en">Companion Diagnostics</rdfs:label>
@@ -2207,6 +2254,8 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000079"/>
         <obo:IAO_0000115>A single institutional review board (IRB) platform for multisite clinical studies: the NCATS Streamlined, Multisite, Accelerated Resources for Trials (SMART) IRB Platform.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>https://ncats.nih.gov/ctsa/projects/smartirb</obo:IAO_0000119>
         <rdfs:comment>A single institutional review board (IRB) platform for multisite clinical studies: the NCATS Streamlined, Multisite, Accelerated Resources for Trials (SMART) IRB Platform.</rdfs:comment>
         <rdfs:label xml:lang="en">SMART IRB</rdfs:label>
     </owl:Class>
@@ -2218,6 +2267,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000079"/>
         <obo:IAO_0000115>A formal, written document that provides a mechanism for an institution engaged in research to delegate institutional review board (IRB) review to an independent IRB or an IRB of another institution.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.niaid.nih.gov/research/reliance-authorization-agreements-frequently-asked-questions</obo:IAO_0000119>
         <rdfs:comment>A formal, written document that provides a mechanism for an institution engaged in research to delegate institutional review board (IRB) review to an independent IRB or an IRB of another institution.</rdfs:comment>
         <rdfs:label xml:lang="en">Reliance Agreement</rdfs:label>
@@ -2230,6 +2280,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>A quality system concerned with the organizational process and the conditions under which non-clinical health and environmental safety studies are planned, performed, monitored, recorded, archived and reported.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000118>GLP</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.pda.org/docs/default-source/website-document-library/chapters/presentations/southeast/glp-vs-gmp-vs-gcp.pdf?sfvrsn=6</obo:IAO_0000119>
         <rdfs:comment>A quality system concerned with the organizational process and the conditions under which non-clinical health and environmental safety studies are planned, performed, monitored, recorded, archived and reported.</rdfs:comment>
@@ -2243,6 +2294,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000006"/>
         <obo:IAO_0000115>The part of quality assurance which ensures that products are consistently produced and controlled to the quality standard appropriate to their intended use and as required by the Marketing Authorization or product specification.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000118>GMP</obo:IAO_0000118>
         <obo:IAO_0000119>https://www.pda.org/docs/default-source/website-document-library/chapters/presentations/southeast/glp-vs-gmp-vs-gcp.pdf?sfvrsn=6</obo:IAO_0000119>
         <rdfs:comment>The part of quality assurance which ensures that products are consistently produced and controlled to the quality standard appropriate to their intended use and as required by the Marketing Authorization or product specification.</rdfs:comment>
@@ -2256,6 +2308,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000018"/>
         <obo:IAO_0000115>Autonomous devices that are worn by a person and provide medical monitoring or support over a prolonged period of time. Their distinguishing characteristic is that they are worn either as an accessory or are embedded into clothing. Such devices normally incorporate noninvasive physiological sensors, data processing modules, medical feedback, and wireless data transmission capabilities. They are small, light, unobtrusive, and designed for operation by unskilled users. Current developments include real-time feedback, alerting mechanisms, medical decision support, and wireless access to information. Wearable medical devices offer the supporting hardware for dealing with the emerging medical trend of delivering point-of-care service, unconfined medical monitoring and support, and assisting in the remote management of medical conditions for rehabilitating patients, the chronically ill, and the disabled.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>10.1002/9780471740360.ebs1326</obo:IAO_0000119>
         <rdfs:comment>Autonomous devices that are worn by a person and provide medical monitoring or support over a prolonged period of time. Their distinguishing characteristic is that they are worn either as an accessory or are embedded into clothing. Such devices normally incorporate noninvasive physiological sensors, data processing modules, medical feedback, and wireless data transmission capabilities. They are small, light, unobtrusive, and designed for operation by unskilled users. Current developments include real-time feedback, alerting mechanisms, medical decision support, and wireless access to information. Wearable medical devices offer the supporting hardware for dealing with the emerging medical trend of delivering point-of-care service, unconfined medical monitoring and support, and assisting in the remote management of medical conditions for rehabilitating patients, the chronically ill, and the disabled.</rdfs:comment>
         <rdfs:label xml:lang="en">Wearable Medical Devices</rdfs:label>
@@ -2268,6 +2321,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
         <obo:IAO_0000115>Team science is a collaborative effort to address a scientific challenge that leverages the strengths and expertise of professionals trained in different fields. Although traditional single-investigator driven approaches are ideal for many scientific endeavors, coordinated teams of investigators with diverse skills and knowledge may be especially helpful for studies of complex social problems with multiple causes.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.teamsciencetoolkit.cancer.gov/public/WhatisTS.aspx</obo:IAO_0000119>
         <rdfs:comment>Team science is a collaborative effort to address a scientific challenge that leverages the strengths and expertise of professionals trained in different fields. Although traditional single-investigator driven approaches are ideal for many scientific endeavors, coordinated teams of investigators with diverse skills and knowledge may be especially helpful for studies of complex social problems with multiple causes.</rdfs:comment>
         <rdfs:label xml:lang="en">Team Science</rdfs:label>
@@ -2280,6 +2334,8 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000041">
         <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
         <obo:IAO_0000115>Document, infographic, chart, or other item that can support learning in a course or supplement content in a video or case study.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Marijane White</obo:IAO_0000117>
+        <obo:IAO_0000119>PERSON: Stuart Hobbs</obo:IAO_0000119>
         <rdfs:comment>Document, infographic, chart, or other item that can support learning in a course or supplement content in a video or case study.</rdfs:comment>
         <rdfs:label xml:lang="en">Resource Material</rdfs:label>
     </owl:Class>
