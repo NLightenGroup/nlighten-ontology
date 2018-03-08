@@ -1265,8 +1265,9 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <!-- http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Medical_Therapeutic_Devices -->
 
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Medical_Therapeutic_Devices">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115>Equipment designed for rehabilitation or treatment of abnormal or undesirable conditions.</obo:IAO_0000115>
+        <oboInOwl:replacedBy rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16830"/>
         <rdfs:comment>Equipment designed for rehabilitation or treatment of abnormal or undesirable conditions.</rdfs:comment>
         <rdfs:label>Medical Therapeutic Devices</rdfs:label>
     </owl:Class>

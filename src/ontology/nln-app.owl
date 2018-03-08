@@ -161,7 +161,7 @@
         <app:preferredLabel>Device Classification</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16830">
-        <app:preferredLabel>Device</app:preferredLabel>
+        <app:preferredLabel>Devices</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17887">
         <app:preferredLabel>Cultural Diversity</app:preferredLabel>
