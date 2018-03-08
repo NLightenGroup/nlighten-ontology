@@ -358,7 +358,7 @@
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001636">
-        <app:preferredLabel>Grant</app:preferredLabel>
+        <app:preferredLabel>Grants</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500002">
         <app:preferredLabel>Repeated Measure Design</app:preferredLabel>
