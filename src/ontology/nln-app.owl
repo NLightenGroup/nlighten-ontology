@@ -680,6 +680,9 @@
     <rdf:Description rdf:about="http://www.co-ode.org/ontologies/ont.owl#Clinical_trial_design">
         <app:preferredLabel>Clinical Trial Design</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00369">
+        <app:preferredLabel>Linguistic Competence</app:preferredLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001426">
         <app:preferredLabel>Study Design</app:preferredLabel>
     </rdf:Description>
