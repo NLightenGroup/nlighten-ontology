@@ -1565,7 +1565,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     <!-- http://purl.bioontology.org/ontology/MESH/D015507 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D015507">
-        <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D004364"/>
         <obo:IAO_0000115>Drugs which have received FDA approval for human testing but have yet to be approved for commercial marketing. This includes drugs used for treatment while they still are undergoing clinical trials (Treatment IND). The main heading includes drugs under investigation in foreign countries.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MESH:D015507</oboInOwl:hasDbXref>
         <rdfs:comment>Drugs which have received FDA approval for human testing but have yet to be approved for commercial marketing. This includes drugs used for treatment while they still are undergoing clinical trials (Treatment IND). The main heading includes drugs under investigation in foreign countries.</rdfs:comment>

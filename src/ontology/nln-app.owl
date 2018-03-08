@@ -206,7 +206,7 @@
         <app:preferredLabel>Mentoring</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D004364">
-        <app:preferredLabel>Drug</app:preferredLabel>
+        <app:preferredLabel>Drugs</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D007857">
         <app:preferredLabel>Leadership</app:preferredLabel>
