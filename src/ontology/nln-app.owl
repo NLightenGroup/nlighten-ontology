@@ -309,6 +309,9 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000311">
         <app:preferredLabel>Publication</app:preferredLabel>
     </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000312">
+        <app:preferredLabel>Publication About an Investigation</app:preferredLabel>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000404">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
     </rdf:Description>
