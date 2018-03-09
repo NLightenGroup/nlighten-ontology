@@ -860,7 +860,10 @@
 
     <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18741">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000007"/>
+        <obo:IAO_0000115>The development of drugs and medical devices.</obo:IAO_0000115>
+        <obo:IAO_0000119>PERSON: Marijane White</obo:IAO_0000119>
         <oboInOwl:hasDbXref>NCIT:C18741</oboInOwl:hasDbXref>
+        <rdfs:comment>The development of drugs and medical devices.</rdfs:comment>
         <rdfs:label>Device or Instrument Development</rdfs:label>
     </owl:Class>
     
@@ -1146,6 +1149,9 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://ontology.apa.org/apaonto/termsonlyOUT%20(5).owl#Adult_Learning">
         <rdfs:subClassOf rdf:resource="http://purl.org/n-lighten/NLN_0000012"/>
+        <obo:IAO_0000115>A practice in which adults engage in systematic and sustained self-educating activities in order to gain new forms of knowledge, skills, attitudes, or values. It can mean any form of learning adults engage in beyond traditional schooling, encompassing basic literacy to personal fulfillment as a lifelong learner.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Adult_education</obo:IAO_0000119>
+        <rdfs:comment>A practice in which adults engage in systematic and sustained self-educating activities in order to gain new forms of knowledge, skills, attitudes, or values. It can mean any form of learning adults engage in beyond traditional schooling, encompassing basic literacy to personal fulfillment as a lifelong learner.</rdfs:comment>
         <rdfs:label>Adult Learning</rdfs:label>
     </owl:Class>
     
