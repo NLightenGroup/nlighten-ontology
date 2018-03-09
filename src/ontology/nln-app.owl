@@ -146,6 +146,7 @@
         <app:preferredLabel>Data Management</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/topic_3342">
+        <app:preferredDefinition>&apos;Translating&apos; the output of basic and biomedical research into better diagnostic tools, medicines, medical procedures, policies and advice.</app:preferredDefinition>
         <app:preferredLabel>Translational Medicine</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://edamontology.org/topic_3344">
@@ -185,10 +186,12 @@
         <app:preferredLabel>Scientific Communication</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/CSP/0944-4477">
+        <app:preferredDefinition>Factors that affect the probability or predisposition of an individual to the development of a disease(s) or disorder(s).</app:preferredDefinition>
         <app:preferredLabel>Disease Risk</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/CSP/2490-9027">
         <app:preferredLabel>Literature Critique</app:preferredLabel>
+        <app:preferredDefinition>Detailed critical inspection of published writings on a particular subject.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/CSP/4005-0024">
         <app:preferredLabel>Health Care Policy</app:preferredLabel>
@@ -203,7 +206,11 @@
         <app:preferredLabel>Theranostic</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D000071252">
+        <app:preferredDefinition>The art and practice of training, guiding, counseling, and providing support to a less experienced, trained, or knowledgeable person.</app:preferredDefinition>
         <app:preferredLabel>Mentoring</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D001185">
+        <app:preferredDefinition>Theory and development of computer systems which perform tasks that normally require human intelligence. Such tasks may include speech recognition, learning; visual perception; mathematical computing; reasoning, problem solving, decision-making, and translation of language.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D004364">
         <app:preferredLabel>Drugs</app:preferredLabel>
@@ -222,6 +229,12 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D032984">
         <app:preferredLabel>Research Ethics</app:preferredLabel>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D035862">
+        <app:preferredDefinition>Groups of persons whose range of options is severely limited, who are frequently subjected to coercion in their decision making, or who may be compromised in their ability to give informed consent. Patient groups that may include those with special needs, homeless people, those with low income, or in remote communities and minority groups.</app:preferredDefinition>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/D056808">
+        <app:preferredDefinition>The application of statistics to biological systems and organisms involving the retrieval or collection, analysis, reduction, and interpretation of qualitative and quantitative data.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.bioontology.org/ontology/MESH/Q000235">
         <app:preferredLabel>Genetics</app:preferredLabel>
@@ -307,10 +320,11 @@
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000311">
+        <app:preferredDefinition>A document that has been accepted by a publisher.</app:preferredDefinition>
         <app:preferredLabel>Publication</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000312">
-        <app:preferredLabel>Publication About an Investigation</app:preferredLabel>
+        <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_DataModelExclude"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000404">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_DataModelExclude"/>
@@ -344,8 +358,10 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBCS_0000100">
         <app:preferredLabel>Type I Error</app:preferredLabel>
+        <app:preferredDefinition>The null hypothesis is true but has been rejected; a test result that indicates a given condition has been fulfilled, when it actually has not been fulfilled.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBCS_0000101">
+        <app:preferredDefinition>The null hypothesis is false but has been accepted; a test result indicates that a condition failed, while it actually was successful.</app:preferredDefinition>
         <app:preferredLabel>Type II Error</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000293">
@@ -364,6 +380,7 @@
         <app:preferredLabel>Grants</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0500002">
+        <app:preferredDefinition>A study design which use the same individuals and exposure them to a set of conditions. The effect of order and practice can be confounding factor in such designs.</app:preferredDefinition>
         <app:preferredLabel>Repeated Measure Design</app:preferredLabel>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
@@ -501,7 +518,7 @@
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/n-lighten/NLN_0000023">
-        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
         <app:preferredLabel>Level</app:preferredLabel>
         <app:preferredDefinition>The level of skill or knowledge imparted by an Educational Resource.</app:preferredDefinition>
@@ -535,7 +552,7 @@
     <rdf:Description rdf:about="http://schema.org/audience">
         <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_PrimaryProperty"/>
         <app:preferredLabel>Intended Audience</app:preferredLabel>
-        <rdfs:comment rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
+        <app:inPropertyGroup rdf:resource="http://eagle-i.org/ont/app/1.0/PropertyGroup_SearchFacet"/>
         <app:preferredDefinition>An intended audience, i.e. a group for whom something was created.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://schema.org/contributor">
@@ -633,7 +650,11 @@
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#AcademicDepartment">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#CaseStudy">
+        <app:preferredDefinition>A qualitative descriptive research study of individuals or a group.</app:preferredDefinition>
+    </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#ClinicalOrganization">
+        <app:preferredDefinition>Any organization with a significant clinical function as a matter of course and not just through occasional clinical roles.</app:preferredDefinition>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#College">
@@ -641,6 +662,9 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Company">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#ConferencePoster">
+        <app:preferredDefinition>The digital file (or physical equivalent), if available after the conference, vs. the act of attending/presenting: use ConferencePresentation for information about date/time/location/name of the event where the poster was presented.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#Department">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
@@ -661,7 +685,11 @@
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#ResearchOrganization">
+        <app:preferredDefinition>Any organization (likely also asserted as another class of Organization) with a primary, ongoing research function, not just through occasional roles.</app:preferredDefinition>
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://vivoweb.org/ontology/core#ResearchProposal">
+        <app:preferredDefinition>A proposal for a research grant that has been submitted but not approved; does not represent an existing activity.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://vivoweb.org/ontology/core#School">
         <app:inClassGroup rdf:resource="http://eagle-i.org/ont/app/1.0/ClassGroup_ResourceProvider"/>
@@ -682,6 +710,7 @@
     </rdf:Description>
     <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00369">
         <app:preferredLabel>Linguistic Competence</app:preferredLabel>
+        <app:preferredDefinition>A speaker&apos;s implicit, internalized knowledge of the rules of their language.</app:preferredDefinition>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001426">
         <app:preferredLabel>Study Design</app:preferredLabel>
