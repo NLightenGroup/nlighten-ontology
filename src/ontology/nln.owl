@@ -2008,19 +2008,6 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ERO_0002190 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0002190">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
-        <obo:IAO_0000115>A group of physical or digital resources that share a common identity, purpose, or theme.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Juliane Schneider</obo:IAO_0000117>
-        <obo:IAO_0000119>PERSON: Tenille Johnson</obo:IAO_0000119>
-        <rdfs:label>resource collection</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000311 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000311">
@@ -2403,6 +2390,7 @@ A form of medicine that uses information about a person&apos;s genes, proteins, 
 
     <owl:Class rdf:about="http://purl.org/n-lighten/NLN_0000042">
         <rdfs:subClassOf rdf:resource="http://schema.org/Intangible"/>
+        <obo:IAO_0000115>The process of turning observations in the laboratory, clinic and community into interventions that improve the health of individuals and the public — from diagnostics and therapeutics to medical procedures and behavioral changes – National Center for Advancing Translational Sciences</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Juliane Schneider</obo:IAO_0000117>
         <obo:IAO_0000119>https://ictr.wisc.edu/what-are-the-t0-to-t4-research-classifications/</obo:IAO_0000119>
         <rdfs:label xml:lang="en">translational activity</rdfs:label>
